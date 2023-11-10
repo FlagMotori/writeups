@@ -1,3 +1,6 @@
+.md-content__inner {
+    line-height: 1.75em; 
+}
 .md-typeset table:not([class]) th {
     min-width: 0rem;
 }
