@@ -1,30 +1,55 @@
+.tx-switch button {
+  width: 8.4rem;
+  margin-bottom: 0.4rem;
+  padding: 2.4rem 0.4rem 0.4rem;
+  transition: background-color 0.25s, opacity 0.25s;
+  border-radius: 0.2rem;
+  color: #fff;
+  font-size: 0.8rem;
+  /* text-align: center; */
+  cursor: pointer;
+  background-color: cornflowerblue;
+  /* padding: 10px; */
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adjust values as needed */
+}
+
 .md-content__inner {
-    line-height: 1.75em; 
+  line-height: 1.75em;
 }
 .md-typeset table:not([class]) th {
-    min-width: 0rem;
+  min-width: 0rem;
 }
 .md-nav__link--active {
-    color: inherit;
+  color: inherit;
 }
 blockquote.page-copyright {
-    margin: 20px 0;
-    padding-left: 1.5rem;
-    border-left: 5px solid #ff1700; /* Just change the color value and that's it*/
+  margin: 20px 0;
+  padding-left: 1.5rem;
+  border-left: 5px solid #ff1700; /* Just change the color value and that's it*/
 }
 .gt-container .gt-meta {
-    z-index: auto !important;
+  z-index: auto !important;
 }
 p {
-    text-align: justify;
+  text-align: justify;
 }
 
 @font-face {
-    font-family: "myFont";
-    src: url("./Gandom.ttf");
+  font-family: "DefaultFont";
+  src: url("./Gandom.ttf");
 }
-  
+@font-face {
+  font-family: "iran_sans";
+  src: url("./irsans.ttf");
+}
+@font-face {
+  font-family: "Diplomat";
+  src: url("./Diplomat.ttf");
+}
+
 :root {
-    --md-text-font: "myFont";
-    word-spacing: -0.05em;
+  --md-text-font: "DefaultFont";
+  word-spacing: -0.05em;
 }

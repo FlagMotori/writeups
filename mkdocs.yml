@@ -1,31 +1,30 @@
 # Project Information
-site_name:  رایتاپ‌های تیم فلگ موتوری
+site_name: رایتاپ‌های تیم فلگ موتوری
 site_description: رایتاپ‌های تیم فلگ موتوری
 site_author: FlagMotori Team
 site_url: https://FlagMotori.github.io/writeups
 
 # Repository
-repo_name: 'FlagMotori/writeups'
-repo_url: 'https://github.com/FlagMotori/writeups'
-edit_uri: 'blob/master/docs/'
+repo_name: "FlagMotori/writeups"
+repo_url: "https://github.com/FlagMotori/writeups"
+edit_uri: "blob/master/docs/"
 
 # Copyright
-copyright: 'Copyright &copy; 2022 - 2023 FlagMotori Team'
-
+copyright: "Copyright &copy; 2022 - 2023 FlagMotori Team"
 
 # Theme
 theme:
-  name: 'material'
+  name: "material"
   # logo: 'logo.png'
-  favicon: 'favicon.png'
-  language: 'fa'
-  #custom_dir: 'overrides'
+  favicon: "favicon.png"
+  language: "fa"
+  #   custom_dir: "overrides"
   palette:
-    scheme: 'slate'
-    primary: 'pink'
-    accent: 'purple'
+    scheme: "slate"
+    primary: "pink"
+    accent: "purple"
   icon:
-    logo: 'material/school'
+    logo: "material/school"
     repo: fontawesome/brands/github-alt
   features:
     - navigation.tabs
@@ -38,11 +37,10 @@ theme:
     - search.share
     - content.code.copy
     - content.code.select
-    - navigation.indexes 
+    - navigation.indexes
   font:
-    text: 'IBM Plex Sans Arabic'
-    code: 'Source Code Pro'
-
+    text: "IBM Plex Sans Arabic"
+    code: "Source Code Pro"
 
 # Plugins
 plugins:
@@ -52,26 +50,22 @@ plugins:
   - minify:
       minify_html: true
 
-
 # Customization
 extra:
   search:
-    lang: 
-        - 'en'
-        - 'ar'
+    lang:
+      - "en"
+      - "ar"
   # disqus: 'shortname' # for comment
-  copyright: 'CC BY-NC-SA 4.0'
-
+  copyright: "CC BY-NC-SA 4.0"
 
 extra_javascript:
-  - 'https://cdnjs.loli.net/ajax/libs/pangu/3.3.0/pangu.min.js'
-  - 'static/js/extra.js'
-  - 'https://cdnjs.loli.net/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'
-
+  - "https://cdnjs.loli.net/ajax/libs/pangu/3.3.0/pangu.min.js"
+  - "static/js/extra.js"
+  - "https://cdnjs.loli.net/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"
 
 extra_css:
-  - 'static/css/extra.css'
-
+  - "static/css/extra.css"
 
 # Extensions
 markdown_extensions:
@@ -92,8 +86,10 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
-      # emoji_generator: !!python/name:pymdownx.emoji.to_svg
-      # emoji_generator: !!python/name:materialx.emoji.to_svg
+        # emoji_generator: !!python/name:pymdownx.emoji.to_svg
+        # emoji_generator: !!python/name:materialx.emoji.to_svg
+
+
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight
   - pymdownx.inlinehilite
@@ -111,60 +107,49 @@ markdown_extensions:
   - pymdownx.betterem:
       smart_enable: all
 
-
-
 # Contents
 nav:
-    - نقطه شروع:
-        - index.md
-        - introduction/CTF-Introduction.md
-        #- introduction/تاریخچه.md
-        #- introduction/تاریخچه در ایران.md
-        - همکاری با تیم ما: 
-            - "نحوه همکاری": introduction/contribution.md 
-            - "نگارش رایتاپ": introduction/writing-method.md
-            - "نوشتن با فرمت md": introduction/template.md
-        - برچسب ها: tags.md
-    
-    - وب:
-        - web/index.md
-    
-    - مهندسی معکوس:
-        - reverse/index.md
-    
-    - رمزنگاری:
-        - crypto/index.md
-        - منابع یادگیری:
-            - crypto/source/index.md
-        - معرفی ابزار: 
-            - crypto/Tools/index.md 
-        - رایتاپ:
-            - "vsCTF": crypto/writeups/vSCTF/Redundancy.md
-            - "TCP1P-CTF": crypto/writeups/TCP1PCTF/Final_Consensus.md
-      
-      
-    - جرم یابی:
-        - forensic/index.md
-    
-    
-    - PWN:
-        - pwn/index.md
-    
-    
-    - بلاکچین: 
-        - blockchain/index.md
-    
-    
-    #- Osint:
-    #    - osint/index.md
-    
-    
-    #- پنهان نگاری:
-    #    - steganography/index.md
-    
-    
-    - متفرقه:
-        - misc/index.md
+  - نقطه شروع:
+      - index.md
+      - introduction/CTF-Introduction.md
+      #- introduction/تاریخچه.md
+      #- introduction/تاریخچه در ایران.md
+      - همکاری با تیم ما:
+          - "نحوه همکاری": introduction/contribution.md
+          - "نگارش رایتاپ": introduction/writing-method.md
+          - "نوشتن با فرمت md": introduction/template.md
+      - برچسب ها: tags.md
 
+  - وب:
+      - web/index.md
 
+  - مهندسی معکوس:
+      - reverse/index.md
 
+  - رمزنگاری:
+      - crypto/index.md
+      - منابع یادگیری:
+          - crypto/source/index.md
+      - معرفی ابزار:
+          - crypto/Tools/index.md
+      - رایتاپ:
+          - "vsCTF": crypto/writeups/vSCTF/Redundancy.md
+          - "TCP1P-CTF": crypto/writeups/TCP1PCTF/Final_Consensus.md
+
+  - جرم یابی:
+      - forensic/index.md
+
+  - PWN:
+      - pwn/index.md
+
+  - بلاکچین:
+      - blockchain/index.md
+
+  #- Osint:
+  #    - osint/index.md
+
+  #- پنهان نگاری:
+  #    - steganography/index.md
+
+  - متفرقه:
+      - misc/index.md
