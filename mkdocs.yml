@@ -19,7 +19,7 @@ theme:
   # logo: 'logo.png'
   favicon: 'favicon.png'
   language: 'fa'
-  #custom_dir: 'overrides'
+  custom_dir: 'overrides'
   palette:
     scheme: 'slate'
     primary: 'pink'
