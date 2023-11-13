@@ -16,9 +16,7 @@ copyright: "Copyright &copy; 2022 - 2023 FlagMotori Team"
 theme:
   name: "material"
   # logo: 'logo.png'
-  favicon: "favicon.png"
-  language: "fa"
-  #   custom_dir: "overrides"
+
   palette:
     scheme: "slate"
     primary: "pink"
