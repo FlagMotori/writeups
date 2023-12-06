@@ -141,6 +141,7 @@ nav:
         - رایتاپ:
             - "vsCTF": crypto/writeups/vSCTF/Redundancy.md
             - "TCP1P-CTF": crypto/writeups/TCP1PCTF/Final_Consensus.md
+            - "CakeCTF": crypto/writeups/CakeCTF/simple-signature.md
       
       
     - جرم یابی:
