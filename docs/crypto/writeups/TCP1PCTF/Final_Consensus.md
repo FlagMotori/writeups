@@ -1,6 +1,6 @@
 ---
 tags:
-  - TCP1P
+  - TCP1P-CTF
   - TCP1P-2023
   - Crypto  
   - AES
@@ -29,7 +29,7 @@ Alice: Agree.
 علاوه بر این، کد سمت سرور هم به صورت زیر داده است.
 
 
-```python
+```python title="server.py" linenums="1"
 from Crypto.Cipher import AES
 import random
 from Crypto.Util.Padding import pad
@@ -81,7 +81,7 @@ if __name__ == '__main__':
 حال برای بدست آوردن فلگ یک بار به سرور متصل می شویم و یک رشته پیام دلخواه ("a") به آن ارسال می کنیم و معادل رمز شده آن را بدست می آوریم. بعد از اینکه توانستیم مقدار a و b  با استفاده از کد پایتون زیر بدست آوریم با همان دو کلید کل فلگ رمزشده را رمزگشایی کنیم.
 
 
-```python
+```python title="solve.py" linenums="1"
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad, unpad
 
@@ -119,4 +119,5 @@ for i in range(1_000_000):
 --- 
 
 !!! نویسندگان
-    [HIGH0101](https://twitter.com/HIGH01012) ،[N1k4](https://github.com/mheidari98)
+    [HIGHer](https://twitter.com/HIGH01012) ،[N1k4](https://github.com/mheidari98)
+    $~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$تاریخ نگارش ۱۴۰۲/۰۸/۱۰
