@@ -128,6 +128,8 @@ nav:
     
     - وب:
         - web/index.md
+        - رایتاپ:
+            - "mapnaCTF": web/writeups/mapnaCTF/flag-holding.md
     
     - مهندسی معکوس:
         - reverse/index.md
