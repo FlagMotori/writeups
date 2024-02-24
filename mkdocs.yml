@@ -137,15 +137,16 @@ nav:
         - منابع یادگیری:
             - crypto/source/index.md
         - معرفی ابزار: 
-            - crypto/Tools/index.md 
-        - رایتاپ‌های۲۰۲۳:
-            - "vsCTF": crypto/writeups/vSCTF/Redundancy.md
-            - "TCP1P-CTF": crypto/writeups/TCP1PCTF/Final_Consensus.md
-            - "CakeCTF": crypto/writeups/CakeCTF/simple-signature.md
+            - crypto/Tools/index.md
         - رایتاپ‌های ۲۰۲۴:
             - "SnappCTF": 
                   - Blex: crypto/writeups/SnappCTF/Blex/Blex.md
                   - Cryptos: crypto/writeups/SnappCTF/Cryptos/Cryptos.md
+        - رایتاپ‌های۲۰۲۳:
+            - "vsCTF": crypto/writeups/vSCTF/Redundancy.md
+            - "TCP1P-CTF": crypto/writeups/TCP1PCTF/Final_Consensus.md
+            - "CakeCTF": crypto/writeups/CakeCTF/simple-signature.md
+
       
       
     - جرم‌شناسی:

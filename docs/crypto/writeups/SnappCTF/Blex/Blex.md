@@ -89,7 +89,9 @@ seed='0'*50
 ![2.png](2.png)
 </center>
 
-باتوجه  عکس بالا بنظر  مقدار  n  قابل تجزیه (factorzation) است. اول سایت [factodb](http://factordb.com) چک کردم که فاکتور های  آن در سایت نبود پس با ابزار yufu  مقدارهای  p و q   بدست آوردیم.
+باتوجه  عکس بالا بنظر  مقدار  n  قابل تجزیه (factorzation) است. اول سایت [factodb](http://factordb.com) چک کردم که فاکتور های  آن در سایت نبود پس با ابزار [yafu](https://github.com/bbuhrow/yafu)  مقدارهای  p و q   بدست آوردیم.
+
+
 
 <center>
 ![3.jpg](3.jpg)
