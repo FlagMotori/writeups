@@ -116,6 +116,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://FlagMotori.github.io/writeups/web/writeups/SnappCTF/snappctf/</loc>
+         <lastmod>2024-02-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://FlagMotori.github.io/writeups/web/writeups/mapnaCTF/flag-holding/</loc>
+         <lastmod>2024-02-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://FlagMotori.github.io/writeups/tags/</loc>
          <lastmod>2024-02-24</lastmod>
          <changefreq>daily</changefreq>
