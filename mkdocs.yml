@@ -124,6 +124,7 @@ nav:
             - "نحوه همکاری": getStarted/contribution.md 
             - "نگارش رایتاپ": getStarted/writing-method.md
             - "نوشتن با فرمت md": getStarted/template.md
+
         - برچسب‌ها: tags.md
     
     - وب:
@@ -139,6 +140,7 @@ nav:
             - MapnaCTF:
                 - "Flag-Holding": web/writeups/mapnaCTF/flag-holding.md
             - "SnappCTF": web/writeups/SnappCTF/snappctf.md
+
 
     
     - مهندسی معکوس:
@@ -186,8 +188,8 @@ nav:
         - pwn/index.md
     
     
-    - بلاکچین: 
-        - blockchain/index.md
+    #- بلاکچین: 
+    #    - blockchain/index.md
     
     
     #- Osint:
