@@ -120,11 +120,11 @@ nav:
         - introduction/CTF-Introduction.md
         #- introduction/تاریخچه.md
         #- introduction/تاریخچه در ایران.md
-        - همکاری با تیم ما: 
+        - همکاری با ما: 
             - "نحوه همکاری": introduction/contribution.md 
             - "نگارش رایتاپ": introduction/writing-method.md
             - "نوشتن با فرمت md": introduction/template.md
-        - برچسب ها: tags.md
+        - برچسب‌ها: tags.md
     
     - وب:
         - web/index.md
@@ -142,9 +142,11 @@ nav:
             - "vsCTF": crypto/writeups/vSCTF/Redundancy.md
             - "TCP1P-CTF": crypto/writeups/TCP1PCTF/Final_Consensus.md
             - "CakeCTF": crypto/writeups/CakeCTF/simple-signature.md
+            - "ُSnappCTF": crypto/writeups/SnappCTF/Blex/Blex.md
+            - "ُSnappCTF": crypto/writeups/SnappCTF/Cryptos/Cryptos.md
       
       
-    - جرم یابی:
+    - جرم‌شناسی:
         - forensic/index.md
     
     
@@ -158,6 +160,7 @@ nav:
     
     #- Osint:
     #    - osint/index.md
+
     
     
     #- پنهان نگاری:
