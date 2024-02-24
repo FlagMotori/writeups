@@ -10,7 +10,7 @@ repo_url: 'https://github.com/FlagMotori/writeups'
 edit_uri: 'blob/master/docs/'
 
 # Copyright
-copyright: 'Copyright &copy; 2022 - 2023 FlagMotori Team'
+copyright: 'Copyright &copy; 2022 - 2024 FlagMotori Team'
 
 
 # Theme
@@ -117,23 +117,43 @@ markdown_extensions:
 nav:
     - نقطه شروع:
         - index.md
-        - introduction/CTF-Introduction.md
+        - getStarted/introduction/CTF-Introduction.md
         #- introduction/تاریخچه.md
         #- introduction/تاریخچه در ایران.md
         - همکاری با ما: 
-            - "نحوه همکاری": introduction/contribution.md 
-            - "نگارش رایتاپ": introduction/writing-method.md
-            - "نوشتن با فرمت md": introduction/template.md
+            - "نحوه همکاری": getStarted/contribution.md 
+            - "نگارش رایتاپ": getStarted/writing-method.md
+            - "نوشتن با فرمت md": getStarted/template.md
+
         - برچسب‌ها: tags.md
     
     - وب:
         - web/index.md
-        - رایتاپ:
-            - "mapnaCTF": web/writeups/mapnaCTF/flag-holding.md
+        - رایتاپ‌های ۲۰۲۳:
+            - BackdoorCTF:
+                - web/writeups/BackdoorCTF/PHP-Sucks.md
+            - PingCTF:
+                - web/writeups/PingCTF/internet-explorer.md
+                - web/writeups/PingCTF/path-traversal.md
+                - web/writeups/PingCTF/youtube-trailer.md
+        - رایتاپ‌های ۲۰۲۴:
+            - MapnaCTF:
+                - "Flag-Holding": web/writeups/mapnaCTF/flag-holding.md
             - "SnappCTF": web/writeups/SnappCTF/snappctf.md
+
+
     
     - مهندسی معکوس:
         - reverse/index.md
+        - رایتاپ‌های ۲۰۲۴:
+            - SnappCTF:
+                - reverse/writeups/SnappCTF/blink.md
+                - reverse/writeups/SnappCTF/vitis.md
+        - رایتاپ‌های ۲۰۲۳:
+            - BackdoorCTF:
+                - reverse/writeups/BackdoorCTF/Sl4ydroid.md
+
+
     
     - رمزنگاری:
         - crypto/index.md
@@ -143,25 +163,33 @@ nav:
             - crypto/Tools/index.md
         - رایتاپ‌های ۲۰۲۴:
             - "SnappCTF": 
-                  - Blex: crypto/writeups/SnappCTF/Blex/Blex.md
-                  - Cryptos: crypto/writeups/SnappCTF/Cryptos/Cryptos.md
-        - رایتاپ‌های۲۰۲۳:
-            - "vsCTF": crypto/writeups/vSCTF/Redundancy.md
-            - "TCP1P-CTF": crypto/writeups/TCP1PCTF/Final_Consensus.md
-            - "CakeCTF": crypto/writeups/CakeCTF/simple-signature.md
+                  - Blex: crypto/writeups/SnappCTF/Blex.md
+                  - Cryptos: crypto/writeups/SnappCTF/Cryptos.md
+                  - crypto/writeups/SnappCTF/mascot.md
+        - رایتاپ‌های ۲۰۲۳:
+            - vsCTF:
+                - crypto/writeups/vSCTF/Redundancy.md
+            - TCP1P-CTF:
+                -  crypto/writeups/TCP1PCTF/Final_Consensus.md
+            - CakeCTF:
+                - crypto/writeups/CakeCTF/simple-signature.md
 
-      
       
     - جرم‌شناسی:
         - forensic/index.md
+        - رایتاپ‌های ۲۰۲۴:
+            - SnappCTF:
+                - forensic/writeups/SnappCTF/snapp-report.md
+                - forensic/writeups/SnappCTF/false-sight.md
+
     
     
     - PWN:
         - pwn/index.md
     
     
-    - بلاکچین: 
-        - blockchain/index.md
+    #- بلاکچین: 
+    #    - blockchain/index.md
     
     
     #- Osint:
@@ -175,6 +203,22 @@ nav:
     
     - متفرقه:
         - misc/index.md
+        - معرفی ابزار: 
+            - misc/Tools/index.md 
+        - رایتاپ‌های ۲۰۲۴:
+            - SnappCTF:
+                - misc/writeups/SnappCTF/prying-eyes.md
+                - misc/writeups/SnappCTF/bandy.md
+        - رایتاپ‌های ۲۰۲۳:
+            - BackdoorCTF:
+                - misc/writeups/BackdoorCTF/Fruit-Basket.md
+                - misc/writeups/BackdoorCTF/Secret-of-Kurama.md
+            - PingCTF:
+                - misc/writeups/PingCTF/internet-cat.md
+                - misc/writeups/PingCTF/ping-arcade.md
+                - misc/writeups/PingCTF/wow.md
+                - misc/writeups/PingCTF/you-spin-me-round.md
+
 
 
 
