@@ -36,6 +36,21 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://FlagMotori.github.io/writeups/crypto/writeups/SnappCTF/Blex/</loc>
+         <lastmod>2024-02-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://FlagMotori.github.io/writeups/crypto/writeups/SnappCTF/Cryptos/</loc>
+         <lastmod>2024-02-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://FlagMotori.github.io/writeups/crypto/writeups/SnappCTF/mascot/</loc>
+         <lastmod>2024-02-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://FlagMotori.github.io/writeups/crypto/writeups/SnappCTF/Blex/Blex/</loc>
          <lastmod>2024-02-24</lastmod>
          <changefreq>daily</changefreq>
@@ -61,7 +76,37 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://FlagMotori.github.io/writeups/introduction/CTF-Introduction/</loc>
+         <loc>https://FlagMotori.github.io/writeups/forensic/writeups/SnappCTF/false-sight/</loc>
+         <lastmod>2024-02-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://FlagMotori.github.io/writeups/forensic/writeups/SnappCTF/snapp-report/</loc>
+         <lastmod>2024-02-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://FlagMotori.github.io/writeups/getStarted/contribution/</loc>
+         <lastmod>2024-02-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://FlagMotori.github.io/writeups/getStarted/template/</loc>
+         <lastmod>2024-02-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://FlagMotori.github.io/writeups/getStarted/writing-method/</loc>
+         <lastmod>2024-02-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://FlagMotori.github.io/writeups/getStarted/introduction/CTF-Introduction/</loc>
+         <lastmod>2024-02-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://FlagMotori.github.io/writeups/getStarted/introduction/CTF-in-Iran/</loc>
          <lastmod>2024-02-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -71,22 +116,52 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://FlagMotori.github.io/writeups/introduction/contribution/</loc>
-         <lastmod>2024-02-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://FlagMotori.github.io/writeups/introduction/template/</loc>
-         <lastmod>2024-02-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://FlagMotori.github.io/writeups/introduction/writing-method/</loc>
-         <lastmod>2024-02-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://FlagMotori.github.io/writeups/misc/</loc>
+         <lastmod>2024-02-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://FlagMotori.github.io/writeups/misc/Tools/</loc>
+         <lastmod>2024-02-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://FlagMotori.github.io/writeups/misc/writeups/BackdoorCTF/Fruit-Basket/</loc>
+         <lastmod>2024-02-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://FlagMotori.github.io/writeups/misc/writeups/BackdoorCTF/Secret-of-Kurama/</loc>
+         <lastmod>2024-02-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://FlagMotori.github.io/writeups/misc/writeups/PingCTF/internet-cat/</loc>
+         <lastmod>2024-02-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://FlagMotori.github.io/writeups/misc/writeups/PingCTF/ping-arcade/</loc>
+         <lastmod>2024-02-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://FlagMotori.github.io/writeups/misc/writeups/PingCTF/wow/</loc>
+         <lastmod>2024-02-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://FlagMotori.github.io/writeups/misc/writeups/PingCTF/you-spin-me-round/</loc>
+         <lastmod>2024-02-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://FlagMotori.github.io/writeups/misc/writeups/SnappCTF/bandy/</loc>
+         <lastmod>2024-02-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://FlagMotori.github.io/writeups/misc/writeups/SnappCTF/prying-eyes/</loc>
          <lastmod>2024-02-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -106,12 +181,47 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://FlagMotori.github.io/writeups/reverse/writeups/BackdoorCTF/Sl4ydroid/</loc>
+         <lastmod>2024-02-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://FlagMotori.github.io/writeups/reverse/writeups/SnappCTF/blink/</loc>
+         <lastmod>2024-02-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://FlagMotori.github.io/writeups/reverse/writeups/SnappCTF/vitis/</loc>
+         <lastmod>2024-02-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://FlagMotori.github.io/writeups/steganography/</loc>
          <lastmod>2024-02-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://FlagMotori.github.io/writeups/web/</loc>
+         <lastmod>2024-02-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://FlagMotori.github.io/writeups/web/writeups/BackdoorCTF/PHP-Sucks/</loc>
+         <lastmod>2024-02-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://FlagMotori.github.io/writeups/web/writeups/PingCTF/internet-explorer/</loc>
+         <lastmod>2024-02-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://FlagMotori.github.io/writeups/web/writeups/PingCTF/path-traversal/</loc>
+         <lastmod>2024-02-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://FlagMotori.github.io/writeups/web/writeups/PingCTF/youtube-trailer/</loc>
          <lastmod>2024-02-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
