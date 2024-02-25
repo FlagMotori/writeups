@@ -34,7 +34,9 @@ tags:
 </center>
 
 بعد از کلی سر و کله زدن با این آسیب پذیری (و یا خودکار کردن روندش با یک کد پایتون ساده) به ی همچین ساختاری میرسیم.
+
 `%31$p`
+
 با فرستادن یک همچین استرینگی به سمت تابع echo برنامه ، خیلی راحت مقدار cookie رو به دست میاریم.
 
 <center>
@@ -52,11 +54,14 @@ tags:
 
 برای این قسمت که باید بدونین به چه gadget هایی نیاز دارید و دستتون بیاد حدودا که چطوری باید ROP رو اوکی کنید (و یکمم خودتون تلاش کنین) ارجاعتون میدم به لینک های زیر:  
 [Bypassing Canary & PIE](https://book.hacktricks.xyz/reversing-and-exploiting/linux-exploiting-basic-esp/bypassing-canary-and-pie)
+
 [ROP - Leaking LIBC address](https://book.hacktricks.xyz/reversing-and-exploiting/linux-exploiting-basic-esp/rop-leaking-libc-address)
+
 [ROP: bypass NX, ASLR, PIE and Canary](https://ironhackers.es/en/tutoriales/pwn-rop-bypass-nx-aslr-pie-y-canary/)
 
 از جمله مواردی که نیاز میشه اینجا بهش توجه کنین این هست برای استفاده از gadget ها احتمالا نیازتون میشه که از libc  درستی استفاده کنید. واسه اینکار باید به اون Dockerfile دقت میکردید و بعد از وصل شدن به docker سعی میکردید تا libc اصلی رو کپی کنید روی سیستم خودتون. دستور زیر میتونه کار رو دربیاره :
-`docker cp 4fd9a29bfcdc:/usr/lib/x86_64-linux-gnu/libc.so.6 .`
+
+`. docker cp 4fd9a29bfcdc:/usr/lib/x86_64-linux-gnu/libc.so.6 `
 
 بعد از این شما libc رو دارید و تنها کافیه تا برای پیدا کردن pop و sh و ret و system  از ابزار ROPgadget و یکمم pwntools استفاده کنید.  یک نمونه رو هم میتونید توی تصویر زیر ببینید: 
 <center>
