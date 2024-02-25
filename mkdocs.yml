@@ -139,7 +139,11 @@ nav:
         - رایتاپ‌های ۲۰۲۴:
             - MapnaCTF:
                 - "Flag-Holding": web/writeups/mapnaCTF/flag-holding.md
-            - "SnappCTF": web/writeups/SnappCTF/snappctf.md
+            - SnappCTF:
+                - Welcome: web/writeups/SnappCTF/welcome.md
+                - Snapp fal: web/writeups/SnappCTF/snappfal.md
+                - Snapp cat: web/writeups/SnappCTF/snappcat.md
+                - b64: web/writeups/SnappCTF/b64.md
 
 
     
