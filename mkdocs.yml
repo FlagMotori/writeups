@@ -129,13 +129,6 @@ nav:
     
     - وب:
         - web/index.md
-        - رایتاپ‌های ۲۰۲۳:
-            - BackdoorCTF:
-                - web/writeups/BackdoorCTF/PHP-Sucks.md
-            - PingCTF:
-                - web/writeups/PingCTF/internet-explorer.md
-                - web/writeups/PingCTF/path-traversal.md
-                - web/writeups/PingCTF/youtube-trailer.md
         - رایتاپ‌های ۲۰۲۴:
             - MapnaCTF:
                 - "Flag-Holding": web/writeups/mapnaCTF/flag-holding.md
@@ -144,6 +137,14 @@ nav:
                 - Snapp fal: web/writeups/SnappCTF/snappfal.md
                 - Snapp cat: web/writeups/SnappCTF/snappcat.md
                 - b64: web/writeups/SnappCTF/b64.md
+        - رایتاپ‌های ۲۰۲۳:
+            - BackdoorCTF:
+                - web/writeups/BackdoorCTF/PHP-Sucks.md
+            - PingCTF:
+                - web/writeups/PingCTF/internet-explorer.md
+                - web/writeups/PingCTF/path-traversal.md
+                - web/writeups/PingCTF/youtube-trailer.md
+
 
 
     
@@ -218,6 +219,7 @@ nav:
             - SnappCTF:
                 - misc/writeups/SnappCTF/prying-eyes.md
                 - misc/writeups/SnappCTF/bandy.md
+                - Osint Challenges: misc/writeups/SnappCTF/SnappOsint.md
         - رایتاپ‌های ۲۰۲۳:
             - BackdoorCTF:
                 - misc/writeups/BackdoorCTF/Fruit-Basket.md
