@@ -1,7 +1,7 @@
 ---
 tags:
-  - SNAPP-CTF
-  - SNAPP-CTF-2024
+  - SnappCTF
+  - SnappCTF-2024
   - OSINT  
 ---
 
