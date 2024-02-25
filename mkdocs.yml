@@ -153,6 +153,7 @@ nav:
             - SnappCTF:
                 - reverse/writeups/SnappCTF/blink.md
                 - reverse/writeups/SnappCTF/vitis.md
+                - "TurnOB": reverse/writeups/SnappCTF/TurnOB.md
         - رایتاپ‌های ۲۰۲۳:
             - BackdoorCTF:
                 - reverse/writeups/BackdoorCTF/Sl4ydroid.md
