@@ -156,6 +156,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://FlagMotori.github.io/writeups/misc/writeups/SnappCTF/SnappOsint/</loc>
+         <lastmod>2024-02-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://FlagMotori.github.io/writeups/misc/writeups/SnappCTF/bandy/</loc>
          <lastmod>2024-02-25</lastmod>
          <changefreq>daily</changefreq>
