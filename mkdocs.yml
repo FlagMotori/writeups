@@ -186,6 +186,9 @@ nav:
     
     - PWN:
         - pwn/index.md
+        - رایتاپ‌های ۲۰۲۴:
+            - SnappCTF:
+                - pwn/writeups/SnappCTF/Snappshell.md
     
     
     #- بلاکچین: 
