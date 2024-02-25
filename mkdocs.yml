@@ -154,6 +154,7 @@ nav:
             - SnappCTF:
                 - reverse/writeups/SnappCTF/blink.md
                 - reverse/writeups/SnappCTF/vitis.md
+                - "TurnOB": reverse/writeups/SnappCTF/TurnOB.md
         - رایتاپ‌های ۲۰۲۳:
             - BackdoorCTF:
                 - reverse/writeups/BackdoorCTF/Sl4ydroid.md
@@ -171,6 +172,7 @@ nav:
                   - Blex: crypto/writeups/SnappCTF/Blex.md
                   - Cryptos: crypto/writeups/SnappCTF/Cryptos.md
                   - crypto/writeups/SnappCTF/mascot.md
+                  - Bombastic: crypto/writeups/SnappCTF/Bombastic.md
         - رایتاپ‌های ۲۰۲۳:
             - vsCTF:
                 - crypto/writeups/vSCTF/Redundancy.md
