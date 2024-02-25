@@ -41,6 +41,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://FlagMotori.github.io/writeups/crypto/writeups/SnappCTF/Bombastic/</loc>
+         <lastmod>2024-02-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://FlagMotori.github.io/writeups/crypto/writeups/SnappCTF/Cryptos/</loc>
          <lastmod>2024-02-25</lastmod>
          <changefreq>daily</changefreq>
@@ -192,6 +197,11 @@
     </url>
     <url>
          <loc>https://FlagMotori.github.io/writeups/reverse/writeups/BackdoorCTF/Sl4ydroid/</loc>
+         <lastmod>2024-02-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://FlagMotori.github.io/writeups/reverse/writeups/SnappCTF/TurnOB/</loc>
          <lastmod>2024-02-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
