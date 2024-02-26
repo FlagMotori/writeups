@@ -51,6 +51,7 @@ plugins:
       tags_file: tags.md
   - minify:
       minify_html: true
+  - blog
 
 
 # Customization
@@ -232,5 +233,8 @@ nav:
                 - misc/writeups/PingCTF/you-spin-me-round.md
 
 
+
+    - وبلاگ:
+        - blog/index.md
 
 
