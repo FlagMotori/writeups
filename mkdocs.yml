@@ -51,6 +51,7 @@ plugins:
       tags_file: tags.md
   - minify:
       minify_html: true
+  - blog
 
 
 # Customization
@@ -126,6 +127,7 @@ nav:
             - "نوشتن با فرمت md": getStarted/template.md
 
         - برچسب‌ها: tags.md
+        - getStarted/customization.md
     
     - وب:
         - web/index.md
@@ -232,5 +234,8 @@ nav:
                 - misc/writeups/PingCTF/you-spin-me-round.md
 
 
+
+    - وبلاگ:
+        - blog/index.md
 
 
