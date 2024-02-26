@@ -127,6 +127,7 @@ nav:
             - "نوشتن با فرمت md": getStarted/template.md
 
         - برچسب‌ها: tags.md
+        - getStarted/customization.md
     
     - وب:
         - web/index.md
