@@ -1,6 +1,6 @@
 ---
 tags:
-  - Snapp CTF
+  - SnappCTF
   - SnappCTF-2024
   - HTTP
   - Web

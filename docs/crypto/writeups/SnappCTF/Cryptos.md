@@ -1,7 +1,7 @@
 ---
 tags:
-  - SNAPP-CTF
-  - SNAPP-2023
+  - SnappCTF
+  - SnappCTF-2024
   - Crypto  
   - Encoding
   - Decimal number
