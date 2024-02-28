@@ -51,10 +51,10 @@ categories:
 === "OSINT" 
     |     نام چالش    | دسته بندی |                          رایت‌آپ                         |
     |:---------------:|:---------:|:-------------------------------------------------------:|
-    | SNAPP Customers |   OSINT   |    [رایت‌آپ](../../misc/writeups/SnappCTF/SnappOsint.md)    |
-    |  SNAPP Records  |   OSINT   |    [رایت‌آپ](../../misc/writeups/SnappCTF/SnappOsint.md)    |
-    |  SNAPP Bounties |   OSINT   |    [رایت‌آپ](../../misc/writeups/SnappCTF/SnappOsint.md)    |
-    |   SNAPP Saving  |   OSINT   |    [رایت‌آپ](../../misc/writeups/SnappCTF/SnappOsint.md)    |
+    | SNAPP Customers |   OSINT   |    [رایت‌آپ](../../misc/writeups/SnappCTF/SnappOsint.md#snapp-customer)    |
+    |  SNAPP Records  |   OSINT   |    [رایت‌آپ](../../misc/writeups/SnappCTF/SnappOsint.md#snapp-records)    |
+    |  SNAPP Bounties |   OSINT   |    [رایت‌آپ](../../misc/writeups/SnappCTF/SnappOsint.md#snapp-bounties)    |
+    |   SNAPP Saving  |   OSINT   |    [رایت‌آپ](../../misc/writeups/SnappCTF/SnappOsint.md#snapp-saving)    |
 
 
 === "misc" 
