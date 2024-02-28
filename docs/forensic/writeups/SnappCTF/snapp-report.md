@@ -19,4 +19,5 @@ tags:
     <div dir="ltr">`SNAPP{_g3n3r4T3_r4nd0m_c0l0r_1n_w4y_7h47_w0rk5_w17h_pdfLaTeX!}`</div>
 ---
 !!! نویسنده
-    [SafaSafari](https://twitter.com/SafaSafari3)$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$تاریخ نگارش ۱۴۰۲/۱۲/۴
+    [SafaSafari](https://twitter.com/SafaSafari3)
+
