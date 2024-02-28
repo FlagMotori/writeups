@@ -2,12 +2,12 @@
 site_name:  رایتاپ‌های تیم فلگ موتوری
 site_description: رایتاپ‌های تیم فلگ موتوری
 site_author: FlagMotori Team
-site_url: https://FlagMotori.github.io/writeups
+site_url: https://FlagMotori.github.io/writeups/
 
 # Repository
 repo_name: 'FlagMotori/writeups'
 repo_url: 'https://github.com/FlagMotori/writeups'
-edit_uri: 'blob/master/docs/'
+edit_uri: 'blob/main/docs/'
 
 # Copyright
 copyright: 'Copyright &copy; 2022 - 2024 FlagMotori Team'
@@ -38,7 +38,8 @@ theme:
     - search.share
     - content.code.copy
     - content.code.select
-    - navigation.indexes 
+    - navigation.indexes
+    - navigation.footer
   font:
     text: 'IBM Plex Sans Arabic'
     code: 'Source Code Pro'
@@ -51,6 +52,12 @@ plugins:
       tags_file: tags.md
   - minify:
       minify_html: true
+  - git-revision-date-localized:
+      type: timeago
+      timezone: Asia/Tehran
+      locale: fa
+      fallback_to_build_date: false
+      enable_creation_date: true
   - blog
 
 
