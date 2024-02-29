@@ -1,7 +1,7 @@
 ---
 tags:
   - SnappCTF
-  - SnappCTF-2023
+  - SnappCTF-2024
   - Reverse
 ---
 
@@ -27,4 +27,5 @@ for i in os.scandir('/tmp/Blink'):
 ![Blink-2](blink-3.png)
 ---
 !!! نویسنده
-    [SafaSafari](https://twitter.com/SafaSafari3)$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$تاریخ نگارش ۱۴۰۲/۱۲/۴
+    [SafaSafari](https://twitter.com/SafaSafari3)
+

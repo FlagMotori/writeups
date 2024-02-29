@@ -18,4 +18,5 @@ base64 in binary file -> gist file -> revisions -> octal (\n) -> base64 -> hex -
 ```
 
 !!! نویسنده
-    [SafaSafari](https://twitter.com/SafaSafari3)$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$تاریخ نگارش ۱۴۰۲/۱۲/۴
+    [SafaSafari](https://twitter.com/SafaSafari3)
+

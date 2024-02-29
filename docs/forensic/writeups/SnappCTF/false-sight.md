@@ -1,7 +1,7 @@
 ---
 tags:
   - SnappCTF
-  - SnappCTF-2023
+  - SnappCTF-2024
   - Reverse
   - BMP
 ---
@@ -81,4 +81,5 @@ for i in range(1, 10000):
 ![False-Sight](false-sight-8.png)
 ---
 !!! نویسنده
-    [SafaSafari](https://twitter.com/SafaSafari3)$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$تاریخ نگارش ۱۴۰۲/۱۲/۴
+    [SafaSafari](https://twitter.com/SafaSafari3)
+

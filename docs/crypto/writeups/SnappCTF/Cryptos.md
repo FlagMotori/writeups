@@ -1,7 +1,7 @@
 ---
 tags:
-  - SNAPP-CTF
-  - SNAPP-2023
+  - SnappCTF
+  - SnappCTF-2024
   - Crypto  
   - Encoding
   - Decimal number
@@ -80,4 +80,4 @@ for i in range(1, 2**16):
 
 !!! نویسنگان
     [HIGHer](https://twitter.com/HIGH01012) ،[mheidari98](https://github.com/mheidari98)
-    $~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$تاریخ نگارش ۱۴۰۲/۱۲/۰۴
+

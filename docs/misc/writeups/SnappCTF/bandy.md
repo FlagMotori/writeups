@@ -1,7 +1,7 @@
 ---
 tags:
   - SnappCTF
-  - SnappCTF-2023
+  - SnappCTF-2024
   - Misc
   - Forensics
   - VIM
@@ -33,7 +33,11 @@ vim -r .bandy.swp
 در این قسمت باید فایل رو سیو کنیم
 
 با دستور
-`:w a.png`
+
+```
+:w a.png
+```
+
 میتونیم فایل رو سیو کنیم جایی که میخوایم (نه جایی که آقای فاکتوریل زده :joy:)
 
 در آخر برای این که از فیکس کردن png زیر سیبیلی رد شیم، میتونیم از [سایبرچف](https://gchq.github.io/CyberChef) استفاده کنیم
@@ -44,4 +48,5 @@ vim -r .bandy.swp
     <div dir="ltr">`SNAPP{D0n7_Op3n_8!NarY_FII35_W1tH_VIM!!}`</div>
 ---
 !!! نویسنده
-    [SafaSafari](https://twitter.com/SafaSafari3)$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$تاریخ نگارش ۱۴۰۲/۱۲/۴
+    [SafaSafari](https://twitter.com/SafaSafari3)
+

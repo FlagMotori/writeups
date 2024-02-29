@@ -1,7 +1,7 @@
 ---
 tags:
-  - SNAPP-CTF
-  - SNAPP-2023
+  - SnappCTF
+  - SnappCTF-2024
   - Crypto  
   - Seed
   - Factorzation
@@ -118,4 +118,4 @@ print(long_to_bytes(pow(c,d,n)))
 
 !!! نویسنده
     [HIGHer](https://twitter.com/HIGH01012)
-    $~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$تاریخ نگارش ۱۴۰۲/۱۲/۰۴
+

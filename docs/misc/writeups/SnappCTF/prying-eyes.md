@@ -1,7 +1,7 @@
 ---
 tags:
   - SnappCTF
-  - SnappCTF-2023
+  - SnappCTF-2024
   - Misc
   - Unlambda
   - Lambda
@@ -21,4 +21,5 @@ tags:
     <div dir="ltr">`SNAPP{1st:__SNAPP__theSEC&CTF}`</div>
 ---
 !!! نویسنده
-    [SafaSafari](https://twitter.com/SafaSafari3)$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$تاریخ نگارش ۱۴۰۲/۱۲/۴
+    [SafaSafari](https://twitter.com/SafaSafari3)
+

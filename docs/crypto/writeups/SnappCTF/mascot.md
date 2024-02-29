@@ -1,7 +1,7 @@
 ---
 tags:
   - SnappCTF
-  - SnappCTF-2023
+  - SnappCTF-2024
   - Crypto
   - AES-ECB
   - ECB mode
@@ -43,4 +43,5 @@ for x in range(1000):
 ![Mascot](mascot-2.png)
 ---
 !!! نویسنده
-    [SafaSafari](https://twitter.com/SafaSafari3)$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$تاریخ نگارش ۱۴۰۲/۱۲/۴
+    [SafaSafari](https://twitter.com/SafaSafari3)
+

