@@ -168,6 +168,12 @@ nav:
                 - reverse/writeups/SnappCTF/blink.md
                 - reverse/writeups/SnappCTF/vitis.md
                 - "TurnOB": reverse/writeups/SnappCTF/TurnOB.md
+            
+            - "Incognito 5.0":
+                - reverse/writeups/Incognito_5.0/Vault.md
+                - reverse/writeups/Incognito_5.0/Vault_2.md
+                - reverse/writeups/Incognito_5.0/Vault_3.md
+        
         - رایتاپ‌های ۲۰۲۳:
             - BackdoorCTF:
                 - reverse/writeups/BackdoorCTF/Sl4ydroid.md
