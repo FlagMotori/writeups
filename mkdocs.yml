@@ -188,10 +188,16 @@ nav:
             - crypto/Tools/index.md
         - رایتاپ‌های ۲۰۲۴:
             - "SnappCTF": 
-                  - Blex: crypto/writeups/SnappCTF/Blex.md
-                  - Cryptos: crypto/writeups/SnappCTF/Cryptos.md
-                  - crypto/writeups/SnappCTF/mascot.md
-                  - Bombastic: crypto/writeups/SnappCTF/Bombastic.md
+                - Blex: crypto/writeups/SnappCTF/Blex.md
+                - Cryptos: crypto/writeups/SnappCTF/Cryptos.md
+                - crypto/writeups/SnappCTF/mascot.md
+                - Bombastic: crypto/writeups/SnappCTF/Bombastic.md
+            
+            - "Cybercoliseum Ⅲ":
+                - crypto/writeups/Cybercoliseum Ⅲ/Hills.md
+                - crypto/writeups/Cybercoliseum Ⅲ/Watchmaker.md
+
+
         - رایتاپ‌های ۲۰۲۳:
             - "vsCTF":
                 - Redundancy: crypto/writeups/vSCTF/Redundancy.md
