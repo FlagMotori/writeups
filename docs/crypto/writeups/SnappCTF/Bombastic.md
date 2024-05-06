@@ -98,6 +98,6 @@ print(long_to_bytes(pow(enc,d,n)))
     <div dir="ltr">`SNAPP{B0m84S7!C_Pr1m3_9EneR4T!0N!!!}`</div>
 
 
-!!! نویسنگان
+!!! نویسنده
     [mheidari98](https://github.com/mheidari98)
 
