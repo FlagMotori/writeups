@@ -164,6 +164,9 @@ nav:
     - مهندسی معکوس:
         - reverse/index.md
         - رایتاپ‌های ۲۰۲۴:
+            - BSidesSF:
+                - reverse/writeups/BSidesSF/shinji.md
+                - reverse/writeups/BSidesSF/whishing-well.md
             - SnappCTF:
                 - reverse/writeups/SnappCTF/blink.md
                 - reverse/writeups/SnappCTF/vitis.md
@@ -210,6 +213,13 @@ nav:
     - جرم‌شناسی:
         - forensic/index.md
         - رایتاپ‌های ۲۰۲۴:
+            - BSidesSF:
+                - forensic/writeups/BSidesSF/doctor.md
+                - forensic/writeups/BSidesSF/javai.md
+                - forensic/writeups/BSidesSF/redacted.md
+                - forensic/writeups/BSidesSF/sgai.md
+                - forensic/writeups/BSidesSF/undelete.md
+                - forensic/writeups/BSidesSF/ztxt.md
             - SnappCTF:
                 - forensic/writeups/SnappCTF/snapp-report.md
                 - forensic/writeups/SnappCTF/false-sight.md
