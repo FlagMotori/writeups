@@ -193,13 +193,20 @@ nav:
             - "SnappCTF": 
                 - Blex: crypto/writeups/SnappCTF/Blex.md
                 - Cryptos: crypto/writeups/SnappCTF/Cryptos.md
-                - crypto/writeups/SnappCTF/mascot.md
+                - Mascot: crypto/writeups/SnappCTF/mascot.md
                 - Bombastic: crypto/writeups/SnappCTF/Bombastic.md
             
             - "Cybercoliseum Ⅲ":
-                - crypto/writeups/Cybercoliseum Ⅲ/Hills.md
-                - crypto/writeups/Cybercoliseum Ⅲ/Watchmaker.md
+                - Hills: crypto/writeups/Cybercoliseum Ⅲ/Hills.md
+                - Watchmaker: crypto/writeups/Cybercoliseum Ⅲ/Watchmaker.md
 
+            - "SDCTF":
+                - ComplexProblem: crypto/writeups/SDCTF/ComplexProblem.md
+            
+            - "BYUCTF":
+                - AreSA: crypto/writeups/BYUCTF/AreSA.md
+                - Times: crypto/writeups/BYUCTF/Times.md
+                - Austen-Supremacy: crypto/writeups/BYUCTF/Austen-Supremacy.md
 
         - رایتاپ‌های ۲۰۲۳:
             - "vsCTF":
