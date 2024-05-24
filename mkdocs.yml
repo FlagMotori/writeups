@@ -164,10 +164,19 @@ nav:
     - مهندسی معکوس:
         - reverse/index.md
         - رایتاپ‌های ۲۰۲۴:
+            - BSidesSF:
+                - reverse/writeups/BSidesSF/shinji.md
+                - reverse/writeups/BSidesSF/whishing-well.md
             - SnappCTF:
                 - reverse/writeups/SnappCTF/blink.md
                 - reverse/writeups/SnappCTF/vitis.md
                 - "TurnOB": reverse/writeups/SnappCTF/TurnOB.md
+            
+            - "Incognito 5.0":
+                - reverse/writeups/Incognito_5.0/Vault.md
+                - reverse/writeups/Incognito_5.0/Vault_2.md
+                - reverse/writeups/Incognito_5.0/Vault_3.md
+        
         - رایتاپ‌های ۲۰۲۳:
             - BackdoorCTF:
                 - reverse/writeups/BackdoorCTF/Sl4ydroid.md
@@ -182,10 +191,23 @@ nav:
             - crypto/Tools/index.md
         - رایتاپ‌های ۲۰۲۴:
             - "SnappCTF": 
-                  - Blex: crypto/writeups/SnappCTF/Blex.md
-                  - Cryptos: crypto/writeups/SnappCTF/Cryptos.md
-                  - crypto/writeups/SnappCTF/mascot.md
-                  - Bombastic: crypto/writeups/SnappCTF/Bombastic.md
+                - Blex: crypto/writeups/SnappCTF/Blex.md
+                - Cryptos: crypto/writeups/SnappCTF/Cryptos.md
+                - Mascot: crypto/writeups/SnappCTF/mascot.md
+                - Bombastic: crypto/writeups/SnappCTF/Bombastic.md
+            
+            - "Cybercoliseum Ⅲ":
+                - Hills: crypto/writeups/Cybercoliseum Ⅲ/Hills.md
+                - Watchmaker: crypto/writeups/Cybercoliseum Ⅲ/Watchmaker.md
+
+            - "SDCTF":
+                - ComplexProblem: crypto/writeups/SDCTF/ComplexProblem.md
+            
+            - "BYUCTF":
+                - AreSA: crypto/writeups/BYUCTF/AreSA.md
+                - Times: crypto/writeups/BYUCTF/Times.md
+                - Austen-Supremacy: crypto/writeups/BYUCTF/Austen-Supremacy.md
+
         - رایتاپ‌های ۲۰۲۳:
             - "vsCTF":
                 - Redundancy: crypto/writeups/vSCTF/Redundancy.md
@@ -198,6 +220,13 @@ nav:
     - جرم‌شناسی:
         - forensic/index.md
         - رایتاپ‌های ۲۰۲۴:
+            - BSidesSF:
+                - forensic/writeups/BSidesSF/doctor.md
+                - forensic/writeups/BSidesSF/javai.md
+                - forensic/writeups/BSidesSF/redacted.md
+                - forensic/writeups/BSidesSF/sgai.md
+                - forensic/writeups/BSidesSF/undelete.md
+                - forensic/writeups/BSidesSF/ztxt.md
             - SnappCTF:
                 - forensic/writeups/SnappCTF/snapp-report.md
                 - forensic/writeups/SnappCTF/false-sight.md

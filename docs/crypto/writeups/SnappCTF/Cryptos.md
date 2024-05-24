@@ -78,6 +78,6 @@ for i in range(1, 2**16):
     <div dir="ltr">`SNAPP{acCUr4cY4nd_pr3cI5iOn!n_Pyth0n!}`</div>
 
 
-!!! نویسنگان
+!!! نویسندگان
     [HIGHer](https://twitter.com/HIGH01012) ،[mheidari98](https://github.com/mheidari98)
 

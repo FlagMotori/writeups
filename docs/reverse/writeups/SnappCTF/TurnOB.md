@@ -58,5 +58,5 @@ for i in s.split(':')[:-1]:
     <div dir="ltr">`SNAPP{Sh0rTE5t_h3X_DuMp_u7il!tY_1n_C!}`</div>
 
 
-!!! نویسنگان
+!!! نویسنده
     [mheidari98](https://github.com/mheidari98)
