@@ -4,8 +4,7 @@ tags:
   - SDCTF-2024
   - Crypto  
   - RSA
-  - Complex
-  - ComplexProblem
+  - Complex Numbers
 ---
 
 
@@ -20,7 +19,7 @@ tags:
 
 
 یه فایل متنی بهمون دادن که محتواش اینه:
-### خروجی `out.txt`:
+### خروجی `out.txt`
 ```
 N = 47314254765672217716326132674
 + 275948221897758780728621214539i
@@ -29,7 +28,7 @@ ciphertext = -120974603478533287568533462088
 + -26598567903204264781472600457i
 ```
 
-## کلاس `Gaussian Rational`
+### کلاس `Gaussian Rational`
 
 بیایم نگاهی به اسکریپت پایتون سوال بندازیم
 
@@ -107,7 +106,7 @@ class GaussianRational:
 
 حالا همونطور که میبینید دو تا تابع داریم که زحمت ساختن کلید رو میکشن..
 
-### تابع `get_gaussian_prime`:
+### تابع `get_gaussian_prime`
 که میاد یک عدد اول گاوسی رو تولید میکنه
 
 ```python
@@ -121,7 +120,7 @@ def get_gaussian_prime(nbits):
             return candidate
 ```
 
-### تابع `generate_keys`:
+### تابع `generate_keys`
 اینم که عدد اولاشو از تابع بالا میگیره و کلید رو تولید میکنه
 
 ```python
@@ -133,7 +132,7 @@ def generate_keys(nbits, e=65537):
 ```
 
 
-### تابع `encrypt`:
+### تابع `encrypt`
 حالا تابعی که رمزنگاری میکنه رو هم میتونیم ببینیم
 
 ```python

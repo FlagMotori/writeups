@@ -3,7 +3,7 @@ tags:
   - BYUCTF
   - BYUCTF-2024
   - Crypto  
-  - Eliptic-Curve
+  - Eliptic Curve
 ---
 
 
@@ -19,7 +19,7 @@ tags:
 
 یه فایل متنی و یک اسکریپت پایتون رو بهمون دادن
 
-### خروجی `times.txt`:
+### `times.txt`
 ```
 Curve:  y^2 = x**3 + 13x + 245 % 335135809459196851603485825030548860907
 Point:  (14592775108451646097, 237729200841118959448447480561827799984)
@@ -81,7 +81,7 @@ if __name__ == "__main__":
 در واقع تمام کاری که ما باید انجام بدیم اینه که یک تابع scalar multiplication بنویسیم و بعد اون یک تابع برای decrypt کردن فلگ با توجه AES در مد CBC بنویسیم ( همانطور که میبنید ciphertext و iv در فایل times.txt قرار داده شده است ).
 
 
-### پیاده سازی Scalar Multiplication:
+### پیاده سازی Scalar Multiplication
 ```python linenums="1"
 from Crypto.Util.number import *
 P=(14592775108451646097, 237729200841118959448447480561827799984)
@@ -115,7 +115,7 @@ def scalar_multiplication(P, n, p, a):
 scalar_multiplication(P, 1337, p, a)
 ```
 
-### پیاده سازی decrypt_flag:
+### پیاده سازی decrypt_flag
 ```python
 from Crypto.Cipher import AES
 from base64 import b64decode
