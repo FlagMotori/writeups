@@ -129,8 +129,9 @@ markdown_extensions:
 nav:
     - نقطه شروع:
         - index.md
-        - getStarted/introduction/CTF-Introduction.md
-        #- introduction/تاریخچه.md
+        - "آشنایی با مسابقات CTF": getStarted/introduction/CTF-Introduction.md
+        - "راهنمای شروع CTF": getStarted/beginners-guide/beginners-guide.md 
+
         #- introduction/تاریخچه در ایران.md
         - همکاری با ما: 
             - "نحوه همکاری": getStarted/contribution.md 
