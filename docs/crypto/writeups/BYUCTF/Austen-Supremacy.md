@@ -3,6 +3,7 @@ tags:
   - BYUCTF
   - BYUCTF-2024
   - Crypto
+  - Encoding
 ---
 
 

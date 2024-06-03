@@ -189,6 +189,20 @@ nav:
             - crypto/source/index.md
         - معرفی ابزار: 
             - crypto/Tools/index.md
+        - برگه تقلب: 
+            - ریاضیات:
+                - Euclidean Algorithm: crypto/CheatSheets/euclidean-algorithm.md
+                - Tonelli-Shanks: crypto/CheatSheets/tonelli-shanks.md
+                - Chinese Remainder Theorem: crypto/CheatSheets/chinese-remainder-theorem.md
+                - Modular Binomials: crypto/CheatSheets/modular-binomials.md
+            - رمزنگاری متقارن:
+                - AES: crypto/CheatSheets/aes.md
+            - رمزنگاری نامتقارن:
+                - RSA: crypto/CheatSheets/rsa.md
+                - Diffie-Hellman: crypto/CheatSheets/diffie-hellman.md
+                - Elliptic-Curves: crypto/CheatSheets/elliptic-curves.md
+            - تابع هش:
+                - Collision: crypto/CheatSheets/collision.md
         - رایتاپ‌های ۲۰۲۴:
             - "SnappCTF": 
                 - Blex: crypto/writeups/SnappCTF/Blex.md
@@ -207,6 +221,9 @@ nav:
                 - AreSA: crypto/writeups/BYUCTF/AreSA.md
                 - Times: crypto/writeups/BYUCTF/Times.md
                 - Austen-Supremacy: crypto/writeups/BYUCTF/Austen-Supremacy.md
+
+            - "0xL4ughCTF":
+                - RSA-GCD: crypto/writeups/0xL4ughCTF/RSA-GCD.md
 
         - رایتاپ‌های ۲۰۲۳:
             - "vsCTF":
