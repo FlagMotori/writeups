@@ -129,8 +129,8 @@ markdown_extensions:
 nav:
     - نقطه شروع:
         - index.md
-        - "آشنایی با مسابقات CTF": getStarted/introduction/CTF-Introduction.md
-        - "راهنمای شروع CTF": getStarted/beginners-guide/beginners-guide.md 
+        - "آشنایی با مسابقات CTF": getStarted/CTF-introduction/index.md
+        - "راهنمای شروع CTF": getStarted/beginners-guide/index.md 
 
         #- introduction/تاریخچه در ایران.md
         - همکاری با ما: 
@@ -158,8 +158,6 @@ nav:
                 - web/writeups/PingCTF/internet-explorer.md
                 - web/writeups/PingCTF/path-traversal.md
                 - web/writeups/PingCTF/youtube-trailer.md
-
-
 
     
     - مهندسی معکوس:
