@@ -67,12 +67,20 @@ plugins:
 
 # Customization
 extra:
+  analytics:
+    provider: google
+    property: G-P5HZ1W8YEZ
   search:
     lang: 
         - 'en'
         - 'ar'
   # disqus: 'shortname' # for comment
   copyright: 'CC BY-NC-SA 4.0'
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/FlagMotori
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/FlagMotori
 
 
 extra_javascript:
