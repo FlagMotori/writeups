@@ -152,6 +152,8 @@ nav:
     - وب:
         - web/index.md
         - رایتاپ‌های ۲۰۲۴:
+            - UIUCtf:
+                - "Log Action": web/writeups/UIUCTF/log-action.md
             - MapnaCTF:
                 - "Flag-Holding": web/writeups/mapnaCTF/flag-holding.md
             - SnappCTF:
