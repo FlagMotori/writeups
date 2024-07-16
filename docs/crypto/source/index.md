@@ -1,4 +1,16 @@
 # منابع یادگیری رمزنگاری
 
-## 
-## کتاب 
+- ## معرفی کتاب
+    - ### Cryptography And Network Security by Behrouz Forouzan
+        <img src="Cryptography-And-Network-Security_Forouzan.jpg" alt="Cryptography-And-Network-Security_Forouzan" width="350"/>
+        - این کتاب از یک رویکرد افزایشی برای آموزش رمزنگاری و امنیت شبکه استفاده می کند. شما در ابتدای کار به هیچ دانش ریاضی خاصی مانند نظریه اعداد یا ... نیاز ندارید چرا که در طول مطالعه کتاب اون رو بدست میارید، از آنجایی که رمزنگاری و امنیت شبکه را نمی توان بدون پیشینه در  زمینه ریاضیات مورد بحث قرار داد، این موضوعات در فصل های 2، 4 و 9 مورد بحث قرار می گیرند. خوانندگانی که با این حوزه های ریاضیات آشنا هستند می توانند این فصل ها را نادیده بگیرند. فصل 1 تا 15 رمزنگاری را مورد بحث قرار می دهد. در ضمن فصل های 16 تا 18 امنیت شبکه مورد بحث قرار می گیرد.
+    - ### An Introduction to Mathematical Cryptography by Jeffrey Hoffstein
+        <img src="Introduction-to-Mathematical-Cryptography_Hoffstein.jpg" alt="Cryptography-And-Network-Security_Forouzan" width="300"/>
+        - این کتاب عمدتاً بر روی سیستم‌های رمزنگاری کلید عمومی و  امضای دیجیتال تمرکز می‌کند. خواننده ای که بر مطالب این کتاب تسلط داشته باشد، نه تنها برای مطالعه بیشتر در رمزنگاری به خوبی آماده می شود، بلکه به درک واقعی اصول ریاضی اساسی که رمزنگاری مدرن بر آن استوار است، دست خواهد یافت.
+
+- ## منابع دیگر
+    - ### پلتفرم یادگیری و حل چالشها
+        - #### <a target="_blank" href="https://Cryptohack.org">CryptoHack</a>
+        - #### <a target="_blank" href="https://www.root-me.org/en/Challenges/Cryptanalysis/">RootMe</a>
+    - ### ویدئو های آموزشی
+        - #### <a target="_blank" href="https://youtu.be/JoeiLuFNBc4?si=ChZzn0aEJOETuMey">Neso Academy</a>
