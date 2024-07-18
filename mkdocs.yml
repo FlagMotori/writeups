@@ -176,6 +176,9 @@ nav:
             - BSidesSF:
                 - reverse/writeups/BSidesSF/shinji.md
                 - reverse/writeups/BSidesSF/whishing-well.md
+            - DownUnderCTF:
+                - reverse/writeups/DUCTF/jmp_flag.md
+                - reverse/writeups/DUCTF/number_mashing.md
             - SnappCTF:
                 - reverse/writeups/SnappCTF/blink.md
                 - reverse/writeups/SnappCTF/vitis.md
@@ -198,20 +201,20 @@ nav:
             - crypto/source/index.md
         - معرفی ابزار: 
             - crypto/Tools/index.md
-        - برگه تقلب: 
-            - ریاضیات:
-                - Euclidean Algorithm: crypto/CheatSheets/euclidean-algorithm.md
-                - Tonelli-Shanks: crypto/CheatSheets/tonelli-shanks.md
-                - Chinese Remainder Theorem: crypto/CheatSheets/chinese-remainder-theorem.md
-                - Modular Binomials: crypto/CheatSheets/modular-binomials.md
-            - رمزنگاری متقارن:
-                - AES: crypto/CheatSheets/aes.md
-            - رمزنگاری نامتقارن:
-                - RSA: crypto/CheatSheets/rsa.md
-                - Diffie-Hellman: crypto/CheatSheets/diffie-hellman.md
-                - Elliptic-Curves: crypto/CheatSheets/elliptic-curves.md
-            - تابع هش:
-                - Collision: crypto/CheatSheets/collision.md
+        # - برگه تقلب: 
+        #     - ریاضیات:
+        #         - Euclidean Algorithm: crypto/CheatSheets/euclidean-algorithm.md
+        #         - Tonelli-Shanks: crypto/CheatSheets/tonelli-shanks.md
+        #         - Chinese Remainder Theorem: crypto/CheatSheets/chinese-remainder-theorem.md
+        #         - Modular Binomials: crypto/CheatSheets/modular-binomials.md
+        #     - رمزنگاری متقارن:
+        #         - AES: crypto/CheatSheets/aes.md
+        #     - رمزنگاری نامتقارن:
+        #         - RSA: crypto/CheatSheets/rsa.md
+        #         - Diffie-Hellman: crypto/CheatSheets/diffie-hellman.md
+        #         - Elliptic-Curves: crypto/CheatSheets/elliptic-curves.md
+        #     - تابع هش:
+        #         - Collision: crypto/CheatSheets/collision.md
         - رایتاپ‌های ۲۰۲۴:
             - "SnappCTF": 
                 - Blex: crypto/writeups/SnappCTF/Blex.md
@@ -293,6 +296,11 @@ nav:
         - معرفی ابزار: 
             - misc/Tools/index.md 
         - رایتاپ‌های ۲۰۲۴:
+            - DownUnderCTF:
+                - misc/writeups/DUCTF/intercept.md
+                - misc/writeups/DUCTF/recipe.md
+            - OSCTF:
+                - misc/writeups/OSCTF/captured_data.md
             - SnappCTF:
                 - misc/writeups/SnappCTF/prying-eyes.md
                 - misc/writeups/SnappCTF/bandy.md
