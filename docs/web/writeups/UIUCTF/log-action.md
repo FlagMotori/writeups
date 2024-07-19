@@ -7,10 +7,6 @@ tags:
   - Next.js
 ---
 
- 
-زمان مطالعه: ۵ دقیقه $~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$  <a href="https://tools.pdf24.org/en/webpage-to-pdf" target="_blank">دانلود PDF :closed_book:</a> 
-
----
 
 # چالش Log Action
 
