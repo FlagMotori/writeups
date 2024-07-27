@@ -180,6 +180,8 @@ nav:
             - DownUnderCTF:         # 05 July 2024
                 - reverse/writeups/DUCTF/jmp_flag.md
                 - reverse/writeups/DUCTF/number_mashing.md
+            - ImaginaryCTF:
+                - reverse/writeups/ImaginaryCTF/unconditional.md
             - SnappCTF:             # 22 Feb. 2024
                 - reverse/writeups/SnappCTF/blink.md
                 - reverse/writeups/SnappCTF/vitis.md
@@ -189,6 +191,8 @@ nav:
                 - reverse/writeups/Incognito_5.0/Vault.md
                 - reverse/writeups/Incognito_5.0/Vault_2.md
                 - reverse/writeups/Incognito_5.0/Vault_3.md
+            - UIUCTF:
+                - reverse/writeups/UIUCTF/summarize.md
         
         - رایتاپ‌های ۲۰۲۳:
             - BackdoorCTF:          # 16 Dec. 2023
@@ -262,6 +266,8 @@ nav:
                 - forensic/writeups/BSidesSF/sgai.md
                 - forensic/writeups/BSidesSF/undelete.md
                 - forensic/writeups/BSidesSF/ztxt.md
+            - ImaginaryCTF:
+                - forensic/writeups/ImaginaryCTF/elves.md
             - SnappCTF:             # 22 Feb. 2024
                 - forensic/writeups/SnappCTF/snapp-report.md
                 - forensic/writeups/SnappCTF/false-sight.md
