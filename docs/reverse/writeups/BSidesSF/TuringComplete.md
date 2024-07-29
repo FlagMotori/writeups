@@ -5,15 +5,12 @@ tags:
   - Reverse  
 ---
 
-# چالش Turing Complete 
+# چالش Turing Complete [:material-cloud-download-outline:](https://github.com/BSidesSF/ctf-2024-release/blob/main/turing-complete/challenge/src/turing-complete)
 
 
 <center>
  ![TuringComplete](TuringComplete.PNG)
 </center>
-
-🔗 [دانلود چلنج](https://github.com/BSidesSF/ctf-2024-release/blob/main/turing-complete/challenge/src/turing-complete)
-
 
 
 
