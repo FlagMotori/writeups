@@ -254,7 +254,7 @@ True / ( ord(flag[True+True]) - 116 )  => ZeroDivisionError
 
 در ادامه کافیست یک اسکریپت بنویسیم و اینکار رو اتومیت کنیم و فلگ را بدست بیاریم
 
-```py
+```python title="solve.py" linenums="1"
 from Crypto.Util.number import *
 from pwn import *
 

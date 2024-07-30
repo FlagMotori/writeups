@@ -182,6 +182,7 @@ nav:
                 - reverse/writeups/DUCTF/number_mashing.md
             - ImaginaryCTF:         # 19 July 2024
                 - reverse/writeups/ImaginaryCTF/unconditional.md
+                - reverse/writeups/ImaginaryCTF/BF.md
             - SnappCTF:             # 22 Feb. 2024
                 - reverse/writeups/SnappCTF/blink.md
                 - reverse/writeups/SnappCTF/vitis.md
