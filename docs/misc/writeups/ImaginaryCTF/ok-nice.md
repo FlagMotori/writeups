@@ -6,7 +6,7 @@ tags:
   - pyjail
 ---
 
-# چالش ok-nice
+# چالش ok-nice [:material-cloud-download-outline:](https://github.com/ImaginaryCTF/ImaginaryCTF-2024-Challenges-Public/blob/main/Misc/ok-nice/challenge/jail.py)
 
 
 <center>

@@ -6,7 +6,7 @@ tags:
   - brainfuck
 ---
 
-# چالش BF
+# چالش BF [:material-cloud-download-outline:](https://github.com/ImaginaryCTF/ImaginaryCTF-2024-Challenges-Public/blob/main/Reversing/bf/challenge/bf.txt)
 
 
 <center>
