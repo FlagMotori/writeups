@@ -208,56 +208,68 @@ if __name__ == '__main__':
 
 کد حل مساله در ادامه پیوست شده‌است:
 
-```py
-from pwn import *
-import numpy as np
 
-context.log_level = "critical"
+=== "کد حل"
+    ```py
+    from pwn import *
+    import numpy as np
 
-moveDict = {
-    'w': (-1, 0),
-    's': (1, 0),
-    'd': (0, 1),
-    'a': (0, -1),
-}
-reverse = {'w':'s', 's':'w','a':'d', 'd':'a'}
+    context.log_level = "critical"
 
-def show(x, y):
-    for i in range(42):
-        for j in range(42):
-            if i==x and j == y:
-                print('@', end='')
-            else:
-                print(maze[i, j] if maze[i, j] else '*' ,end='')
-        print()
+    moveDict = {
+        'w': (-1, 0),
+        's': (1, 0),
+        'd': (0, 1),
+        'a': (0, -1),
+    }
+    reverse = {'w':'s', 's':'w','a':'d', 'd':'a'}
 
-def rec(x, y, move):
-    show(x, y)
-    p.send(move.encode())
-    if (res:=p.clean(0.5)):
-        if x==40 and y==40:
-            print(res)
-            exit(0)
-        maze[x, y] = '#'
-        return
+    def show(x, y):
+        for i in range(42):
+            for j in range(42):
+                if i==x and j == y:
+                    print('@', end='')
+                else:
+                    print(maze[i, j] if maze[i, j] else '*' ,end='')
+            print()
+
+    def rec(x, y, move):
+        show(x, y)
+        p.send(move.encode())
+        if (res:=p.clean(0.5)):
+            if x==40 and y==40:
+                print(res)
+                exit(0)
+            maze[x, y] = '#'
+            return
+        maze[x, y] = ' '
+        for mv, (a, b) in moveDict.items():
+            if not maze[x+a, y+b] :
+                rec(x+a, y+b, mv)
+        p.send(reverse[move].encode())
+
+    maze = np.zeros([42, 42], dtype = str) 
+    maze[0] = maze[-1] = maze[:,0] = maze[:,-1] = '#'
+
+    p = remote(*'left-in-the-dark.chal.imaginaryctf.org 1337'.split())
+    p.clean(2)
+
+    x, y = 1, 1
     maze[x, y] = ' '
     for mv, (a, b) in moveDict.items():
         if not maze[x+a, y+b] :
             rec(x+a, y+b, mv)
-    p.send(reverse[move].encode())
+    ```
 
-maze = np.zeros([42, 42], dtype = str) 
-maze[0] = maze[-1] = maze[:,0] = maze[:,-1] = '#'
 
-p = remote(*'left-in-the-dark.chal.imaginaryctf.org 1337'.split())
-p.clean(2)
+=== "ویدئو اجرا کد"
+    <center>
+    <video width="320" controls>
+        <source src="../Left in the Dark.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    </center>
 
-x, y = 1, 1
-maze[x, y] = ' '
-for mv, (a, b) in moveDict.items():
-    if not maze[x+a, y+b] :
-        rec(x+a, y+b, mv)
-```
 
 
 ---
