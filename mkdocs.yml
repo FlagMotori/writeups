@@ -180,8 +180,9 @@ nav:
             - DownUnderCTF:         # 05 July 2024
                 - reverse/writeups/DUCTF/jmp_flag.md
                 - reverse/writeups/DUCTF/number_mashing.md
-            - ImaginaryCTF:
+            - ImaginaryCTF:         # 19 July 2024
                 - reverse/writeups/ImaginaryCTF/unconditional.md
+                - reverse/writeups/ImaginaryCTF/BF.md
             - SnappCTF:             # 22 Feb. 2024
                 - reverse/writeups/SnappCTF/blink.md
                 - reverse/writeups/SnappCTF/vitis.md
@@ -266,7 +267,7 @@ nav:
                 - forensic/writeups/BSidesSF/sgai.md
                 - forensic/writeups/BSidesSF/undelete.md
                 - forensic/writeups/BSidesSF/ztxt.md
-            - ImaginaryCTF:
+            - ImaginaryCTF:         # 19 July 2024
                 - forensic/writeups/ImaginaryCTF/elves.md
             - SnappCTF:             # 22 Feb. 2024
                 - forensic/writeups/SnappCTF/snapp-report.md
@@ -308,6 +309,9 @@ nav:
         - معرفی ابزار: 
             - misc/Tools/index.md 
         - رایتاپ‌های ۲۰۲۴:
+            - ImaginaryCTF:         # 19 July 2024
+                - misc/writeups/ImaginaryCTF/ok-nice.md
+                - misc/writeups/ImaginaryCTF/Left-in-the Dark.md
             - DownUnderCTF:         # 05 July 2024
                 - misc/writeups/DUCTF/intercept.md
                 - misc/writeups/DUCTF/recipe.md
