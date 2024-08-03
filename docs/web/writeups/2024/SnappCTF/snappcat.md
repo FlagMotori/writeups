@@ -31,7 +31,7 @@ tags:
 
 برای حل این سوال من یک اسکریپت پایتون آماده کردم که میتونین از روی اون سوال رو حل کنین و بررسی کنین که چه اتفاقی میوفته
 
-- [snappcat.py](../../../uploads/snappcat.py){:download="snappcat.py"}
+- [snappcat.py](./snappcat.py){:download="snappcat.py"}
 
 بعد از دانلود فایل پایتون:
 
