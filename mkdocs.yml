@@ -62,7 +62,7 @@ plugins:
   #- mk2pdf-export
   #- page-to-pdf
     #  disableOnServe: false # should be last
-    
+
 
 
 # Customization
@@ -71,7 +71,7 @@ extra:
     provider: google
     property: G-P5HZ1W8YEZ
   search:
-    lang: 
+    lang:
         - 'en'
         - 'ar'
   # disqus: 'shortname' # for comment
@@ -138,17 +138,17 @@ nav:
     - نقطه شروع:
         - index.md
         - "آشنایی با مسابقات CTF": getStarted/CTF-introduction/index.md
-        - "راهنمای شروع CTF": getStarted/beginners-guide/index.md 
+        - "راهنمای شروع CTF": getStarted/beginners-guide/index.md
 
         #- introduction/تاریخچه در ایران.md
-        - همکاری با ما: 
-            - "نحوه همکاری": getStarted/contribution.md 
+        - همکاری با ما:
+            - "نحوه همکاری": getStarted/contribution.md
             - "نگارش رایتاپ": getStarted/writing-method.md
             - "نوشتن با فرمت md": getStarted/template.md
 
         - برچسب‌ها: tags.md
         - getStarted/customization.md
-    
+
     - وب:
         - web/index.md
         - رایتاپ‌های ۲۰۲۴:
@@ -169,7 +169,7 @@ nav:
                 - web/writeups/2023/PingCTF/path-traversal.md
                 - web/writeups/2023/PingCTF/youtube-trailer.md
 
-    
+
     - مهندسی معکوس:
         - reverse/index.md
         - رایتاپ‌های ۲۰۲۴:
@@ -187,27 +187,27 @@ nav:
                 - reverse/writeups/2024/SnappCTF/blink.md
                 - reverse/writeups/2024/SnappCTF/vitis.md
                 - "TurnOB": reverse/writeups/2024/SnappCTF/TurnOB.md
-            
+
             - "Incognito 5.0":      # 16 April 2024
                 - reverse/writeups/2024/Incognito_5.0/Vault.md
                 - reverse/writeups/2024/Incognito_5.0/Vault_2.md
                 - reverse/writeups/2024/Incognito_5.0/Vault_3.md
             - UIUCTF:
                 - reverse/writeups/2024/UIUCTF/summarize.md
-        
+
         - رایتاپ‌های ۲۰۲۳:
             - BackdoorCTF:          # 16 Dec. 2023
                 - reverse/writeups/2023/BackdoorCTF/Sl4ydroid.md
 
 
-    
+
     - رمزنگاری:
         - crypto/index.md
         - منابع یادگیری:
             - crypto/source/index.md
-        - معرفی ابزار: 
+        - معرفی ابزار:
             - crypto/Tools/index.md
-        # - برگه تقلب: 
+        # - برگه تقلب:
         #     - ریاضیات:
         #         - Euclidean Algorithm: crypto/CheatSheets/euclidean-algorithm.md
         #         - Tonelli-Shanks: crypto/CheatSheets/tonelli-shanks.md
@@ -227,14 +227,14 @@ nav:
                 - Cryptos: crypto/writeups/2024/SnappCTF/Cryptos.md
                 - Mascot: crypto/writeups/2024/SnappCTF/mascot.md
                 - Bombastic: crypto/writeups/2024/SnappCTF/Bombastic.md
-            
+
             - "Cybercoliseum Ⅲ":    # 28 April 2024
                 - Hills: crypto/writeups/2024/Cybercoliseum Ⅲ/Hills.md
                 - Watchmaker: crypto/writeups/2024/Cybercoliseum Ⅲ/Watchmaker.md
 
             - "SDCTF":              # 11 May 2024
                 - ComplexProblem: crypto/writeups/2024/SDCTF/ComplexProblem.md
-            
+
             - "BYUCTF":             # 17 May 2024
                 - AreSA: crypto/writeups/2024/BYUCTF/AreSA.md
                 - Times: crypto/writeups/2024/BYUCTF/Times.md
@@ -242,7 +242,7 @@ nav:
 
             - "0xL4ughCTF":         # 09 Feb. 2024
                 - RSA-GCD: crypto/writeups/2024/0xL4ughCTF/RSA-GCD.md
-            
+
             - BSidesSF:             # 04 May 2024
                 - "truthescrow-1": crypto/writeups/2024/BSidesSF/truthescrow1.md
                 - "truthescrow-2": crypto/writeups/2024/BSidesSF/truthescrow2.md
@@ -256,7 +256,7 @@ nav:
             - "CakeCTF":            # 11 Nov. 2023
                 - simple signature:  crypto/writeups/2023/CakeCTF/simple-signature.md
 
-      
+
     - جرم‌شناسی:
         - forensic/index.md
         - رایتاپ‌های ۲۰۲۴:
@@ -273,23 +273,23 @@ nav:
                 - forensic/writeups/2024/SnappCTF/snapp-report.md
                 - forensic/writeups/2024/SnappCTF/false-sight.md
 
-    
-    
+
+
     - PWN:
         - pwn/index.md
         - رایتاپ‌های ۲۰۲۴:
             - SnappCTF:             # 22 Feb. 2024
                 - pwn/writeups/2024/SnappCTF/Snappshell.md
                 - pwn/writeups/2024/SnappCTF/Snapp_admin.md
-    
-    
-    #- بلاکچین: 
+
+
+    #- بلاکچین:
     #    - blockchain/index.md
-    
-    
+
+
     - Osint:
         - osint/index.md
-        - معرفی ابزار: 
+        - معرفی ابزار:
             - osint/Tools/index.md
         - رایتاپ‌های ۲۰۲۴:
             - "0xL4ughCTF":         # 09 Feb. 2024
@@ -298,17 +298,19 @@ nav:
                 - WOLPHV-I: osint/writeups/2024/wctf/WOLPHV-I/WOLPHV-I-Reconnaissance.md
                 - WOLPHV-III: osint/writeups/2024/wctf/WOLPHV-III/WOLPHV-III-p1nesh4dow48.md
                 - WOLPHV-IV: osint/writeups/2024/wctf/WOLPHV-IV/WOLPHV-IV-d4wgbyte262.md
-    
-    
+
+
     #- پنهان نگاری:
     #    - steganography/index.md
-    
-    
+
+
     - متفرقه:
         - misc/index.md
-        - معرفی ابزار: 
-            - misc/Tools/index.md 
+        - معرفی ابزار:
+            - misc/Tools/index.md
         - رایتاپ‌های ۲۰۲۴:
+            - "The Few Chosen CTF":
+                - misc/writeups/2024/TFCCTF/bad-invaders.md
             - ImaginaryCTF:         # 19 July 2024
                 - misc/writeups/2024/ImaginaryCTF/ok-nice.md
                 - misc/writeups/2024/ImaginaryCTF/Left-in-the-Dark.md
