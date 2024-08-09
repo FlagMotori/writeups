@@ -1,3 +1,12 @@
+---
+tags:
+  - TFCCTF
+  - The Few Chosen CTF
+  - The Few Chosen CTF 2024
+  - Misc
+---
+
+
    [این چالش](bad-invaders-files/bad_invaders.zip) یه گیم کامندلاینی هستش که برای گرفتن فلگ باید توش برنده شیم
 
 * دسترسی سورس کد اینا بهمون داده شده
@@ -95,5 +104,10 @@ for i in range (101):
 
 ![a terminal screen showing a rocket at the bottom, a brick at the middle and a bug at top and suddenly rocket and bug move one block to the right, then rocket moves in front of bug and terminal shows message indicating the flag should be shown](bad-invaders-files/gif/solution.gif "game view")
 
-TFCCTF{this_might_have_a_race_condition}
+---
+??? success "FLAG :triangular_flag_on_post:"
+    <div dir="ltr">`TFCCTF{this_might_have_a_race_condition}`</div>
 
+
+!!! نویسنده
+    [Ali](https://github.com/AliGhaffarian)
