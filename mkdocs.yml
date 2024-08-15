@@ -52,12 +52,12 @@ plugins:
       tags_file: tags.md
   - minify:
       minify_html: true
-  - git-revision-date-localized:
-      type: timeago
-      timezone: Asia/Tehran
-      locale: fa
-      fallback_to_build_date: false
-      enable_creation_date: true
+#   - git-revision-date-localized:
+#       type: timeago
+#       timezone: Asia/Tehran
+#       locale: fa
+#       fallback_to_build_date: false
+#       enable_creation_date: true
   - blog
   #- mk2pdf-export
   #- page-to-pdf
@@ -243,10 +243,11 @@ nav:
             - "0xL4ughCTF":         # 09 Feb. 2024
                 - RSA-GCD: crypto/writeups/2024/0xL4ughCTF/RSA-GCD.md
 
-            - BSidesSF:             # 04 May 2024
+            - "BSidesSF":           # 04 May 2024
                 - "truthescrow-1": crypto/writeups/2024/BSidesSF/truthescrow1.md
                 - "truthescrow-2": crypto/writeups/2024/BSidesSF/truthescrow2.md
-
+            - "LITCTF":
+                - SymmetricRSA: crypto/writeups/2024/LITCTF/SymmetricRSA.md
 
         - رایتاپ‌های ۲۰۲۳:
             - "vsCTF":              # 23 Sept. 2023
