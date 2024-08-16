@@ -172,6 +172,8 @@ nav:
 
     - مهندسی معکوس:
         - reverse/index.md
+        - معرفی ابزار:
+            - reverse/Tools/index.md
         - رایتاپ‌های ۲۰۲۴:
             - ImaginaryCTF:         # 19 July 2024
                 - reverse/writeups/2024/ImaginaryCTF/unconditional.md
