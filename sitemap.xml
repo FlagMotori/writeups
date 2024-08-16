@@ -121,6 +121,21 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://FlagMotori.github.io/writeups/crypto/writeups/2024/TFCCTF/CCCCC/</loc>
+         <lastmod>2024-08-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://FlagMotori.github.io/writeups/crypto/writeups/2024/TFCCTF/CONWAY/</loc>
+         <lastmod>2024-08-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://FlagMotori.github.io/writeups/crypto/writeups/2024/TFCCTF/GENETICS/</loc>
+         <lastmod>2024-08-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://FlagMotori.github.io/writeups/forensic/</loc>
          <lastmod>2024-08-16</lastmod>
          <changefreq>daily</changefreq>
@@ -337,6 +352,11 @@
     </url>
     <url>
          <loc>https://FlagMotori.github.io/writeups/reverse/</loc>
+         <lastmod>2024-08-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://FlagMotori.github.io/writeups/reverse/Tools/</loc>
          <lastmod>2024-08-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
