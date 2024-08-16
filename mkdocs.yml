@@ -154,13 +154,13 @@ nav:
         - رایتاپ‌های ۲۰۲۴:
             - UIUCtf:               # 29 June 2024
                 - "Log Action": web/writeups/2024/UIUCTF/log-action.md
-            - MapnaCTF:             # 20 Jan. 2024
-                - "Flag-Holding": web/writeups/2024/mapnaCTF/flag-holding.md
             - SnappCTF:             # 22 Feb. 2024
                 - Welcome: web/writeups/2024/SnappCTF/welcome.md
                 - Snapp fal: web/writeups/2024/SnappCTF/snappfal.md
                 - Snapp cat: web/writeups/2024/SnappCTF/snappcat.md
                 - b64: web/writeups/2024/SnappCTF/b64.md
+            - MapnaCTF:             # 20 Jan. 2024
+                - "Flag-Holding": web/writeups/2024/mapnaCTF/flag-holding.md
         - رایتاپ‌های ۲۰۲۳:
             - BackdoorCTF:          # 16 Dec. 2023
                 - web/writeups/2023/BackdoorCTF/PHP-Sucks.md
@@ -173,28 +173,28 @@ nav:
     - مهندسی معکوس:
         - reverse/index.md
         - رایتاپ‌های ۲۰۲۴:
+            - ImaginaryCTF:         # 19 July 2024
+                - reverse/writeups/2024/ImaginaryCTF/unconditional.md
+                - reverse/writeups/2024/ImaginaryCTF/BF.md
+            - DownUnderCTF:         # 05 July 2024
+                - reverse/writeups/2024/DUCTF/jmp_flag.md
+                - reverse/writeups/2024/DUCTF/number_mashing.md
+            - UIUCTF:               # 29 June 2024
+                - reverse/writeups/2024/UIUCTF/summarize.md
             - BSidesSF:             # 04 May 2024
                 - "Turing Complete": reverse/writeups/2024/BSidesSF/TuringComplete.md
                 - reverse/writeups/2024/BSidesSF/shinji.md
                 - reverse/writeups/2024/BSidesSF/whishing-well.md
-            - DownUnderCTF:         # 05 July 2024
-                - reverse/writeups/2024/DUCTF/jmp_flag.md
-                - reverse/writeups/2024/DUCTF/number_mashing.md
-            - ImaginaryCTF:         # 19 July 2024
-                - reverse/writeups/2024/ImaginaryCTF/unconditional.md
-                - reverse/writeups/2024/ImaginaryCTF/BF.md
-            - SnappCTF:             # 22 Feb. 2024
-                - reverse/writeups/2024/SnappCTF/blink.md
-                - reverse/writeups/2024/SnappCTF/vitis.md
-                - "TurnOB": reverse/writeups/2024/SnappCTF/TurnOB.md
-
             - "Incognito 5.0":      # 16 April 2024
                 - reverse/writeups/2024/Incognito_5.0/Vault.md
                 - reverse/writeups/2024/Incognito_5.0/Vault_2.md
                 - reverse/writeups/2024/Incognito_5.0/Vault_3.md
-            - UIUCTF:
-                - reverse/writeups/2024/UIUCTF/summarize.md
-
+            - SnappCTF:             # 22 Feb. 2024
+                - reverse/writeups/2024/SnappCTF/blink.md
+                - reverse/writeups/2024/SnappCTF/vitis.md
+                - "TurnOB": reverse/writeups/2024/SnappCTF/TurnOB.md
+            
+        
         - رایتاپ‌های ۲۰۲۳:
             - BackdoorCTF:          # 16 Dec. 2023
                 - reverse/writeups/2023/BackdoorCTF/Sl4ydroid.md
@@ -222,45 +222,53 @@ nav:
         #     - تابع هش:
         #         - Collision: crypto/CheatSheets/collision.md
         - رایتاپ‌های ۲۰۲۴:
+            - "LIT CTF":            # 10 Aug. 2024
+                - SymmetricRSA: crypto/writeups/2024/LITCTF/SymmetricRSA.md
+            
+            - "TFC CTF":            # 02 Aug. 2024
+                - crypto/writeups/2024/TFCCTF/CCCCC.md
+                - crypto/writeups/2024/TFCCTF/GENETICS.md
+                - crypto/writeups/2024/TFCCTF/CONWAY.md
+            
+            - "BYUCTF":             # 17 May 2024
+                - AreSA: crypto/writeups/2024/BYUCTF/AreSA.md
+                - Times: crypto/writeups/2024/BYUCTF/Times.md
+                - Austen-Supremacy: crypto/writeups/2024/BYUCTF/Austen-Supremacy.md
+            
+            - "SDCTF":              # 11 May 2024
+                - ComplexProblem: crypto/writeups/2024/SDCTF/ComplexProblem.md
+            
+            - BSidesSF:             # 04 May 2024
+                - "truthescrow-1": crypto/writeups/2024/BSidesSF/truthescrow1.md
+                - "truthescrow-2": crypto/writeups/2024/BSidesSF/truthescrow2.md
+            
+            - "Cybercoliseum Ⅲ":    # 28 April 2024
+                - Hills: crypto/writeups/2024/Cybercoliseum Ⅲ/Hills.md
+                - Watchmaker: crypto/writeups/2024/Cybercoliseum Ⅲ/Watchmaker.md
+            
             - "SnappCTF":           # 22 Feb. 2024
                 - Blex: crypto/writeups/2024/SnappCTF/Blex.md
                 - Cryptos: crypto/writeups/2024/SnappCTF/Cryptos.md
                 - Mascot: crypto/writeups/2024/SnappCTF/mascot.md
                 - Bombastic: crypto/writeups/2024/SnappCTF/Bombastic.md
-
-            - "Cybercoliseum Ⅲ":    # 28 April 2024
-                - Hills: crypto/writeups/2024/Cybercoliseum Ⅲ/Hills.md
-                - Watchmaker: crypto/writeups/2024/Cybercoliseum Ⅲ/Watchmaker.md
-
-            - "SDCTF":              # 11 May 2024
-                - ComplexProblem: crypto/writeups/2024/SDCTF/ComplexProblem.md
-
-            - "BYUCTF":             # 17 May 2024
-                - AreSA: crypto/writeups/2024/BYUCTF/AreSA.md
-                - Times: crypto/writeups/2024/BYUCTF/Times.md
-                - Austen-Supremacy: crypto/writeups/2024/BYUCTF/Austen-Supremacy.md
-
+            
             - "0xL4ughCTF":         # 09 Feb. 2024
                 - RSA-GCD: crypto/writeups/2024/0xL4ughCTF/RSA-GCD.md
 
-            - "BSidesSF":           # 04 May 2024
-                - "truthescrow-1": crypto/writeups/2024/BSidesSF/truthescrow1.md
-                - "truthescrow-2": crypto/writeups/2024/BSidesSF/truthescrow2.md
-            - "LITCTF":
-                - SymmetricRSA: crypto/writeups/2024/LITCTF/SymmetricRSA.md
-
         - رایتاپ‌های ۲۰۲۳:
-            - "vsCTF":              # 23 Sept. 2023
-                - Redundancy: crypto/writeups/2023/vSCTF/Redundancy.md
-            - "TCP1P-CTF":          # 13 Oct. 2023
-                - Final Consensus: crypto/writeups/2023/TCP1PCTF/Final_Consensus.md
             - "CakeCTF":            # 11 Nov. 2023
                 - simple signature:  crypto/writeups/2023/CakeCTF/simple-signature.md
+            - "TCP1P-CTF":          # 13 Oct. 2023
+                - Final Consensus: crypto/writeups/2023/TCP1PCTF/Final_Consensus.md
+            - "vsCTF":              # 23 Sept. 2023
+                - Redundancy: crypto/writeups/2023/vSCTF/Redundancy.md
 
 
     - جرم‌شناسی:
         - forensic/index.md
         - رایتاپ‌های ۲۰۲۴:
+            - ImaginaryCTF:         # 19 July 2024
+                - forensic/writeups/2024/ImaginaryCTF/elves.md
             - BSidesSF:             # 04 May 2024
                 - forensic/writeups/2024/BSidesSF/doctor.md
                 - forensic/writeups/2024/BSidesSF/javai.md
@@ -268,8 +276,6 @@ nav:
                 - forensic/writeups/2024/BSidesSF/sgai.md
                 - forensic/writeups/2024/BSidesSF/undelete.md
                 - forensic/writeups/2024/BSidesSF/ztxt.md
-            - ImaginaryCTF:         # 19 July 2024
-                - forensic/writeups/2024/ImaginaryCTF/elves.md
             - SnappCTF:             # 22 Feb. 2024
                 - forensic/writeups/2024/SnappCTF/snapp-report.md
                 - forensic/writeups/2024/SnappCTF/false-sight.md
@@ -293,13 +299,12 @@ nav:
         - معرفی ابزار:
             - osint/Tools/index.md
         - رایتاپ‌های ۲۰۲۴:
-            - "0xL4ughCTF":         # 09 Feb. 2024
-                - cheater: osint/writeups/2024/0xL4ughCTF/cheater.md
-            - "WolvCTF":
+            - "WolvCTF":            # 16 March 2024
                 - WOLPHV-I: osint/writeups/2024/wctf/WOLPHV-I/WOLPHV-I-Reconnaissance.md
                 - WOLPHV-III: osint/writeups/2024/wctf/WOLPHV-III/WOLPHV-III-p1nesh4dow48.md
                 - WOLPHV-IV: osint/writeups/2024/wctf/WOLPHV-IV/WOLPHV-IV-d4wgbyte262.md
-
+            - "0xL4ughCTF":         # 09 Feb. 2024
+                - cheater: osint/writeups/2024/0xL4ughCTF/cheater.md
 
     #- پنهان نگاری:
     #    - steganography/index.md
@@ -310,16 +315,16 @@ nav:
         - معرفی ابزار:
             - misc/Tools/index.md
         - رایتاپ‌های ۲۰۲۴:
-            - "The Few Chosen CTF":
+            - "TFC CTF":            # 02 Aug. 2024
                 - misc/writeups/2024/TFCCTF/bad-invaders.md
             - ImaginaryCTF:         # 19 July 2024
                 - misc/writeups/2024/ImaginaryCTF/ok-nice.md
                 - misc/writeups/2024/ImaginaryCTF/Left-in-the-Dark.md
+            - OSCTF:                # 13 July 2024
+                - misc/writeups/2024/OSCTF/captured_data.md
             - DownUnderCTF:         # 05 July 2024
                 - misc/writeups/2024/DUCTF/intercept.md
                 - misc/writeups/2024/DUCTF/recipe.md
-            - OSCTF:                # 13 July 2024
-                - misc/writeups/2024/OSCTF/captured_data.md
             - SnappCTF:             # 22 Feb. 2024
                 - misc/writeups/2024/SnappCTF/prying-eyes.md
                 - misc/writeups/2024/SnappCTF/bandy.md
