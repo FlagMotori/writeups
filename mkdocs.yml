@@ -152,6 +152,8 @@ nav:
     - وب:
         - web/index.md
         - رایتاپ‌های ۲۰۲۴:
+            - "LIT CTF":            # 10 Aug. 2024
+                - web/writeups/2024/LITCTF/scrainbow.md
             - UIUCtf:               # 29 June 2024
                 - "Log Action": web/writeups/2024/UIUCTF/log-action.md
             - SnappCTF:             # 22 Feb. 2024
