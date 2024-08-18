@@ -211,17 +211,24 @@ nav:
             - crypto/Tools/index.md
         - دانشنامه:
             - ریاضیات:
-                - Euclidean Algorithm: crypto/wiki/euclidean-algorithm.md
-                - Tonelli-Shanks: crypto/wiki/tonelli-shanks.md
-                - CRT: crypto/wiki/chinese-remainder-theorem.md
-                - Modular Binomials: crypto/wiki/modular-binomials.md
-                - Elliptic Curves: crypto/wiki/elliptic-curves.md
-            # - رمزنگاری متقارن:
-                # - AES: crypto/wiki/aes.md
+                - حساب پیمانه ای:
+                    - Euclidean Algorithm: crypto/wiki/euclidean-algorithm.md
+                    - Fermat's little theorem: crypto/wiki/Fermat-little-theorem.md
+                    - Quadratic residues: crypto/wiki/quadratic-residues.md
+                    - Tonelli-Shanks: crypto/wiki/tonelli-shanks.md
+                    - CRT: crypto/wiki/chinese-remainder-theorem.md
+                    - Modular Binomials: crypto/wiki/modular-binomials.md
+                - هندسه جبری:
+                    - Elliptic Curves: crypto/wiki/elliptic-curves.md
+            - رمزنگاری متقارن:
+                - AES: crypto/wiki/aes.md
             - رمزنگاری نامتقارن:
                 - RSA: crypto/wiki/rsa.md
                 - DHKE: crypto/wiki/diffie-hellman-keyexchange.md
         - رایتاپ‌های ۲۰۲۴:
+            - "Idek CTF":           # 18 Aug. 2024
+                - GoldenTicket: crypto/writeups/2024/IdekCTF/GoldenTicket.md
+
             - "LIT CTF":            # 10 Aug. 2024
                 - SymmetricRSA: crypto/writeups/2024/LITCTF/SymmetricRSA.md
             
