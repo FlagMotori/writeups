@@ -36,10 +36,13 @@ $$42 = 21 \times 2 + 0$$
  
 $$\text{GCD}(a, b) = ax + by$$
 
-### کد
+### پیاده سازی
 
 ```py linenums="1" title="example.sage"
+# Greatest Common Divisor
 gcd(252, 105)
+
+# Extended Greatest Common Divisor
 _,x,y = xgcd(252, 105)
 252*x + 105*y == gcd(252, 105)
 ```
