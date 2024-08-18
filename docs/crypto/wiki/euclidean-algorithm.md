@@ -36,6 +36,14 @@ $$42 = 21 \times 2 + 0$$
  
 $$\text{GCD}(a, b) = ax + by$$
 
+### کد
+
+```py linenums="1" title="example.sage"
+gcd(252, 105)
+_,x,y = xgcd(252, 105)
+252*x + 105*y == gcd(252, 105)
+```
+
 
 --- 
 
