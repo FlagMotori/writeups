@@ -52,12 +52,12 @@ plugins:
       tags_file: tags.md
   - minify:
       minify_html: true
-  - git-revision-date-localized:
-      type: timeago
-      timezone: Asia/Tehran
-      locale: fa
-      fallback_to_build_date: false
-      enable_creation_date: true
+#   - git-revision-date-localized:
+#       type: timeago
+#       timezone: Asia/Tehran
+#       locale: fa
+#       fallback_to_build_date: false
+#       enable_creation_date: true
   - blog
   #- mk2pdf-export
   #- page-to-pdf
@@ -209,20 +209,18 @@ nav:
             - crypto/source/index.md
         - معرفی ابزار:
             - crypto/Tools/index.md
-        # - برگه تقلب:
-        #     - ریاضیات:
-        #         - Euclidean Algorithm: crypto/CheatSheets/euclidean-algorithm.md
-        #         - Tonelli-Shanks: crypto/CheatSheets/tonelli-shanks.md
-        #         - Chinese Remainder Theorem: crypto/CheatSheets/chinese-remainder-theorem.md
-        #         - Modular Binomials: crypto/CheatSheets/modular-binomials.md
-        #     - رمزنگاری متقارن:
-        #         - AES: crypto/CheatSheets/aes.md
-        #     - رمزنگاری نامتقارن:
-        #         - RSA: crypto/CheatSheets/rsa.md
-        #         - Diffie-Hellman: crypto/CheatSheets/diffie-hellman.md
-        #         - Elliptic-Curves: crypto/CheatSheets/elliptic-curves.md
-        #     - تابع هش:
-        #         - Collision: crypto/CheatSheets/collision.md
+        - دانشنامه:
+            - ریاضیات:
+                - Euclidean Algorithm: crypto/wiki/euclidean-algorithm.md
+                - Tonelli-Shanks: crypto/wiki/tonelli-shanks.md
+                - CRT: crypto/wiki/chinese-remainder-theorem.md
+                - Modular Binomials: crypto/wiki/modular-binomials.md
+                - Elliptic Curves: crypto/wiki/elliptic-curves.md
+            # - رمزنگاری متقارن:
+                # - AES: crypto/wiki/aes.md
+            - رمزنگاری نامتقارن:
+                - RSA: crypto/wiki/rsa.md
+                - DHKE: crypto/wiki/diffie-hellman-keyexchange.md
         - رایتاپ‌های ۲۰۲۴:
             - "LIT CTF":            # 10 Aug. 2024
                 - SymmetricRSA: crypto/writeups/2024/LITCTF/SymmetricRSA.md
