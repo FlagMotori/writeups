@@ -8,6 +8,8 @@
     a^{p}\equiv a \pmod{p}
     $$
 
+## مثال
+
 برای مثال اگر $a=2$ و $p=7$ آنگاه 
 
 $$2^{7} - 2\equiv 126 \equiv 7 \times 18 \equiv 0 \pmod{7}$$ 

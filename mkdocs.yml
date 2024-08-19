@@ -212,12 +212,12 @@ nav:
         - دانشنامه:
             - ریاضیات:
                 - حساب پیمانه ای:
-                    - Euclidean Algorithm: crypto/wiki/euclidean-algorithm.md
-                    - Fermat's little theorem: crypto/wiki/fermat-little-theorem.md
-                    - Quadratic residues: crypto/wiki/quadratic-residues.md
-                    - Tonelli-Shanks: crypto/wiki/tonelli-shanks.md
-                    - CRT: crypto/wiki/chinese-remainder-theorem.md
-                    - Modular Binomials: crypto/wiki/modular-binomials.md
+                    - Euclidean Algorithm: crypto/wiki/euclidean-algorithm/euclidean-algorithm.md
+                    - Fermat's little theorem: crypto/wiki/fermat-little-theorem/fermat-little-theorem.md
+                    - Quadratic residues: crypto/wiki/quadratic-residues/quadratic-residues.md
+                    - Tonelli-Shanks: crypto/wiki/tonelli-shanks/tonelli-shanks.md
+                    - CRT: crypto/wiki/CRT/chinese-remainder-theorem.md
+                    - Modular Binomials: crypto/wiki/modular-binomials/modular-binomials.md
                 - هندسه جبری:
                     - Elliptic Curves: crypto/wiki/elliptic-curves.md
             - رمزنگاری متقارن:
