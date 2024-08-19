@@ -213,7 +213,7 @@ nav:
             - ریاضیات:
                 - حساب پیمانه ای:
                     - Euclidean Algorithm: crypto/wiki/euclidean-algorithm.md
-                    - Fermat's little theorem: crypto/wiki/Fermat-little-theorem.md
+                    - Fermat's little theorem: crypto/wiki/fermat-little-theorem.md
                     - Quadratic residues: crypto/wiki/quadratic-residues.md
                     - Tonelli-Shanks: crypto/wiki/tonelli-shanks.md
                     - CRT: crypto/wiki/chinese-remainder-theorem.md
