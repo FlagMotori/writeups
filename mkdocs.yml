@@ -218,13 +218,13 @@ nav:
                     - Tonelli-Shanks: crypto/wiki/tonelli-shanks/tonelli-shanks.md
                     - CRT: crypto/wiki/CRT/chinese-remainder-theorem.md
                     - Modular Binomials: crypto/wiki/modular-binomials/modular-binomials.md
-                - هندسه جبری:
-                    - Elliptic Curves: crypto/wiki/elliptic-curves.md
+                # - هندسه جبری:
+                #     - Elliptic Curves: crypto/wiki/elliptic-curves.md
             - رمزنگاری نامتقارن:
                 - RSA: crypto/wiki/rsa.md
                 - DH Key-Exchange: crypto/wiki/diffie-hellman_key-exchange.md
-            - رمزنگاری متقارن:
-                - AES: crypto/wiki/aes.md
+            # - رمزنگاری متقارن:
+            #     - AES: crypto/wiki/aes.md
         - رایتاپ‌های ۲۰۲۴:
             - "Idek CTF":           # 18 Aug. 2024
                 - GoldenTicket: crypto/writeups/2024/IdekCTF/GoldenTicket.md
