@@ -37,21 +37,24 @@ $$
 
 با اندکی ساده سازی:
 
-$$
+\begin{equation}
 {a_1}^{-e_1\cdot e_2} \cdot {c_1‌}^{e_2} \equiv  p^{e_1 \cdot e_2} + {a_1}^{-e_1\cdot e_2} \cdot (b_1 \cdot q )^{e_1 \cdot e_2} \pmod{N} 
-$$
+\label{eq:1}
+\end{equation}
 
 و همه مراحل گفته شده را این بار برای $c_2$ تکرار میکنیم در نهایت:
 
-$$
+\begin{equation}
 {a_2}^{-e_1\cdot e_2} \cdot {c_2}^{e_1} \equiv  p^{e_1 \cdot e_2} + {a_2}^{-e_1\cdot e_2} \cdot (b_2 \cdot q )^{e_1 \cdot e_2} \pmod{N} 
-$$
+\label{eq:2}
+\end{equation}
 
-سپس نتیجه بدست آمده در این مرحله را از مرحله قبلی کم میکنیم:
+سپس نتیجه بدست آمده در $\ref{eq:1}$ را از $\ref{eq:2}$ کم میکنیم:
 
-$$
-{a_2}^{-e_1\cdot e_2} \cdot {c_2}^{e_1} - {a_1}^{-e_1\cdot e_2} \cdot {c_1‌}^{e_2}  
-$$
+\begin{equation}
+{a_2}^{-e_1\cdot e_2} \cdot {c_2}^{e_1} - {a_1}^{-e_1\cdot e_2} \cdot {c_1‌}^{e_2}
+\label{eq:3}
+\end{equation}
 
 $$
 \equiv  p^{e_1 \cdot e_2} + {a_2}^{-e_1\cdot e_2} \cdot (b_2 \cdot q )^{e_1 \cdot e_2} - p^{e_1 \cdot e_2} + {a_1}^{-e_1\cdot e_2} \cdot (b_1 \cdot q )^{e_1 \cdot e_2} \pmod{N}
@@ -61,6 +64,13 @@ $$
 \equiv {a_2}^{-e_1\cdot e_2} \cdot (b_2 \cdot q )^{e_1 \cdot e_2} + {a_1}^{-e_1\cdot e_2} \cdot (b_1 \cdot q )^{e_1 \cdot e_2} \pmod{N}
 $$
 
+بنابراین $q$ برابر خواهد بود با:
+
+$$
+q = \text{GCD}({a_2}^{-e_1\cdot e_2} \cdot {c_2}^{e_1} - {a_1}^{-e_1\cdot e_2} \cdot {c_1‌}^{e_2}, N)
+$$
+
+و همین کار را برای بدست آوردن $p$ تکرار میکنیم که به عنوان تمرین به خواننده واگذار می شود.
 
 --- 
 
