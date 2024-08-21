@@ -221,8 +221,8 @@ nav:
                 # - هندسه جبری:
                 #     - Elliptic Curves: crypto/wiki/elliptic-curves.md
             - رمزنگاری نامتقارن:
-                - RSA: crypto/wiki/rsa.md
-                - DH Key-Exchange: crypto/wiki/diffie-hellman_key-exchange.md
+                - RSA: crypto/wiki/rsa/rsa.md
+                - DH Key-Exchange: crypto/wiki/dhke/diffie-hellman_key-exchange.md
             # - رمزنگاری متقارن:
             #     - AES: crypto/wiki/aes.md
         - رایتاپ‌های ۲۰۲۴:
