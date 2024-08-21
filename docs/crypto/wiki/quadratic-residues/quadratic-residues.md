@@ -1,3 +1,10 @@
+---
+tags:
+  - Crypto
+  - quadratic residue
+  - legendre symbol
+---
+
 ## باقی مانده درجه دوم
 
 در نظریه اعداد عدد صحیح $q$ باقی مانده درجه دوم یا quadratic residue می گوییم اگر عدد صحیح مانند $x$ وجود داشته باشد به طوری که:

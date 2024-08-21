@@ -1,3 +1,10 @@
+---
+tags:
+  - Crypto
+  - Fermat's little Theorem
+  - Modular arithmetic
+---
+
 ## قضیه Fermat's little
 
 ???+ note "قضیه Fermat's little"

@@ -1,3 +1,10 @@
+---
+tags:
+  - Crypto
+  - Chinese Remainder Theorem
+  - CRT
+---
+
 ## قضیه Chinese Remainder
 
 قضیه Chinese Remainder نشان میدهد که اگر یک دستگاه همنشتی خطی به فرم $x\equiv a \pmod{m}$  با این شرط که پیمانه ها دو به دو نسبت به اول باشند آنگاه یک پاسخ منحصر به فرد مانند $x$ به پیمانه ضرب  پیمانه های معادلات وجود دارد.
