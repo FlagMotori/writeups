@@ -36,5 +36,4 @@ $$2^{7} - 2\equiv 126 \equiv 7 \times 18 \equiv 0 \pmod{7}$$
 --- 
 
 !!! نویسنده
-    [تیم فلگ موتوری](https://github.com/flagmotori)
-
+    [MohamadAli](https://github.com/wh1te-r0s3)

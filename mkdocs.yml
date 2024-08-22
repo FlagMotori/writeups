@@ -209,7 +209,7 @@ nav:
             - crypto/source/index.md
         - معرفی ابزار:
             - crypto/Tools/index.md
-        - دانشنامه:
+        - جزوه:
             - ریاضیات:
                 - حساب پیمانه ای:
                     - Euclidean Algorithm: crypto/wiki/euclidean-algorithm/euclidean-algorithm.md

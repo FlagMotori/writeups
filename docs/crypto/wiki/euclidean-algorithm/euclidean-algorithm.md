@@ -146,5 +146,4 @@ _,x,y = xgcd(252, 105)
 --- 
 
 !!! نویسنده
-    [تیم فلگ موتوری](https://github.com/flagmotori)
-
+    [MohamadAli](https://github.com/wh1te-r0s3)

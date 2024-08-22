@@ -79,7 +79,13 @@ $$
 
 و همین کار را برای بدست آوردن $p$ تکرار میکنیم که به عنوان تمرین به خواننده واگذار می شود.
 
+## مثال 
+
+!!! example ""
+
+    برای تمرین بیشتر به شما پیشنهاد می شود رایتاپ مربوط به چالش RSA-GCD در مسابقه <a target="_blank" href="https://writeups.fmc.tf/crypto/writeups/2024/0xL4ughCTF/RSA-GCD/">0xL4ughCTF</a> را مطالعه کنید.
+
 --- 
 
 !!! نویسنده
-    [تیم فلگ موتوری](https://github.com/flagmotori)
+    [MohamadAli](https://github.com/wh1te-r0s3)

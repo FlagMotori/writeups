@@ -13,7 +13,7 @@ $$
 x^{2}\equiv q \pmod{n}
 $$
 
-در غیر اینصورت آن راه غیر باقی مانده درجه دوم یا quadratic non-residue میخوانیم.
+در غیر اینصورت آن را غیر باقی مانده درجه دوم یا quadratic non-residue میخوانیم.
 
 ## خواص
 
@@ -53,5 +53,4 @@ $$6^{2} \equiv 36 \equiv 1 \pmod{7}$$
 --- 
 
 !!! نویسنده
-    [تیم فلگ موتوری](https://github.com/flagmotori)
-
+    [MohamadAli](https://github.com/wh1te-r0s3)

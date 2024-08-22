@@ -44,9 +44,10 @@ $$x =  a_1 \cdot E_1 \cdot y_1 + a_2 \cdot E_2 \cdot y_2 + ... + a_i \cdot E_i \
 b_list = [2, 3, 10]
 n_list = [5, 7, 11]
 x = CRT(b_list, n_list)
+# x = 87
 ```
 
 --- 
 
 !!! نویسنده
-    [تیم فلگ موتوری](https://github.com/flagmotori)
+    [MohamadAli](https://github.com/wh1te-r0s3)
