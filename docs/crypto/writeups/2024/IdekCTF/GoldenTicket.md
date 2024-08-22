@@ -116,8 +116,8 @@ X = M.solve_right(Y)
 # 37^(m-1) := y = X[1]
 
 # Using Pohlig-Hellman algorithm
-m = discrete_log(X[0], 13, p)
-long_to_bytes(m+1)
+# We can use https://github.com/Vozec/DLP-Solver to get m
+long_to_bytes(m)
 ```
 
 ---
