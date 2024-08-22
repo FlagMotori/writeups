@@ -66,4 +66,4 @@ print("roots : %d, %d" % (r, p - r))
 --- 
 
 !!! نویسنده
-    [تیم فلگ موتوری](https://github.com/flagmotori)
+    [MohamadAli](https://github.com/wh1te-r0s3)

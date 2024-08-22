@@ -71,4 +71,4 @@ $$M \equiv C^d \equiv 2790^{2753} \equiv 65 \pmod{N}$$
 --- 
 
 !!! نویسنده
-    [تیم فلگ موتوری](https://github.com/flagmotori)
+    [MohamadAli](https://github.com/wh1te-r0s3)
