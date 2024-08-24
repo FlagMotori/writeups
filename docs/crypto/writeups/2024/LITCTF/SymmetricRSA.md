@@ -19,7 +19,7 @@ tags:
 
 
 یه فایل پایتون بهمون دادن که محتواش اینه:
-```py linenums="1" title="chal.py"
+```py linenums="1" title="chall.py"
 #!/usr/bin/env python3
 from Crypto.Util.number import long_to_bytes as ltb, bytes_to_long as btl, getPrime
 

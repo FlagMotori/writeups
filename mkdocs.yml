@@ -211,21 +211,26 @@ nav:
             - crypto/source/index.md
         - معرفی ابزار:
             - crypto/Tools/index.md
-        # - برگه تقلب:
-        #     - ریاضیات:
-        #         - Euclidean Algorithm: crypto/CheatSheets/euclidean-algorithm.md
-        #         - Tonelli-Shanks: crypto/CheatSheets/tonelli-shanks.md
-        #         - Chinese Remainder Theorem: crypto/CheatSheets/chinese-remainder-theorem.md
-        #         - Modular Binomials: crypto/CheatSheets/modular-binomials.md
-        #     - رمزنگاری متقارن:
-        #         - AES: crypto/CheatSheets/aes.md
-        #     - رمزنگاری نامتقارن:
-        #         - RSA: crypto/CheatSheets/rsa.md
-        #         - Diffie-Hellman: crypto/CheatSheets/diffie-hellman.md
-        #         - Elliptic-Curves: crypto/CheatSheets/elliptic-curves.md
-        #     - تابع هش:
-        #         - Collision: crypto/CheatSheets/collision.md
+        - جزوه:
+            - ریاضیات:
+                - حساب پیمانه ای:
+                    - Euclidean Algorithm: crypto/wiki/euclidean-algorithm/euclidean-algorithm.md
+                    - Fermat's little theorem: crypto/wiki/fermat-little-theorem/fermat-little-theorem.md
+                    - Quadratic residues: crypto/wiki/quadratic-residues/quadratic-residues.md
+                    - Tonelli-Shanks: crypto/wiki/tonelli-shanks/tonelli-shanks.md
+                    - CRT: crypto/wiki/CRT/chinese-remainder-theorem.md
+                    - Modular Binomials: crypto/wiki/modular-binomials/modular-binomials.md
+                # - هندسه جبری:
+                #     - Elliptic Curves: crypto/wiki/elliptic-curves.md
+            - رمزنگاری نامتقارن:
+                - RSA: crypto/wiki/rsa/rsa.md
+                - DH Key-Exchange: crypto/wiki/dhke/diffie-hellman-key-exchange.md
+            # - رمزنگاری متقارن:
+            #     - AES: crypto/wiki/aes.md
         - رایتاپ‌های ۲۰۲۴:
+            - "Idek CTF":           # 18 Aug. 2024
+                - GoldenTicket: crypto/writeups/2024/IdekCTF/GoldenTicket.md
+
             - "LIT CTF":            # 10 Aug. 2024
                 - SymmetricRSA: crypto/writeups/2024/LITCTF/SymmetricRSA.md
             
