@@ -303,10 +303,10 @@ nav:
     #    - blockchain/index.md
 
 
-    - Osint:
+    - OSINT:
         - osint/index.md
         - معرفی ابزار:
-            - osint/Tools/index.md
+            - osint/Tools/OSINT-essentials.md    # 28 Aug 2024
         - رایتاپ‌های ۲۰۲۴:
             - "WolvCTF":            # 16 March 2024
                 - WOLPHV-I: osint/writeups/2024/wctf/WOLPHV-I/WOLPHV-I-Reconnaissance.md
