@@ -177,6 +177,9 @@ nav:
         - معرفی ابزار:
             - reverse/Tools/index.md
         - رایتاپ‌های ۲۰۲۴:
+            - CyberSpace:
+                - reverse/writeups/2024/CyberSpace/login.md
+                - reverse/writeups/2024/CyberSpace/secure-note.md
             - ImaginaryCTF:         # 19 July 2024
                 - reverse/writeups/2024/ImaginaryCTF/unconditional.md
                 - reverse/writeups/2024/ImaginaryCTF/BF.md
@@ -275,9 +278,16 @@ nav:
 
     - جرم‌شناسی:
         - forensic/index.md
+        - معرفی ابزار:
+            - forensic/Tools/index.md
         - رایتاپ‌های ۲۰۲۴:
+            - CyberSpace:
+                - forensic/writeups/2024/CyberSpace/3d-obj.md
+                - forensic/writeups/2024/CyberSpace/social-distancing.md
             - ImaginaryCTF:         # 19 July 2024
                 - forensic/writeups/2024/ImaginaryCTF/elves.md
+            - NahamCon:
+                - forensic/writeups/2024/NahamCon/taking-up-residence.md
             - BSidesSF:             # 04 May 2024
                 - forensic/writeups/2024/BSidesSF/doctor.md
                 - forensic/writeups/2024/BSidesSF/javai.md
@@ -288,8 +298,6 @@ nav:
             - SnappCTF:             # 22 Feb. 2024
                 - forensic/writeups/2024/SnappCTF/snapp-report.md
                 - forensic/writeups/2024/SnappCTF/false-sight.md
-
-
 
     - PWN:
         - pwn/index.md
