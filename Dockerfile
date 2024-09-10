@@ -1,7 +1,6 @@
-FROM python:3.11-alpine AS build-stage
+FROM python:latest AS build-stage
 LABEL maintainer="mahdih3idari@gmail.com"
 
-RUN apk add --no-cache git
 WORKDIR /opt/writeups
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
