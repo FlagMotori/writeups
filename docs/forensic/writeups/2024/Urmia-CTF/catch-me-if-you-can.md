@@ -21,10 +21,10 @@ Catch Me If You Can!
 
 به نظر میاد چیزی پیدا کردیم
 
-http
+[http](https://en.wikipedia.org/wiki/HTTP)
 نشونه خوبیه
 
-follow http stream
+[follow http stream](https://www.wireshark.org/docs/wsug_html_chunked/ChAdvFollowStreamSection.html)
 کردم
 
 ![wireshark screen of packet capture with some http and ssh pdu's](catch-me-if-you-can-files/3_follow_http.png "pcap_2")
@@ -48,7 +48,6 @@ file
 ۱.حرف اول کلمه ها بزرگه 
 
 ۲.شبیه متن عادی هستش که صرفا معنی نمیده به این مظور که چینش و تکرار حروف اشناس
-
 
 کلید از ۱ تا ۲۸ سزار رو تست کردم
 
