@@ -37,12 +37,10 @@ In the bustling bazaars of ancient Persia, where merchants traded silk and spice
 فایل رو که سیو کردم و روش کامند 
 [file](https://www.man7.org/linux/man-pages/man1/file.1.html)
 روی زدم دیدم عکسه
-<div style="text-align: left">
-file a.png$
-</div>
-<div style="text-align: left">
+```bash
+$file a.png
 a.png: PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
-</div>
+```
 بازش کردم
 ![a colorful image of vegetables in a bowl with an encrypted message written on the lower right of the iamge ](catch-me-if-you-can-files/secret.png){ width=80%; height: auto; style="display: block; margin: 0 auto" }
 
