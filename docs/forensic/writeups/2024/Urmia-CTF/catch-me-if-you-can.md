@@ -32,7 +32,7 @@ In the bustling bazaars of ancient Persia, where merchants traded silk and spice
 به نظر میاد که فایل داخل ریسپانس هستش
 
 فایل رو که سیو کردم و روش کامند 
-file
+[file](https://www.man7.org/linux/man-pages/man1/file.1.html)
 روی زدم دیدم عکسه
 <div style="text-align: left">
 file a.png$
