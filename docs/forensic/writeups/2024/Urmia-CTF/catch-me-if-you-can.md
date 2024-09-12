@@ -52,7 +52,7 @@ a.png: PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
 بازش کردم
 ![a colorful image of vegetables in a bowl with an encrypted message written on the lower right of the iamge ](catch-me-if-you-can-files/secret.png){ width=80%; height: auto; style="display: block; margin: 0 auto" }
 
-پایین سمت راست عکس نوشته بی معنی میبینیم که اگه به الگوش دقت کنیم متوجه میشیم که احتمالا از [الگوریتم سزار](https://en.wikipedia.org/wiki/Caesar_cipher) استفاده شده برای رمز نگاری این متن
+پایین سمت راست عکس نوشته بی معنی میبینیم که اگه به الگوش دقت کنیم متوجه میشیم که احتمالا از [سزار](https://en.wikipedia.org/wiki/Caesar_cipher) استفاده شده برای رمز نگاری این متن
 
 چون
 
