@@ -15,9 +15,9 @@ Catch Me If You Can!
 توضیحات:
 
 
-<div style="text-align: left">
-In the bustling bazaars of ancient Persia, where merchants traded silk and spices, a secret message has been intercepted. Legend has it that this message holds the key to discovering the whereabouts of a hidden treasure deep within the ancient emperor of Persia. However, the message has been cunningly encrypted and is hidden within a sea of network traffic. Can you decode it before the secret slips through your fingers?
-</div>
+!!! note "توضیحات چلنج"
+    In the bustling bazaars of ancient Persia, where merchants traded silk and spices, a secret message has been intercepted. Legend has it that this message holds the key to discovering the whereabouts of a hidden treasure deep within the ancient emperor of Persia. However, the message has been cunningly encrypted and is hidden within a sea of network traffic. Can you decode it before the secret slips through your fingers?
+
 
 یک فایل [packet capture](https://en.wikipedia.org/wiki/Pcap) بهمون داده شده که باید فلگ رو از داخلش در بیاریم
 ![wireshark screen of packet capture with some arp and ssh pdu's](catch-me-if-you-can-files/1_many_arps.png){ style="display: block; margin: 0 auto" }
