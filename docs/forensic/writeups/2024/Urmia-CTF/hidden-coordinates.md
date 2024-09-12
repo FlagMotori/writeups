@@ -24,7 +24,7 @@ tags:
 
 طبق گفته چلنج احتمالا فلگ داخل پیام های 
 [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol)
-مخفی شده ولی بهتره به استراتژی همیشگی بچسبیم و اول ببینیم پیامی هست که رمز نگاری و مخفی نشده باشه؟
+مخفی شده ،ولی بهتره به استراتژی همیشگی بچسبیم و اول ببینیم پیامی هست که رمز نگاری و مخفی نشده باشه
 
 مثل همیشه اول روی  [فلگ پوش TCP](https://datatracker.ietf.org/doc/html/rfc9293#section-3.1-6.14.2.10.1)
 فیلتر میزاریم که ببینیم چی دستمون میاد
@@ -36,46 +36,47 @@ tags:
 ![wireshark screen of tcp retransmissions](hidden-coordinates-files/3_filter_on_not_tls.png){ style="display: block; margin: 0 auto" }
 
 خب مثل اینکه از 
-TCP
+`TCP`
 چیزی در نمیاد فعلا
 
 خب بریم سر 
-ICMP
+`ICMP`
 ببینیم چیزی دستمون رو میگیره یا نه
 
 ![wireshark screen of icmp PDUs](hidden-coordinates-files/4_icmp_filter.png){ style="display: block; margin: 0 auto" }
 
-!!! info inline end "ICMP payload"
+!!! info inline end "`ICMP payload`"
 	یکی از قسمت هایی که خیلی خیلی مهمه 
-	payload
+	`payload`
 	داخل 
-	ICMP
+	`ICMP`
 	هست که برای 
 	[tunneling](https://en.wikipedia.org/wiki/ICMP_tunnel)
 	 و در کل انتقال دیتا استفاده استفاده میشه چون سادس
 
  خب ما که به پکت های 
-ICMP 
-نگاه میکنیم میبینیم کلا دو جور  payload دارن این پیاما
+`ICMP` 
+نگاه میکنیم میبینیم کلا دو جور 
+`payload` دارن این پیاما
 	
-- datadatadatadata
+- `datadatadatadata`
 	
-- abcdefghijklmnopqrstuvwabcdefghi
+- `abcdefghijklmnopqrstuvwabcdefghi`
 	
 برنامه هایی که 
 پینگ
 میگیرن معمولا اگه ازشون بخوای که یسری دیتا هم بفرستن که پینگ کردن یکم سنگین تر شه میان به ترتیب حروف الفبای انگلیسی میچینن 
- payload
+ `payload`
 رو
 	
 پس میتونیم با قاطعیت بگیم اونایی که 
- payload 
+ `payload` 
 دومی رو دارن متعلق به نرم افزار پینگ استانداردن
 	 
 با فیلتر کردن
-ICMP
+`ICMP`
 هایی که  پیلود
- abcdefghijklmnopqrstuvwabcdefghi
+ `abcdefghijklmnopqrstuvwabcdefghi`
  رو دارن رو حذف میکنیم
 	   
 ![wireshark screen of icmp PDUs](hidden-coordinates-files/5_icmp_filtered_standard_payload.png){ style="display: block; margin: 0 auto" }
@@ -85,24 +86,26 @@ ICMP
 باید بگردیم داخل فیلد های مختلف پکت که دیتا ممکنه داخلشون مخفی شده باشه
 
 !!! failure ""
-	ICMP sequence number 
+	`ICMP sequence number` 
 	دیتایی نداشت
 
 !!! failure ""
-	ICMP checksum
+	`ICMP checksum`
 	هم نمیتونه مهم باشه چون مقدار درستی داره
 
 	تصور اینکه اینقدر خوب پکت رو درست کرده باشن که از 
-	 checksum 
+	 `checksum` 
 	فلگ در بیاد دور از انتظاره
 
 فیلد 
- IP ttl
-که داخل پیام هایی که از سمت 192.168.1.50 میاد خیلی مشکوکه
+ `ttl`
+از هدر
+`IP`
+داخل پیام هایی که از سمت 192.168.1.50 میاد خیلی مشکوکه
 		
-ولی قبلش باید یه مقدمه بهتون بگم  از ttl
+ولی قبلش باید یه مقدمه بهتون بگم  از `ttl`
 ??? TTL
-	 ttl
+	 `ttl`
 	یک فیلد داخل 
 	 [IPv4](https://en.wikipedia.org/wiki/IPv4)
 	هست که نشون میده پکت حق داره جند بار توسط روتر 
@@ -114,24 +117,24 @@ ICMP
 	فرق داره
 
 	و هر دفعه که 
-	 forward 
+	 `forward` 
 	میشه 
-	 router 
+	 `router` 
 	یکی از ttl  پکت کم میکنه
 
 	وقتی به صفر برسه
-	 router 
+	 `router` 
 	اون پکت رو
-	 drop
+	 `drop`
 	میکنه
 
 	یسری 
-	 router
+	 `router`
 	ها به دلایل امنیتی اینکار رو نمیکنن
 	
 	تقریبا همیشه دستگاه فرستنده این فیلد رو یکی از اینا ست میکنه
 	
-	64,128,255 
+	64, 128, 255 
 
 
 دستگاه 192.168.1.50 مقدار ttl رو به صورت استاندارد ست نمیکنه	 
@@ -139,19 +142,24 @@ ICMP
 از کجا میدونیم؟
 
 چون پکت کپجر روی این دستگاه انجام شده و  باید یکی از اعداد 255،128،64 رو میدیدیم داخل
- ttl
+ `ttl`
  
 از کجا میدونیم پکت کپچر روی 192.168.1.50 انجام شده؟
 
 وقتی به پیام های عادی که از سمت 192.168.1.50 هستن نگاه میکنیم میبینیم که ttl=128 دارن یعنی هنوز یکبار هم
- forward 
+ `forward` 
 	نشدن
 	
 پس ما 192.168.1.50 هستیم
 	
- فرمت فلگ uctf{} هست و ttl پیام اول فیلتر شده 117 که مطابق کد اسکی u هست که میشه کاراکتر اول فلگ
+ فرمت فلگ
+ `uctf{}`
+ هست و
+ `ttl`
+ پیام اول فیلتر شده 117 که مطابق کد اسکی u هست که میشه کاراکتر اول فلگ
 	
-پیام هایی که فیلتر کردیم رو با وایرشارک export میکنیم و با این برنامه فلگ رو به درست میاریم
+پیام هایی که فیلتر کردیم رو با وایرشارک
+`export` میکنیم و با این برنامه فلگ رو به درست میاریم
 	
 ```python
 from scapy.all import *
