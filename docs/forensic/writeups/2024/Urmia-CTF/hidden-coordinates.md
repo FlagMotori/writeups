@@ -13,8 +13,9 @@ tags:
 
 
 !!! note "توضیحات چلنج"
-	Jack Sparrow may be searching for treasure, but he’ll never find the map if he can't decipher the signals. Buried within a seemingly ordinary pcap file are hidden details encoded in ICMP packets. Unearth the secrets concealed in these packets to reveal the flag.
-
+    <div style="text-align: left">
+    Jack Sparrow may be searching for treasure, but he’ll never find the map if he can't decipher the signals. Buried within a seemingly ordinary pcap file are hidden details encoded in ICMP packets. Unearth the secrets concealed in these packets to reveal the flag.
+    </div>
 یک فایل
 [packet capture](https://en.wikipedia.org/wiki/Pcap) 
 بهمون داده شده که باید فلگ رو از داخلش در بیاریم
@@ -83,14 +84,14 @@ ICMP
 	   
 باید بگردیم داخل فیلد های مختلف پکت که دیتا ممکنه داخلشون مخفی شده باشه
 
-!!! failure
+!!! failure ""
 	ICMP sequence number 
 	دیتایی نداشت
 
-!!! failure
+!!! failure ""
 	ICMP checksum
 	هم نمیتونه مهم باشه چون مقدار درستی داره
-!!! failure
+!!! failure ""
 	تصور اینکه اینقدر خوب پکت رو درست کرده باشن که از 
 	 checksum 
 	فلگ در بیاد دور از انتظاره
