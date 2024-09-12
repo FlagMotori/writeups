@@ -157,6 +157,7 @@ ICMP
 from scapy.all import *
 pcap = rdpcap("icmp.pcapng")
 for packet in pcap:
+		 #if is not icmp echo request, skip the packet
      if packet[ICMP].type != 8:
          continue
      #print ttl of IP layer
