@@ -277,6 +277,7 @@ nav:
         - forensic/index.md
         - رایتاپ‌های ۲۰۲۴:
             - "Urmia CTF":
+                - forensic/writeups/2024/Urmia-CTF/hidden-coordinates.md
                 - forensic/writeups/2024/Urmia-CTF/catch-me-if-you-can.md
             - ImaginaryCTF:         # 19 July 2024
                 - forensic/writeups/2024/ImaginaryCTF/elves.md
