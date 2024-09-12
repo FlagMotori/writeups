@@ -72,7 +72,7 @@ ICMP
  payload 
 دومی رو دارن متعلق به نرم افزار پینگ استانداردن
 	 
-پس با فیلتر کردن
+با فیلتر کردن
 ICMP
 هایی که  پیلود
  abcdefghijklmnopqrstuvwabcdefghi
