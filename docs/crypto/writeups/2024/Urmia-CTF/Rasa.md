@@ -177,7 +177,7 @@ print( long_to_bytes(m) )
 ```
 
 ## کدنهایی
-```py
+```py title="solve.py" linenums="1"
 from Crypto.Util.number import *
 
 def egcd(a, b):
