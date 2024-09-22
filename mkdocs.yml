@@ -228,6 +228,12 @@ nav:
             # - رمزنگاری متقارن:
             #     - AES: crypto/wiki/aes.md
         - رایتاپ‌های ۲۰۲۴:
+            - "Urmia CTF":          # 07 Sept. 2024
+                - ./crypto/writeups/2024/Urmia-CTF/Modal_1.md
+                - ./crypto/writeups/2024/Urmia-CTF/Modal_2.md
+                - ./crypto/writeups/2024/Urmia-CTF/Sergio.md
+                - ./crypto/writeups/2024/Urmia-CTF/Rasa.md
+
             - "Idek CTF":           # 18 Aug. 2024
                 - GoldenTicket: crypto/writeups/2024/IdekCTF/GoldenTicket.md
 
@@ -276,7 +282,7 @@ nav:
     - جرم‌شناسی:
         - forensic/index.md
         - رایتاپ‌های ۲۰۲۴:
-            - "Urmia CTF":
+            - "Urmia CTF":          # 07 Sept. 2024
                 - forensic/writeups/2024/Urmia-CTF/hidden-coordinates.md
                 - forensic/writeups/2024/Urmia-CTF/catch-me-if-you-can.md
             - ImaginaryCTF:         # 19 July 2024
