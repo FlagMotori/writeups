@@ -107,7 +107,7 @@ tcp.flags.syn==1" -T fields -e tcp.seq_raw | head -n 38 | tr $'\n' ,
 
  احتمال اینکه
  tcp.sequence number 
- صفر باشه و اونم ۱۲۸ تکرار شه  تقریبا وجود نداره
+ صفر باشه و اونم ۱۲۸ بار تکرار شه  تقریبا وجود نداره
 ```
 $ tshark -r abnormal_illegal.pcapng -Y "tcp.dstport==7979 && \
 tcp.flags.syn==1" -T fields -e tcp.seq_raw | grep -E "^0$" | wc -l
