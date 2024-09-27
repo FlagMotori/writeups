@@ -146,7 +146,7 @@ tcp.flags.syn==1" -T fields -e tcp.seq_raw | grep -E "^0$" | wc -l
 - 0x00f  (fin, syn, rst, push)
 
 
-??? info "تصویر ذهنیم  از این ایده"
+??? info "تصویر ذهنیم  از ایده ۱"
 
 	**اگه هر استریم دیتا داخل IP.id اینکد شده باشه**
 	```python
@@ -215,8 +215,8 @@ tcp.flags.syn==1" -T fields -e tcp.seq_raw | grep -E "^0$" | wc -l
 		data_4.append(packet.tcp.seq_raw)
 	```
 
-۲ـ تعداد کانکشن درست بین کانکشن های بد دیتا داره .یعنی مثلا ۳۰ بار درخواست شده از سرور و یک بار پکت بد فرستاده شده که در این حالت ۳۰ دیتای ماست
-??? info "تصویر ذهنیم  از این ایده"
+۲ـ تعداد کانکشن درست بین کانکشن های بد، دیتا داره. یعنی مثلا ۳۰ بار از سرور درخواست درست شده و یک بار پکت بد فرستاده شده که در این حالت، ۳۰ دیتای ماست
+??? info "تصویر ذهنیم  از ایده ۲"
 	```python
 	filter: tcp.dstport==7979 && tcp.seq == 0
 
@@ -232,7 +232,7 @@ tcp.flags.syn==1" -T fields -e tcp.seq_raw | grep -E "^0$" | wc -l
 	```
 
 ۳ـ شاید پکت های بد ابتدا و انتهای استریم دیتا رو دارن نشون میدن یعنی اول پکت بد بعد دیتای اینکد شده داخل یکی از فیلد هایی که بررسی کردیم و بعد پکت بد
-??? info "تصویر ذهنیم  از این ایده"
+??? info "تصویر ذهنیم  از ایده ۳"
 	```python
 	filter: tcp.dstport==7979 && tcp.seq == 0
 	
@@ -258,14 +258,14 @@ http request
 `tcp.dstport==7979 && tcp.flags.syn==1`
 هستن
 )
-??? info "تصویر ذهنیم  از این ایده"
+??? info "تصویر ذهنیم  از ایده ۴"
 	```python
 	filter: tcp.dstport==7979 && tcp.flags.syn==1
 	
-	encode_sequence = [1,2,4,8,16]
+	example_encode_sequence = [1,2,4,8,16]
 	data = []
 
-	for i in encode_sequence:
+	for i in example_encode_sequence:
 		data.append(
 			pcap[i].tcp.seq_raw % 100)
 	```
