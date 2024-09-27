@@ -21,7 +21,7 @@ tags:
 
 اول به
 [protocol hierarchy statistics](https://www.wireshark.org/docs/wsug_html_chunked/ChStatHierarchy.html)
-سر زدم که ببینیم  چی گذشته داخل این پکت کپچر
+سر زدم که ببینیم داخل این پکت کپچر چی گذشته
 
 ![wireshark screen protocol hierarchy statistics](Abnormal-Maybe-Illegal-files/1_statistics.png){ style="display: block; margin: 0 auto" }
 
@@ -278,9 +278,11 @@ http request
 
 ‍`2x + c`
 
-که c شماره اولین پکت بده که ۲ رقم کم ارزش tcp.sequence number  اون کاراکتر فلگ مارو داره و x  شماره اون پکت در دنباله
+که c شماره اولین پکت بد هست، که ۲ رقم کم ارزش tcp.sequence number  اون، کاراکتر فلگ مارو داره
 
-در این صورت اگه دو رقم اخر tcp.sequence number  پکت های داخل فیلتر
+و x  شماره اون پکت در دنباله
+
+در این صورت اگه دو رقم اخر tcp.sequence number  پکت های داخل فیلتر  
 `tcp.dstport==7979 && tcp.flags.syn==1 && tcp.seq==0`
 و شماره های به ترتیب 
 
