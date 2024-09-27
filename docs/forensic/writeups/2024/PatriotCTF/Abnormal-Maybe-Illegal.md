@@ -13,7 +13,7 @@ tags:
 
 !!! note "توضیحات چلنج"
     <div style="text-align: left">
-   We have recently discovered tons of traffic leaving our network. We have reason to believe they are using an abnormal method. Can you figure out what data they are exfiltrating?
+            We have recently discovered tons of traffic leaving our network. We have reason to believe they are using an abnormal method. Can you figure out what data they are exfiltrating?
     </div>
 یک فایل
 [packet capture](https://en.wikipedia.org/wiki/Pcap) 
