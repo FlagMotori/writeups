@@ -11,10 +11,7 @@ tags:
   - IP
 ---
 
-!!! note "توضیحات چلنج"
-    <div style="text-align: left">
-            We have recently discovered tons of traffic leaving our network. We have reason to believe they are using an abnormal method. Can you figure out what data they are exfiltrating?
-    </div>
+![ctf challenge description: We have recently discovered tons of traffic leaving our network. We have reason to believe they are using an abnormal method. Can you figure out what data they are exfiltrating?](Abnormal-Maybe-Illegal-files/0_chall.png){ style="display: block; margin: 0 auto" }
 یک فایل
 [packet capture](https://en.wikipedia.org/wiki/Pcap) 
 بهمون داده شده که باید فلگ رو از داخلش در بیاریم
