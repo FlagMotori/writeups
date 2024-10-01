@@ -11,6 +11,8 @@ tags:
   - IP
 ---
 
+🔗 [دانلود چلنج](https://github.com/MasonCompetitiveCyber/PatriotCTF2024/tree/main/forensics/abnormal_exfiltration)
+
 ![ctf challenge description: We have recently discovered tons of traffic leaving our network. We have reason to believe they are using an abnormal method. Can you figure out what data they are exfiltrating?](Abnormal-Maybe-Illegal-files/0_chall.png){ style="display: block; margin: 0 auto" }
 یک فایل
 [packet capture](https://en.wikipedia.org/wiki/Pcap) 
