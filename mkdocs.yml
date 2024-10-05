@@ -212,7 +212,7 @@ nav:
         - معرفی ابزار:
             - crypto/Tools/index.md
         - جزوه:
-            - ریاضیات:
+            - ریاضیات رمزنگاری:
                 - حساب پیمانه ای:
                     - Euclidean Algorithm: crypto/wiki/euclidean-algorithm/euclidean-algorithm.md
                     - Fermat's little theorem: crypto/wiki/fermat-little-theorem/fermat-little-theorem.md
@@ -233,6 +233,7 @@ nav:
                 - ./crypto/writeups/2024/Urmia-CTF/Modal_2.md
                 - ./crypto/writeups/2024/Urmia-CTF/Sergio.md
                 - ./crypto/writeups/2024/Urmia-CTF/Rasa.md
+                - ./crypto/writeups/2024/Urmia-CTF/Karaball.md
 
             - "Idek CTF":           # 18 Aug. 2024
                 - GoldenTicket: crypto/writeups/2024/IdekCTF/GoldenTicket.md
