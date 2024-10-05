@@ -284,6 +284,8 @@ nav:
     - جرم‌شناسی:
         - forensic/index.md
         - رایتاپ‌های ۲۰۲۴:
+            - PatriotCTF:
+                - forensic/writeups/2024/PatriotCTF/Abnormal-Maybe-Illegal.md
             - "Urmia CTF":          # 07 Sept. 2024
                 - forensic/writeups/2024/Urmia-CTF/hidden-coordinates.md
                 - forensic/writeups/2024/Urmia-CTF/catch-me-if-you-can.md
