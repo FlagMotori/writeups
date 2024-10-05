@@ -47,6 +47,7 @@ theme:
 
 # Plugins
 plugins:
+  - glightbox
   - search
   - tags:
       tags_file: tags.md

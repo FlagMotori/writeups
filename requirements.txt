@@ -1,7 +1,8 @@
 Markdown
 mkdocs
 mkdocs-git-revision-date-localized-plugin
-mkdocs-material
+mkdocs-material[imaging]
+mkdocs-glightbox
 pymdown-extensions
 typer
 mkdocs-minify-plugin
