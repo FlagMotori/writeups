@@ -29,54 +29,54 @@ categories:
 === "web" 
     |     نام چالش    | دسته بندی |                          رایت‌آپ                         |
     |:---------------:|:---------:|:-------------------------------------------------------:|
-    |     Welcome     |    web    |      [رایت‌آپ](../../web/writeups/SnappCTF/welcome.md)      |
-    |    Snapp cat!   |    web    |      [رایت‌آپ](../../web/writeups/SnappCTF/snappcat.md)     |
-    |    Snapp fal!   |    web    |      [رایت‌آپ](../../web/writeups/SnappCTF/snappfal.md)     |
-    |       b64       |    web    |        [رایت‌آپ](../../web/writeups/SnappCTF/b64.md)        |
+    |     Welcome     |    web    |      [رایت‌آپ](../../web/writeups/2024/SnappCTF/welcome.md)      |
+    |    Snapp cat!   |    web    |      [رایت‌آپ](../../web/writeups/2024/SnappCTF/snappcat.md)     |
+    |    Snapp fal!   |    web    |      [رایت‌آپ](../../web/writeups/2024/SnappCTF/snappfal.md)     |
+    |       b64       |    web    |        [رایت‌آپ](../../web/writeups/2024/SnappCTF/b64.md)        |
 
 === "rev" 
     |     نام چالش    | دسته بندی |                          رایت‌آپ                         |
     |:---------------:|:---------:|:-------------------------------------------------------:|
-    |     Vitis 🪟     |    rev    |     [رایت‌آپ](../../reverse/writeups/SnappCTF/vitis.md)     |
-    |      TurnOB     |    rev    |     [رایت‌آپ](../../reverse/writeups/SnappCTF/TurnOB.md)    |
-    |      Blink      |    rev    |     [رایت‌آپ](../../reverse/writeups/SnappCTF/blink.md)     |
+    |     Vitis 🪟     |    rev    |     [رایت‌آپ](../../reverse/writeups/2024/SnappCTF/vitis.md)     |
+    |      TurnOB     |    rev    |     [رایت‌آپ](../../reverse/writeups/2024/SnappCTF/TurnOB.md)    |
+    |      Blink      |    rev    |     [رایت‌آپ](../../reverse/writeups/2024/SnappCTF/blink.md)     |
 
 === "forensics" 
     |     نام چالش    | دسته بندی |                          رایت‌آپ                         |
     |:---------------:|:---------:|:-------------------------------------------------------:|
-    |  SNAPP Report 📝 | forensics | [رایت‌آپ](../../forensic/writeups/SnappCTF/snapp-report.md) |
-    |      Bandy      | forensics & misc |       [رایت‌آپ](../../misc/writeups/SnappCTF/bandy.md)      |
-    |   False sight   | forensics |  [رایت‌آپ](../../forensic/writeups/SnappCTF/false-sight.md) |
+    |  SNAPP Report 📝 | forensics | [رایت‌آپ](../../forensic/writeups/2024/SnappCTF/snapp-report.md) |
+    |      Bandy      | forensics & misc |       [رایت‌آپ](../../misc/writeups/2024/SnappCTF/bandy.md)      |
+    |   False sight   | forensics |  [رایت‌آپ](../../forensic/writeups/2024/SnappCTF/false-sight.md) |
 
 === "OSINT" 
     |     نام چالش    | دسته بندی |                          رایت‌آپ                         |
     |:---------------:|:---------:|:-------------------------------------------------------:|
-    | SNAPP Customers |   OSINT   |    [رایت‌آپ](../../misc/writeups/SnappCTF/SnappOsint.md#snapp-customer)    |
-    |  SNAPP Records  |   OSINT   |    [رایت‌آپ](../../misc/writeups/SnappCTF/SnappOsint.md#snapp-records)    |
-    |  SNAPP Bounties |   OSINT   |    [رایت‌آپ](../../misc/writeups/SnappCTF/SnappOsint.md#snapp-bounties)    |
-    |   SNAPP Saving  |   OSINT   |    [رایت‌آپ](../../misc/writeups/SnappCTF/SnappOsint.md#snapp-saving)    |
+    | SNAPP Customers |   OSINT   |    [رایت‌آپ](../../misc/writeups/2024/SnappCTF/SnappOsint.md#snapp-customer)    |
+    |  SNAPP Records  |   OSINT   |    [رایت‌آپ](../../misc/writeups/2024/SnappCTF/SnappOsint.md#snapp-records)    |
+    |  SNAPP Bounties |   OSINT   |    [رایت‌آپ](../../misc/writeups/2024/SnappCTF/SnappOsint.md#snapp-bounties)    |
+    |   SNAPP Saving  |   OSINT   |    [رایت‌آپ](../../misc/writeups/2024/SnappCTF/SnappOsint.md#snapp-saving)    |
 
 
 === "misc" 
     |     نام چالش    | دسته بندی |                          رایت‌آپ                         |
     |:---------------:|:---------:|:-------------------------------------------------------:|
-    |  Prying eyes 👀  |    misc   |    [رایت‌آپ](../../misc/writeups/SnappCTF/prying-eyes.md)   |
-    |      Bandy      | forensics & misc |       [رایت‌آپ](../../misc/writeups/SnappCTF/bandy.md)      |
+    |  Prying eyes 👀  |    misc   |    [رایت‌آپ](../../misc/writeups/2024/SnappCTF/prying-eyes.md)   |
+    |      Bandy      | forensics & misc |       [رایت‌آپ](../../misc/writeups/2024/SnappCTF/bandy.md)      |
 
 
 === "crypto" 
     |     نام چالش    | دسته بندی |                          رایت‌آپ                         |
     |:---------------:|:---------:|:-------------------------------------------------------:|
-    |     Cryptos     |   crypto  |     [رایت‌آپ](../../crypto/writeups/SnappCTF/Cryptos.md)    |
-    |    Bombastic    |   crypto  |    [رایت‌آپ](../../crypto/writeups/SnappCTF/Bombastic.md)   |
-    |      MASCOT     |   crypto  |     [رایت‌آپ](../../crypto/writeups/SnappCTF/mascot.md)     |
-    |       Blex      |   crypto  |      [رایت‌آپ](../../crypto/writeups/SnappCTF/Blex.md)      |
+    |     Cryptos     |   crypto  |     [رایت‌آپ](../../crypto/writeups/2024/SnappCTF/Cryptos.md)    |
+    |    Bombastic    |   crypto  |    [رایت‌آپ](../../crypto/writeups/2024/SnappCTF/Bombastic.md)   |
+    |      MASCOT     |   crypto  |     [رایت‌آپ](../../crypto/writeups/2024/SnappCTF/mascot.md)     |
+    |       Blex      |   crypto  |      [رایت‌آپ](../../crypto/writeups/2024/SnappCTF/Blex.md)      |
 
 === "pwn" 
     |     نام چالش    | دسته بندی |                          رایت‌آپ                         |
     |:---------------:|:---------:|:-------------------------------------------------------:|
-    |   snapp_admin   |    pwn    |    [رایت‌آپ](../../pwn/writeups/SnappCTF/Snapp_admin.md)    |
-    |    Snappshell   |    pwn    |     [رایت‌آپ](../../pwn/writeups/SnappCTF/Snappshell.md)    |
+    |   snapp_admin   |    pwn    |    [رایت‌آپ](../../pwn/writeups/2024/SnappCTF/Snapp_admin.md)    |
+    |    Snappshell   |    pwn    |     [رایت‌آپ](../../pwn/writeups/2024/SnappCTF/Snappshell.md)    |
 
 </center>
 
