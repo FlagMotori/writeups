@@ -214,7 +214,7 @@ nav:
             - crypto/Tools/index.md
         - جزوه:
             - ریاضیات رمزنگاری:
-                - حساب پیمانه ای:
+                - حساب پیمانه‌ای:
                     - Euclidean Algorithm: crypto/wiki/euclidean-algorithm/euclidean-algorithm.md
                     - Fermat's little theorem: crypto/wiki/fermat-little-theorem/fermat-little-theorem.md
                     - Quadratic residues: crypto/wiki/quadratic-residues/quadratic-residues.md
@@ -229,7 +229,12 @@ nav:
             # - رمزنگاری متقارن:
             #     - AES: crypto/wiki/aes.md
         - رایتاپ‌های ۲۰۲۴:
-            - "Urmia CTF":          # 07 Sept. 2024
+
+            - "Iron CTF":           #  07 Oct. 2024
+                - ./crypto/writeups/2024/IronCTF/Rivest-Shamir-Adleman-1.md
+                - ./crypto/writeups/2024/IronCTF/Algebra_Exam.md
+
+            - "Urmia CTF":          # 07 Sep. 2024
                 - ./crypto/writeups/2024/Urmia-CTF/Modal_1.md
                 - ./crypto/writeups/2024/Urmia-CTF/Modal_2.md
                 - ./crypto/writeups/2024/Urmia-CTF/Sergio.md
