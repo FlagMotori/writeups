@@ -54,6 +54,7 @@ plugins:
   - minify:
       minify_html: true
   - git-revision-date-localized:
+      enabled: !ENV [CI, false]
       type: timeago
       timezone: Asia/Tehran
       locale: fa
@@ -210,6 +211,8 @@ nav:
         - crypto/index.md
         - منابع یادگیری:
             - crypto/source/index.md
+        - "درخت مهارت":
+            - crypto/mindmap/index.md
         - معرفی ابزار:
             - crypto/Tools/index.md
         - جزوه:
