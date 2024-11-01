@@ -28,6 +28,14 @@
 > docker run -p 127.0.0.1:8888:8888 -it hyperreality/cryptohack:latest
 ```
 
+### ابزارهای متفرقه
+
+- [RSACTFTool](https://github.com/RsaCtfTool/RsaCtfTool) 
+- [RSATool](https://github.com/ius/rsatool)
+- [XORTool](https://github.com/hellman/xortool)
+- [Yafu](https://github.com/bbuhrow/yafu)
+- [Hash_extender](https://github.com/iagox86/hash_extender)
+
 ### لینک های مفید
 
 - <a target="_blank" href="https://www.sagemath.org/">https://www.sagemath.org/</a>

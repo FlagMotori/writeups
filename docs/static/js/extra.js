@@ -30,8 +30,25 @@ window.addEventListener('load', function() {
     if (s) {
         document.body.setAttribute('data-md-color-scheme', s);
     }
-
 }, false);
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Check if a font choice is saved in localStorage and apply it
+  var savedFont = localStorage.getItem("data-md-font-family");
+  if (savedFont) {
+    document.documentElement.style.setProperty('--md-text-font', savedFont);
+  }
+});
+
+
+var fontButtons = document.querySelectorAll("button[data-md-font-family]");
+Array.prototype.forEach.call(fontButtons, function(button) {
+    button.addEventListener("click", function() {
+        document.documentElement.style.setProperty('--md-text-font', this.dataset.mdFontFamily);
+        localStorage.setItem("data-md-font-family", this.dataset.mdFontFamily);
+    });
+});
 
 
 pangu.spacingPageBody();
