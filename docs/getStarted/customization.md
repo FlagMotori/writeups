@@ -103,17 +103,45 @@
 <button data-md-font-family="Samim" style="text-align: right;"><code>صمیم</code></button>
 <button data-md-font-family="ِDirooz" style="text-align: right;"><code>دیروز</code></button>
 <button data-md-font-family="Traffic" style="text-align: right;"><code>ترافیک</code></button>
-
 </div>
+
 <script>
   var buttons = document.querySelectorAll("button[data-md-font-family]");
   Array.prototype.forEach.call(buttons, function(button) {
     button.addEventListener("click", function() {
-      document.body.dataset.mdColorAccent = this.dataset.mdColorAccent;
-      localStorage.setItem("data-md-font-family",this.dataset.mdColorAccent);
-    })
-  })
+      // Update body font
+      document.body.style.fontFamily = this.dataset.mdFontFamily + ", sans-serif";
+      localStorage.setItem("data-md-font-family", this.dataset.mdFontFamily);
+
+      // Remove 'selected' class from all buttons
+      buttons.forEach(btn => btn.classList.remove("selected"));
+
+      // Add 'selected' class to the clicked button
+      this.classList.add("selected");
+
+      // Apply font-family to the <code> inside this button
+      this.querySelector("code").style.fontFamily = this.dataset.mdFontFamily;
+    });
+  });
+
+  // Load saved font preference on page load
+  document.addEventListener("DOMContentLoaded", function() {
+    var savedFont = localStorage.getItem("data-md-font-family");
+    if (savedFont) {
+      document.body.style.fontFamily = savedFont + ", sans-serif";
+
+      // Find and set the saved button as selected
+      buttons.forEach(button => {
+        if (button.dataset.mdFontFamily === savedFont) {
+          button.classList.add("selected"); // Mark as selected
+          button.querySelector("code").style.fontFamily = savedFont; // Apply font to code
+        }
+      });
+    }
+  });
 </script>
+
+
 
 
 <style>

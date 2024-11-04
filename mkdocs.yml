@@ -233,8 +233,11 @@ nav:
             # - رمزنگاری متقارن:
             #     - AES: crypto/wiki/aes.md
         - رایتاپ‌های ۲۰۲۴:
-
-            - "Iron CTF":           #  07 Oct. 2024
+            - "USCCTF":             # 04 Nov. 2024
+                - ./crypto/writeups/2024/USCCTF/decipherium.md
+                - ./crypto/writeups/2024/USCCTF/Its-Not-Called-Data-Loss-Prevention.md
+                
+            - "Iron CTF":           # 07 Oct. 2024
                 - ./crypto/writeups/2024/IronCTF/Rivest-Shamir-Adleman-1.md
                 - ./crypto/writeups/2024/IronCTF/Algebra_Exam.md
 
@@ -279,15 +282,15 @@ nav:
                 - Bombastic: crypto/writeups/2024/SnappCTF/Bombastic.md
             
             - "0xL4ughCTF":         # 09 Feb. 2024
-                - RSA-GCD: crypto/writeups/2024/0xL4ughCTF/RSA-GCD.md
+                - ./crypto/writeups/2024/0xL4ughCTF/RSA-GCD.md
 
         - رایتاپ‌های ۲۰۲۳:
             - "CakeCTF":            # 11 Nov. 2023
-                - simple signature:  crypto/writeups/2023/CakeCTF/simple-signature.md
+                - ./crypto/writeups/2023/CakeCTF/simple-signature.md
             - "TCP1P-CTF":          # 13 Oct. 2023
-                - Final Consensus: crypto/writeups/2023/TCP1PCTF/Final_Consensus.md
+                - ./crypto/writeups/2023/TCP1PCTF/Final_Consensus.md
             - "vsCTF":              # 23 Sept. 2023
-                - Redundancy: crypto/writeups/2023/vSCTF/Redundancy.md
+                - ./crypto/writeups/2023/vSCTF/Redundancy.md
 
 
     - جرم‌شناسی:

@@ -13,7 +13,7 @@
 این کار میتونه به سادگی با اجرای دستور زیر انجام بشود:
 
 ```bash
-> pip install PyCryptodome gmpy2 pwntools
+> pip install PyCryptodome gmpy2 pwntoolsا
 ```
 
 ### SageMath
@@ -28,6 +28,12 @@
 > docker run -p 127.0.0.1:8888:8888 -it hyperreality/cryptohack:latest
 ```
 
+### ابزارهای آنلاین 
+- [Discrete Logarithm](https://www.alpertron.com.ar/DILOG.HTM)
+- [Sage](https://sagecell.sagemath.org/)
+- [factordb](https://factordb.com/)
+- [quipqiup](https://quipqiup.com/) 
+
 ### ابزارهای متفرقه
 
 - [RSACTFTool](https://github.com/RsaCtfTool/RsaCtfTool) 
@@ -35,11 +41,7 @@
 - [XORTool](https://github.com/hellman/xortool)
 - [Yafu](https://github.com/bbuhrow/yafu)
 - [Hash_extender](https://github.com/iagox86/hash_extender)
-
-### لینک های مفید
-
-- <a target="_blank" href="https://www.sagemath.org/">https://www.sagemath.org/</a>
-- <a target="_blank" href="https://github.com/cryptohack/cryptohack-docker">https://github.com/cryptohack/cryptohack-docker</a>
+- [cryptohack-docker](https://github.com/cryptohack/cryptohack-docker)
 
 
 --- 

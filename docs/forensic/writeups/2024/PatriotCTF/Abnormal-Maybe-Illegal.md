@@ -11,9 +11,7 @@ tags:
   - IP
 ---
 
-# چالش Abnormal Maybe Illegal 
-
-## [:material-cloud-download-outline:](https://github.com/MasonCompetitiveCyber/PatriotCTF2024/raw/refs/heads/main/forensics/abnormal_exfiltration/dist/abnormal_illegal.pcapng)
+# چالش Abnormal Maybe Illegal [:material-cloud-download-outline:](https://github.com/MasonCompetitiveCyber/PatriotCTF2024/raw/refs/heads/main/forensics/abnormal_exfiltration/dist/abnormal_illegal.pcapng)
 
 
 <center>
