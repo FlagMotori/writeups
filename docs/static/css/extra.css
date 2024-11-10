@@ -1,4 +1,5 @@
 
+
 .tx-switchs button {
   width: 8.4rem;
   height: 4rem;
@@ -33,6 +34,11 @@
   color: #0b0606;
 }
 
+.tx-switchs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem; /* Controls spacing between buttons */
+}
 
 
 /* General button styles */
@@ -60,37 +66,17 @@ button.btn-slate {
   color: #fff; /* Light text */
 }
 
-/* Hover effects */
-button.btn-default:hover, button.btn-slate:hover {
-  opacity: 0.85;
-}
 
-
-/* Keep regular code elements in monospace */
-code, pre, .md-typeset__code {
-  font-family: monospace;
-}
-
-
-
-
-.md-content__inner {
-    line-height: 1.75em; 
-}
-.md-typeset table:not([class]) th {
-    min-width: 0rem;
-}
-.md-nav__link--active {
-    color: inherit;
-}
 blockquote.page-copyright {
   margin: 20px 0;
   padding-left: 1.5rem;
   border-left: 5px solid #ff1700; /* Just change the color value and that's it*/
 }
+
 .gt-container .gt-meta {
     z-index: auto !important;
 }
+
 p {
     text-align: justify;
 }
@@ -148,8 +134,9 @@ code, pre, .md-typeset__code {
 }
 
 body {
-font-family: var(--md-text-font), sans-serif;
-}
+  font-family: var(--md-text-font), sans-serif;
+  }
+
 
 
 

@@ -13,7 +13,7 @@
 این کار میتونه به سادگی با اجرای دستور زیر انجام بشود:
 
 ```bash
-> pip install PyCryptodome gmpy2 pwntoolsا
+> pip install PyCryptodome gmpy2 pwntools
 ```
 
 ### SageMath

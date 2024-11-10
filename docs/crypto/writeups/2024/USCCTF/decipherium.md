@@ -3,7 +3,7 @@ tags:
   - USCCTF
   - USCCTF-2024
   - Crypto 
-  - coding
+  - Encoding
   - periodic table
 ---
 
