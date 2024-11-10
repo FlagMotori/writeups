@@ -181,30 +181,30 @@ nav:
             - reverse/Tools/index.md
         - رایتاپ‌های ۲۰۲۴:
             - ImaginaryCTF:         # 19 July 2024
-                - reverse/writeups/2024/ImaginaryCTF/unconditional.md
-                - reverse/writeups/2024/ImaginaryCTF/BF.md
+                - ./reverse/writeups/2024/ImaginaryCTF/unconditional.md
+                - ./reverse/writeups/2024/ImaginaryCTF/BF.md
             - DownUnderCTF:         # 05 July 2024
-                - reverse/writeups/2024/DUCTF/jmp_flag.md
-                - reverse/writeups/2024/DUCTF/number_mashing.md
+                - ./reverse/writeups/2024/DUCTF/jmp_flag.md
+                - ./reverse/writeups/2024/DUCTF/number_mashing.md
             - UIUCTF:               # 29 June 2024
-                - reverse/writeups/2024/UIUCTF/summarize.md
+                - ./reverse/writeups/2024/UIUCTF/summarize.md
             - BSidesSF:             # 04 May 2024
-                - "Turing Complete": reverse/writeups/2024/BSidesSF/TuringComplete.md
-                - reverse/writeups/2024/BSidesSF/shinji.md
-                - reverse/writeups/2024/BSidesSF/whishing-well.md
-            - "Incognito 5.0":      # 16 April 2024
-                - reverse/writeups/2024/Incognito_5.0/Vault.md
-                - reverse/writeups/2024/Incognito_5.0/Vault_2.md
-                - reverse/writeups/2024/Incognito_5.0/Vault_3.md
+                - ./reverse/writeups/2024/BSidesSF/TuringComplete.md
+                - ./reverse/writeups/2024/BSidesSF/shinji.md
+                - ./reverse/writeups/2024/BSidesSF/whishing-well.md
+            - Incognito 5.0:      # 16 April 2024
+                - ./reverse/writeups/2024/Incognito_5.0/Vault.md
+                - ./reverse/writeups/2024/Incognito_5.0/Vault_2.md
+                - ./reverse/writeups/2024/Incognito_5.0/Vault_3.md
             - SnappCTF:             # 22 Feb. 2024
-                - reverse/writeups/2024/SnappCTF/blink.md
-                - reverse/writeups/2024/SnappCTF/vitis.md
-                - "TurnOB": reverse/writeups/2024/SnappCTF/TurnOB.md
+                - ./reverse/writeups/2024/SnappCTF/blink.md
+                - ./reverse/writeups/2024/SnappCTF/vitis.md
+                - ./reverse/writeups/2024/SnappCTF/TurnOB.md
             
         
         - رایتاپ‌های ۲۰۲۳:
             - BackdoorCTF:          # 16 Dec. 2023
-                - reverse/writeups/2023/BackdoorCTF/Sl4ydroid.md
+                - ./reverse/writeups/2023/BackdoorCTF/Sl4ydroid.md
 
 
 
@@ -249,37 +249,37 @@ nav:
                 - ./crypto/writeups/2024/Urmia-CTF/Karaball.md
 
             - "Idek CTF":           # 18 Aug. 2024
-                - GoldenTicket: crypto/writeups/2024/IdekCTF/GoldenTicket.md
+                - ./crypto/writeups/2024/IdekCTF/GoldenTicket.md
 
             - "LIT CTF":            # 10 Aug. 2024
-                - SymmetricRSA: crypto/writeups/2024/LITCTF/SymmetricRSA.md
+                - ./crypto/writeups/2024/LITCTF/SymmetricRSA.md
             
             - "TFC CTF":            # 02 Aug. 2024
-                - crypto/writeups/2024/TFCCTF/CCCCC.md
-                - crypto/writeups/2024/TFCCTF/GENETICS.md
-                - crypto/writeups/2024/TFCCTF/CONWAY.md
+                - ./crypto/writeups/2024/TFCCTF/CCCCC.md
+                - ./crypto/writeups/2024/TFCCTF/GENETICS.md
+                - ./crypto/writeups/2024/TFCCTF/CONWAY.md
             
             - "BYUCTF":             # 17 May 2024
-                - AreSA: crypto/writeups/2024/BYUCTF/AreSA.md
-                - Times: crypto/writeups/2024/BYUCTF/Times.md
-                - Austen-Supremacy: crypto/writeups/2024/BYUCTF/Austen-Supremacy.md
+                - ./crypto/writeups/2024/BYUCTF/AreSA.md
+                - ./crypto/writeups/2024/BYUCTF/Times.md
+                - ./crypto/writeups/2024/BYUCTF/Austen-Supremacy.md
             
             - "SDCTF":              # 11 May 2024
-                - ComplexProblem: crypto/writeups/2024/SDCTF/ComplexProblem.md
+                - ./crypto/writeups/2024/SDCTF/ComplexProblem.md
             
-            - BSidesSF:             # 04 May 2024
-                - "truthescrow-1": crypto/writeups/2024/BSidesSF/truthescrow1.md
-                - "truthescrow-2": crypto/writeups/2024/BSidesSF/truthescrow2.md
+            - "BSidesSF":             # 04 May 2024
+                - ./crypto/writeups/2024/BSidesSF/truthescrow1.md
+                - ./crypto/writeups/2024/BSidesSF/truthescrow2.md
             
             - "Cybercoliseum Ⅲ":    # 28 April 2024
-                - Hills: crypto/writeups/2024/Cybercoliseum Ⅲ/Hills.md
-                - Watchmaker: crypto/writeups/2024/Cybercoliseum Ⅲ/Watchmaker.md
+                - ./crypto/writeups/2024/Cybercoliseum Ⅲ/Hills.md
+                - ./crypto/writeups/2024/Cybercoliseum Ⅲ/Watchmaker.md
             
             - "SnappCTF":           # 22 Feb. 2024
-                - Blex: crypto/writeups/2024/SnappCTF/Blex.md
-                - Cryptos: crypto/writeups/2024/SnappCTF/Cryptos.md
-                - Mascot: crypto/writeups/2024/SnappCTF/mascot.md
-                - Bombastic: crypto/writeups/2024/SnappCTF/Bombastic.md
+                - ./crypto/writeups/2024/SnappCTF/Blex.md
+                - ./crypto/writeups/2024/SnappCTF/Cryptos.md
+                - ./crypto/writeups/2024/SnappCTF/mascot.md
+                - ./crypto/writeups/2024/SnappCTF/Bombastic.md
             
             - "0xL4ughCTF":         # 09 Feb. 2024
                 - ./crypto/writeups/2024/0xL4ughCTF/RSA-GCD.md

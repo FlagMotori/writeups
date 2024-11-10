@@ -8,6 +8,8 @@ tags:
   - Hooking
 ---
 
+# چالش Sl4ydroid
+
 با هوک کردن تابعی که تو آدرس `0x23820` وجود داره، میتونیم به تیکه های فلگ دست پیدا کنیم
 ```js linenums="1"
 var awaitForCondition = function (callback) {
