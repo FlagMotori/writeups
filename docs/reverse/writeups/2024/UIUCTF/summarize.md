@@ -5,7 +5,7 @@ tags:
   - Reverse
 ---
 
-# Summarize
+#  چالش Summarize 
 ---
 
 <center>

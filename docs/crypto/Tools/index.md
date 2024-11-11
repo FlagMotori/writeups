@@ -28,10 +28,20 @@
 > docker run -p 127.0.0.1:8888:8888 -it hyperreality/cryptohack:latest
 ```
 
-### لینک های مفید
+### ابزارهای آنلاین 
+- [Discrete Logarithm](https://www.alpertron.com.ar/DILOG.HTM)
+- [Sage](https://sagecell.sagemath.org/)
+- [factordb](https://factordb.com/)
+- [quipqiup](https://quipqiup.com/) 
 
-- <a target="_blank" href="https://www.sagemath.org/">https://www.sagemath.org/</a>
-- <a target="_blank" href="https://github.com/cryptohack/cryptohack-docker">https://github.com/cryptohack/cryptohack-docker</a>
+### ابزارهای متفرقه
+
+- [RSACTFTool](https://github.com/RsaCtfTool/RsaCtfTool) 
+- [RSATool](https://github.com/ius/rsatool)
+- [XORTool](https://github.com/hellman/xortool)
+- [Yafu](https://github.com/bbuhrow/yafu)
+- [Hash_extender](https://github.com/iagox86/hash_extender)
+- [cryptohack-docker](https://github.com/cryptohack/cryptohack-docker)
 
 
 --- 

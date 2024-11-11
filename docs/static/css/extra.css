@@ -1,30 +1,144 @@
-.md-content__inner {
-    line-height: 1.75em; 
+
+
+.tx-switchs button {
+  width: 8.4rem;
+  height: 4rem;
+  margin-bottom: 0.4rem;
+  padding: 2.4rem 0.4rem 0.4rem;
+  transition: background-color 0.25s, opacity 0.25s;
+  border-radius: 0.2rem;
+  color: #0b0606;
+  font-size: 0.7rem;
+  /* text-align: center; */
+  cursor: pointer;
+  background-color: rgb(210, 214, 221);
+  /*padding: 10px;*/
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adjust values as needed */
 }
-.md-typeset table:not([class]) th {
-    min-width: 0rem;
+
+/* Allow button <code> to inherit the font specified by data-md-font-family */
+.tx-switchs button code {
+  font-family: inherit;  /* Inherit font from the button */
+  font-size: 0.6rem;  /* Adjust size if needed for readability */
+  background-color:  rgb(210, 214, 221);
+  height: 2rem;
+  color: #0b0606;
+  font-size: 0.7rem;  /* Adjust size if needed for readability */
 }
-.md-nav__link--active {
-    color: inherit;
+
+/* Style for the selected button */
+.tx-switchs button.selected {
+  background-color: rgb(170, 180, 190); /* Highlighted color for selected button */
+  color: #0b0606;
 }
+
+.tx-switchs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem; /* Controls spacing between buttons */
+}
+
+
+/* General button styles */
+.tx-switch button {
+  width: 8.4rem;
+  margin-bottom: .4rem;
+  padding: 2.4rem .4rem .4rem;
+  transition: background-color .25s, opacity .25s;
+  border-radius: .2rem;
+  font-size: .8rem;
+  cursor: pointer;
+  text-align: left;
+}
+
+/* Specific styles for the Default button */
+button.btn-default {
+  background-color: #fff; /* Light background for Default */
+  color: #333; /* Dark text */
+  border: 1px solid #ccc; /* Optional border for visibility */
+}
+
+/* Specific styles for the Slate button */
+button.btn-slate {
+  background-color: #333; /* Dark background for Slate */
+  color: #fff; /* Light text */
+}
+
+
 blockquote.page-copyright {
-    margin: 20px 0;
-    padding-left: 1.5rem;
-    border-left: 5px solid #ff1700; /* Just change the color value and that's it*/
+  margin: 20px 0;
+  padding-left: 1.5rem;
+  border-left: 5px solid #ff1700; /* Just change the color value and that's it*/
 }
+
 .gt-container .gt-meta {
     z-index: auto !important;
 }
+
 p {
     text-align: justify;
 }
 
+
+
 @font-face {
-    font-family: "myFont";
-    src: url("./Gandom.ttf");
+    font-family: "Gandom";
+    src: url("./Fonts/Gandom.ttf");
 }
+
   
-:root {
-    --md-text-font: "myFont";
-    word-spacing: -0.05em;
+@font-face {
+  font-family: 'Irsans';
+  src: url('./Fonts/Irsans.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'Yekan';
+  src: url('./Fonts/Yekan.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Diplomat';
+  src: url('./Fonts/Diplomat.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nazanin';
+  src: url('./Fonts/Bahij-Nazanin.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Samim';
+  src: url('./Fonts/Samim.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Dirooz';
+  src: url('./Fonts/DiroozFD.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Traffic';
+  src: url('./Fonts/B-Traffic.ttf') format('truetype');
+}
+
+/* Ensure code blocks and other special elements keep their original font */
+code, pre, .md-typeset__code {
+    font-family: monospace;  /* Keep code blocks in monospace */
+}
+
+:root {
+--md-text-font: 'Gandom';
+}
+
+body {
+  font-family: var(--md-text-font), sans-serif;
+  }
+
+
+
+
+
+
