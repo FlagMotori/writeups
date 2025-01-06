@@ -45,6 +45,7 @@ theme:
     code: 'Source Code Pro'
 
 
+
 # Plugins
 plugins:
   - glightbox
