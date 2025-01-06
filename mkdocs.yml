@@ -1,6 +1,6 @@
 # Project Information
-site_name:  رایتاپ‌های تیم فلگ موتوری
-site_description: رایتاپ‌های تیم فلگ موتوری
+site_name:  نگاشته‌هایی پیرامون CTF
+site_description: نوشته‌هایی از تیم فلگ موتوری
 site_author: FlagMotori Team
 site_url: https://FlagMotori.github.io/writeups/
 
@@ -16,7 +16,7 @@ copyright: 'Copyright &copy; 2022 - 2024 FlagMotori Team'
 # Theme
 theme:
   name: 'material'
-  # logo: 'logo.png'
+  #logo: 'logo.png'
   favicon: 'favicon.png'
   language: 'fa'
   custom_dir: 'overrides'
@@ -25,7 +25,7 @@ theme:
     primary: 'pink'
     accent: 'purple'
   icon:
-    logo: 'material/school'
+    logo: 'custom_icon/logo' #'material/school' #test/logo #'material/school' #test/logo #
     repo: fontawesome/brands/github-alt
   features:
     - navigation.tabs
@@ -118,6 +118,9 @@ markdown_extensions:
       # emoji_generator: !!python/name:pymdownx.emoji.to_svg
       # emoji_generator: !!python/name:materialx.emoji.to_svg
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.snippets
@@ -334,11 +337,15 @@ nav:
             - osint/Tools/OSINT-essentials.md    # 28 Aug 2024
         - رایتاپ‌های ۲۰۲۴:
             - "WolvCTF":            # 16 March 2024
-                - WOLPHV-I: osint/writeups/2024/wctf/WOLPHV-I/WOLPHV-I-Reconnaissance.md
-                - WOLPHV-III: osint/writeups/2024/wctf/WOLPHV-III/WOLPHV-III-p1nesh4dow48.md
-                - WOLPHV-IV: osint/writeups/2024/wctf/WOLPHV-IV/WOLPHV-IV-d4wgbyte262.md
+                - ./osint/writeups/2024/wctf/WOLPHV-I/WOLPHV-I-Reconnaissance.md
+                - ./osint/writeups/2024/wctf/WOLPHV-III/WOLPHV-III-p1nesh4dow48.md
+                - ./osint/writeups/2024/wctf/WOLPHV-IV/WOLPHV-IV-d4wgbyte262.md
             - "0xL4ughCTF":         # 09 Feb. 2024
-                - cheater: osint/writeups/2024/0xL4ughCTF/cheater.md
+                - ./osint/writeups/2024/0xL4ughCTF/cheater.md
+            - "PlatypwnCTF":        # 16 Dec. 2024
+                - ./osint/writeups/2024/PlatypwnCTF/rise.md
+            - "niteCTF":        # 16 Dec. 2024
+                - ./osint/writeups/2024/niteCTF/Backtrack.md
 
     #- پنهان نگاری:
     #    - steganography/index.md

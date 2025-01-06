@@ -13,7 +13,7 @@ tags:
 
 
 <center>
-![osint.jpg](osint.jpg)
+![osint.jpg](osint.jpg) 
 </center>
 
 ### OSINT در مسابقات CTF:

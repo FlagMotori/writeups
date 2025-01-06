@@ -265,6 +265,7 @@ tags:
 === "نمایش در سایت" 
     <center>
     ![FlagMotori](logo_template.png)
+    <figcaption>اولین لوگو تیم</figcaption>
     </center>
 
 === "فرمت Markdown"
