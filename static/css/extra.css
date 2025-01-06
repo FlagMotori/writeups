@@ -81,6 +81,12 @@ p {
     text-align: justify;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: white;
+  }
+}
+
 
 
 @font-face {
@@ -131,6 +137,7 @@ code, pre, .md-typeset__code {
 
 :root {
 --md-text-font: 'Gandom';
+  color: black;
 }
 
 body {
