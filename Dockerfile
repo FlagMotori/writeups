@@ -1,9 +1,12 @@
-FROM python:3.8-alpine as build-stage
+FROM python:3.11-alpine AS build-stage
 LABEL maintainer="mahdih3idari@gmail.com"
 
-ADD . /opt/writeups/
+RUN apk add --no-cache git
 WORKDIR /opt/writeups
-RUN pip install -r requirements.txt && mkdocs build
+COPY requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt
+COPY . .
+RUN mkdocs build
 
 
 FROM nginx:mainline-alpine
