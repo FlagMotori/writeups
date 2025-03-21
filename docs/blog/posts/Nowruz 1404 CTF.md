@@ -10,7 +10,7 @@ tags:
   - Nowruz1404
 ---
 
-#  اولین دوره برگزاری مسابقه CTF با نام Nowruz1404
+#  اولین مسابقه CTF فلگ موتوری با نام Nowruz1404 
 
 <center> 
 ![poster](figure Nowruz1404 CTF/Nowruz1404.jpg)
