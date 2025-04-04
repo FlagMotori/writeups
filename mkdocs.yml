@@ -1,6 +1,6 @@
 # Project Information
-site_name:  رایتاپ‌های تیم فلگ موتوری
-site_description: رایتاپ‌های تیم فلگ موتوری
+site_name:  نگاشته‌هایی پیرامون CTF
+site_description: نوشته‌هایی از تیم فلگ موتوری
 site_author: FlagMotori Team
 site_url: https://FlagMotori.github.io/writeups/
 
@@ -16,7 +16,7 @@ copyright: 'Copyright &copy; 2022 - 2024 FlagMotori Team'
 # Theme
 theme:
   name: 'material'
-  # logo: 'logo.png'
+  #logo: 'logo.png'
   favicon: 'favicon.png'
   language: 'fa'
   custom_dir: 'overrides'
@@ -25,7 +25,7 @@ theme:
     primary: 'pink'
     accent: 'purple'
   icon:
-    logo: 'material/school'
+    logo: 'custom_icon/logo' #'material/school' #test/logo #'material/school' #test/logo #
     repo: fontawesome/brands/github-alt
   features:
     - navigation.tabs
@@ -45,14 +45,17 @@ theme:
     code: 'Source Code Pro'
 
 
+
 # Plugins
 plugins:
+  - glightbox
   - search
   - tags:
       tags_file: tags.md
   - minify:
       minify_html: true
   - git-revision-date-localized:
+      enabled: !ENV [CI, false]
       type: timeago
       timezone: Asia/Tehran
       locale: fa
@@ -115,6 +118,9 @@ markdown_extensions:
       # emoji_generator: !!python/name:pymdownx.emoji.to_svg
       # emoji_generator: !!python/name:materialx.emoji.to_svg
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.snippets
@@ -178,30 +184,30 @@ nav:
             - reverse/Tools/index.md
         - رایتاپ‌های ۲۰۲۴:
             - ImaginaryCTF:         # 19 July 2024
-                - reverse/writeups/2024/ImaginaryCTF/unconditional.md
-                - reverse/writeups/2024/ImaginaryCTF/BF.md
+                - ./reverse/writeups/2024/ImaginaryCTF/unconditional.md
+                - ./reverse/writeups/2024/ImaginaryCTF/BF.md
             - DownUnderCTF:         # 05 July 2024
-                - reverse/writeups/2024/DUCTF/jmp_flag.md
-                - reverse/writeups/2024/DUCTF/number_mashing.md
+                - ./reverse/writeups/2024/DUCTF/jmp_flag.md
+                - ./reverse/writeups/2024/DUCTF/number_mashing.md
             - UIUCTF:               # 29 June 2024
-                - reverse/writeups/2024/UIUCTF/summarize.md
+                - ./reverse/writeups/2024/UIUCTF/summarize.md
             - BSidesSF:             # 04 May 2024
-                - "Turing Complete": reverse/writeups/2024/BSidesSF/TuringComplete.md
-                - reverse/writeups/2024/BSidesSF/shinji.md
-                - reverse/writeups/2024/BSidesSF/whishing-well.md
-            - "Incognito 5.0":      # 16 April 2024
-                - reverse/writeups/2024/Incognito_5.0/Vault.md
-                - reverse/writeups/2024/Incognito_5.0/Vault_2.md
-                - reverse/writeups/2024/Incognito_5.0/Vault_3.md
+                - ./reverse/writeups/2024/BSidesSF/TuringComplete.md
+                - ./reverse/writeups/2024/BSidesSF/shinji.md
+                - ./reverse/writeups/2024/BSidesSF/whishing-well.md
+            - Incognito 5.0:      # 16 April 2024
+                - ./reverse/writeups/2024/Incognito_5.0/Vault.md
+                - ./reverse/writeups/2024/Incognito_5.0/Vault_2.md
+                - ./reverse/writeups/2024/Incognito_5.0/Vault_3.md
             - SnappCTF:             # 22 Feb. 2024
-                - reverse/writeups/2024/SnappCTF/blink.md
-                - reverse/writeups/2024/SnappCTF/vitis.md
-                - "TurnOB": reverse/writeups/2024/SnappCTF/TurnOB.md
+                - ./reverse/writeups/2024/SnappCTF/blink.md
+                - ./reverse/writeups/2024/SnappCTF/vitis.md
+                - ./reverse/writeups/2024/SnappCTF/TurnOB.md
             
         
         - رایتاپ‌های ۲۰۲۳:
             - BackdoorCTF:          # 16 Dec. 2023
-                - reverse/writeups/2023/BackdoorCTF/Sl4ydroid.md
+                - ./reverse/writeups/2023/BackdoorCTF/Sl4ydroid.md
 
 
 
@@ -209,11 +215,13 @@ nav:
         - crypto/index.md
         - منابع یادگیری:
             - crypto/source/index.md
+        - "درخت مهارت":
+            - crypto/mindmap/index.md
         - معرفی ابزار:
             - crypto/Tools/index.md
         - جزوه:
-            - ریاضیات:
-                - حساب پیمانه ای:
+            - ریاضیات رمزنگاری:
+                - حساب پیمانه‌ای:
                     - Euclidean Algorithm: crypto/wiki/euclidean-algorithm/euclidean-algorithm.md
                     - Fermat's little theorem: crypto/wiki/fermat-little-theorem/fermat-little-theorem.md
                     - Quadratic residues: crypto/wiki/quadratic-residues/quadratic-residues.md
@@ -228,55 +236,64 @@ nav:
             # - رمزنگاری متقارن:
             #     - AES: crypto/wiki/aes.md
         - رایتاپ‌های ۲۰۲۴:
-            - "Urmia CTF":          # 07 Sept. 2024
+            - "USCCTF":             # 04 Nov. 2024
+                - ./crypto/writeups/2024/USCCTF/decipherium.md
+                - ./crypto/writeups/2024/USCCTF/Its-Not-Called-Data-Loss-Prevention.md
+                
+            - "Iron CTF":           # 07 Oct. 2024
+                - ./crypto/writeups/2024/IronCTF/Rivest-Shamir-Adleman-1.md
+                - ./crypto/writeups/2024/IronCTF/Algebra_Exam.md
+
+            - "Urmia CTF":          # 07 Sep. 2024
                 - ./crypto/writeups/2024/Urmia-CTF/Modal_1.md
                 - ./crypto/writeups/2024/Urmia-CTF/Modal_2.md
                 - ./crypto/writeups/2024/Urmia-CTF/Sergio.md
                 - ./crypto/writeups/2024/Urmia-CTF/Rasa.md
+                - ./crypto/writeups/2024/Urmia-CTF/Karaball.md
 
             - "Idek CTF":           # 18 Aug. 2024
-                - GoldenTicket: crypto/writeups/2024/IdekCTF/GoldenTicket.md
+                - ./crypto/writeups/2024/IdekCTF/GoldenTicket.md
 
             - "LIT CTF":            # 10 Aug. 2024
-                - SymmetricRSA: crypto/writeups/2024/LITCTF/SymmetricRSA.md
+                - ./crypto/writeups/2024/LITCTF/SymmetricRSA.md
             
             - "TFC CTF":            # 02 Aug. 2024
-                - crypto/writeups/2024/TFCCTF/CCCCC.md
-                - crypto/writeups/2024/TFCCTF/GENETICS.md
-                - crypto/writeups/2024/TFCCTF/CONWAY.md
+                - ./crypto/writeups/2024/TFCCTF/CCCCC.md
+                - ./crypto/writeups/2024/TFCCTF/GENETICS.md
+                - ./crypto/writeups/2024/TFCCTF/CONWAY.md
             
             - "BYUCTF":             # 17 May 2024
-                - AreSA: crypto/writeups/2024/BYUCTF/AreSA.md
-                - Times: crypto/writeups/2024/BYUCTF/Times.md
-                - Austen-Supremacy: crypto/writeups/2024/BYUCTF/Austen-Supremacy.md
+                - ./crypto/writeups/2024/BYUCTF/AreSA.md
+                - ./crypto/writeups/2024/BYUCTF/Times.md
+                - ./crypto/writeups/2024/BYUCTF/Austen-Supremacy.md
             
             - "SDCTF":              # 11 May 2024
-                - ComplexProblem: crypto/writeups/2024/SDCTF/ComplexProblem.md
+                - ./crypto/writeups/2024/SDCTF/ComplexProblem.md
             
-            - BSidesSF:             # 04 May 2024
-                - "truthescrow-1": crypto/writeups/2024/BSidesSF/truthescrow1.md
-                - "truthescrow-2": crypto/writeups/2024/BSidesSF/truthescrow2.md
+            - "BSidesSF":             # 04 May 2024
+                - ./crypto/writeups/2024/BSidesSF/truthescrow1.md
+                - ./crypto/writeups/2024/BSidesSF/truthescrow2.md
             
             - "Cybercoliseum Ⅲ":    # 28 April 2024
-                - Hills: crypto/writeups/2024/Cybercoliseum Ⅲ/Hills.md
-                - Watchmaker: crypto/writeups/2024/Cybercoliseum Ⅲ/Watchmaker.md
+                - ./crypto/writeups/2024/Cybercoliseum Ⅲ/Hills.md
+                - ./crypto/writeups/2024/Cybercoliseum Ⅲ/Watchmaker.md
             
             - "SnappCTF":           # 22 Feb. 2024
-                - Blex: crypto/writeups/2024/SnappCTF/Blex.md
-                - Cryptos: crypto/writeups/2024/SnappCTF/Cryptos.md
-                - Mascot: crypto/writeups/2024/SnappCTF/mascot.md
-                - Bombastic: crypto/writeups/2024/SnappCTF/Bombastic.md
+                - ./crypto/writeups/2024/SnappCTF/Blex.md
+                - ./crypto/writeups/2024/SnappCTF/Cryptos.md
+                - ./crypto/writeups/2024/SnappCTF/mascot.md
+                - ./crypto/writeups/2024/SnappCTF/Bombastic.md
             
             - "0xL4ughCTF":         # 09 Feb. 2024
-                - RSA-GCD: crypto/writeups/2024/0xL4ughCTF/RSA-GCD.md
+                - ./crypto/writeups/2024/0xL4ughCTF/RSA-GCD.md
 
         - رایتاپ‌های ۲۰۲۳:
             - "CakeCTF":            # 11 Nov. 2023
-                - simple signature:  crypto/writeups/2023/CakeCTF/simple-signature.md
+                - ./crypto/writeups/2023/CakeCTF/simple-signature.md
             - "TCP1P-CTF":          # 13 Oct. 2023
-                - Final Consensus: crypto/writeups/2023/TCP1PCTF/Final_Consensus.md
+                - ./crypto/writeups/2023/TCP1PCTF/Final_Consensus.md
             - "vsCTF":              # 23 Sept. 2023
-                - Redundancy: crypto/writeups/2023/vSCTF/Redundancy.md
+                - ./crypto/writeups/2023/vSCTF/Redundancy.md
 
 
     - جرم‌شناسی:
@@ -320,11 +337,15 @@ nav:
             - osint/Tools/OSINT-essentials.md    # 28 Aug 2024
         - رایتاپ‌های ۲۰۲۴:
             - "WolvCTF":            # 16 March 2024
-                - WOLPHV-I: osint/writeups/2024/wctf/WOLPHV-I/WOLPHV-I-Reconnaissance.md
-                - WOLPHV-III: osint/writeups/2024/wctf/WOLPHV-III/WOLPHV-III-p1nesh4dow48.md
-                - WOLPHV-IV: osint/writeups/2024/wctf/WOLPHV-IV/WOLPHV-IV-d4wgbyte262.md
+                - ./osint/writeups/2024/wctf/WOLPHV-I/WOLPHV-I-Reconnaissance.md
+                - ./osint/writeups/2024/wctf/WOLPHV-III/WOLPHV-III-p1nesh4dow48.md
+                - ./osint/writeups/2024/wctf/WOLPHV-IV/WOLPHV-IV-d4wgbyte262.md
             - "0xL4ughCTF":         # 09 Feb. 2024
-                - cheater: osint/writeups/2024/0xL4ughCTF/cheater.md
+                - ./osint/writeups/2024/0xL4ughCTF/cheater.md
+            - "PlatypwnCTF":        # 16 Dec. 2024
+                - ./osint/writeups/2024/PlatypwnCTF/rise.md
+            - "niteCTF":        # 16 Dec. 2024
+                - ./osint/writeups/2024/niteCTF/Backtrack.md
 
     #- پنهان نگاری:
     #    - steganography/index.md
