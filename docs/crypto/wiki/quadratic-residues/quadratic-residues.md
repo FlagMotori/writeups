@@ -53,4 +53,4 @@ $$6^{2} \equiv 36 \equiv 1 \pmod{7}$$
 --- 
 
 !!! نویسنده
-    [MohamadAli](https://github.com/wh1te-r0s3)
+    [MohamadAli](https://github.com/w0h4w4d4li)
