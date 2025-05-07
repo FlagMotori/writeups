@@ -6,7 +6,7 @@ tags:
   - RSA
   - Extended gcd
   - Partial known m
-  - Coppersmith
+  - Coppersmith 
   - Sage
 ---
 
