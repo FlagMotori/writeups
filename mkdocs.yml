@@ -327,6 +327,9 @@ nav:
 
     - PWN:
         - pwn/index.md
+        - جزوه:
+            - "اطلاعات عمومی":
+                - pwn/wiki/byteorder.md
         - رایتاپ‌های ۲۰۲۴:
             - SnappCTF:             # 22 Feb. 2024
                 - pwn/writeups/2024/SnappCTF/Snappshell.md
