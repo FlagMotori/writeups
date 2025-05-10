@@ -235,6 +235,12 @@ nav:
                 - DH Key-Exchange: crypto/wiki/dhke/diffie-hellman-key-exchange.md
             # - رمزنگاری متقارن:
             #     - AES: crypto/wiki/aes.md
+        - رایتاپ‌های ۲۰۲۵:
+            - "UMDCTF":             # 27 Mar. 2025
+                - ./crypto/writeups/2025/UMDCTF/brainrot13.md
+            - "TsukuCTF":             # 05 May. 2025
+                - ./crypto/writeups/2025/TsukuCTF/PQC0.md
+                - ./crypto/writeups/2025/TsukuCTF/PQC1.md
         - رایتاپ‌های ۲۰۲۴:
             - "USCCTF":             # 04 Nov. 2024
                 - ./crypto/writeups/2024/USCCTF/decipherium.md

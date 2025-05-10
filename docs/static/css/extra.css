@@ -121,14 +121,15 @@ p {
 }
 
 @font-face {
-  font-family: 'Dirooz';
-  src: url('./Fonts/DiroozFD.ttf') format('truetype');
-}
-
-@font-face {
   font-family: 'Traffic';
   src: url('./Fonts/B-Traffic.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'Vazir';
+  src: url('./Fonts/Vazir-Thin-FD-WOL.ttf') format('truetype');
+}
+
 
 /* Ensure code blocks and other special elements keep their original font */
 code, pre, .md-typeset__code {
@@ -143,9 +144,4 @@ code, pre, .md-typeset__code {
 body {
   font-family: var(--md-text-font), sans-serif;
   }
-
-
-
-
-
 

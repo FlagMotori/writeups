@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {{ super() }}
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const h1 = document.querySelector("main h1");
+      if (h1) {
+        const printIcon = document.createElement("span");
+        printIcon.textContent = "🖨️";
+        printIcon.title = "چاپ صفحه";
+        printIcon.style.cursor = "pointer";
+        printIcon.style.fontSize = "0.5em";
+        printIcon.style.float = "left"; // Pushes to left side
+        printIcon.style.marginLeft = "0.5rem";
+        printIcon.onclick = () => window.print();
+        h1.appendChild(printIcon);
+      }
+    });
+  </script>
+{% endblock %}

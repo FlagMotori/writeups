@@ -32,7 +32,7 @@
 - [Discrete Logarithm](https://www.alpertron.com.ar/DILOG.HTM)
 - [Sage](https://sagecell.sagemath.org/)
 - [factordb](https://factordb.com/)
-- [quipqiup](https://quipqiup.com/)
+- [quipqiup](https://quipqiup.com/) 
 - [Vigenère Autokey solver](https://www.guballa.de/)
 
 ### ابزارهای متفرقه
