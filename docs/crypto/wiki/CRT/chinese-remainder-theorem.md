@@ -50,4 +50,4 @@ x = CRT(b_list, n_list)
 --- 
 
 !!! نویسنده
-    [MohamadAli](https://github.com/wh1te-r0s3)
+    [MohamadAli](https://github.com/w0h4w4d4li)
