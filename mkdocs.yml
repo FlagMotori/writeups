@@ -298,6 +298,9 @@ nav:
 
     - جرم‌شناسی:
         - forensic/index.md
+        - رایتاپ‌های ۲۰۲۵:
+            - WHY2025-CTF:
+                - forensic/writeups/2025/WHY2025-CTF/enlightenment.md
         - رایتاپ‌های ۲۰۲۴:
             - PatriotCTF:
                 - forensic/writeups/2024/PatriotCTF/Abnormal-Maybe-Illegal.md
