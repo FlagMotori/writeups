@@ -304,6 +304,8 @@ nav:
 
     - جرم‌شناسی:
         - forensic/index.md
+        - "آموزش ابزار":
+            - forensic/wiki/wireshark.md
         - رایتاپ‌های ۲۰۲۵:
             - WHY2025-CTF:
                 - forensic/writeups/2025/WHY2025-CTF/enlightenment.md
@@ -333,6 +335,9 @@ nav:
         - جزوه:
             - "اطلاعات عمومی":
                 - pwn/wiki/byteorder.md
+                - pwn/wiki/signed_integers.md
+            - "تکنیک های سو استفاده":
+                - pwn/wiki/integer_overflow.md
         - رایتاپ‌های ۲۰۲۴:
             - SnappCTF:             # 22 Feb. 2024
                 - pwn/writeups/2024/SnappCTF/Snappshell.md
