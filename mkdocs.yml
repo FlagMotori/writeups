@@ -367,6 +367,11 @@ nav:
     #- پنهان نگاری:
     #    - steganography/index.md
 
+    - Boot2Root:
+        - Boot2Root/index.md
+        - رایتاپ‌های ۲۰۲۵:
+            - BrunnerCTF2025:            # 24 Aug. 2025
+                - Boot2Root/writeups/2025/BrunnerCTF2025/Dotwhat...md
 
     - متفرقه:
         - misc/index.md
@@ -396,9 +401,7 @@ nav:
                 - misc/writeups/2023/PingCTF/ping-arcade.md
                 - misc/writeups/2023/PingCTF/wow.md
                 - misc/writeups/2023/PingCTF/you-spin-me-round.md
-
-
-
+    
     - وبلاگ:
         - blog/index.md
 
