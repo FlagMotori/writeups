@@ -146,4 +146,4 @@ _,x,y = xgcd(252, 105)
 --- 
 
 !!! نویسنده
-    [MohamadAli](https://github.com/wh1te-r0s3)
+    [MohamadAli](https://github.com/w0h4w4d4li)
