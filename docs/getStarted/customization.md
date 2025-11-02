@@ -1,6 +1,6 @@
 # شخصی‌سازی
 
-در این قسمت می‌توانید با استفاده از گزینه‌های تعبیه شده، برخی از قسمت‌های سایت را برای خود شخصی‌سازی کنید.
+در این قسمت می‌توانید برخی از قسمت‌های سایت را برای خود شخصی‌سازی کنید.
  
 ##  انواع زمینه‌های رنگی 
 
@@ -103,8 +103,9 @@
   <button data-md-font-family="Irsans" style="text-align: right;"><code>ایران‌سنس</code></button>
   <button data-md-font-family="Yekan" style="text-align: right;"><code>یکان</code></button>
   <button data-md-font-family="Samim" style="text-align: right;"><code>صمیم</code></button>
-  <button data-md-font-family="Dirooz" style="text-align: right;"><code>دیروز</code></button>
   <button data-md-font-family="Traffic" style="text-align: right;"><code>ترافیک</code></button>
+  <button data-md-font-family="vazir" style="text-align: right;"><code>وزیر</code></button>
+
 </div>
 
 <script>
