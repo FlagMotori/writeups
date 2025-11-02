@@ -338,10 +338,14 @@ nav:
                 - pwn/wiki/signed_integers.md
             - "تکنیک های سو استفاده":
                 - pwn/wiki/integer_overflow.md
+                - pwn/wiki/SROP.md
         - رایتاپ‌های ۲۰۲۴:
             - SnappCTF:             # 22 Feb. 2024
                 - pwn/writeups/2024/SnappCTF/Snappshell.md
                 - pwn/writeups/2024/SnappCTF/Snapp_admin.md
+        - رایتاپ‌های ۲۰۲۵:
+            - HackTheBox:
+                - pwn/writeups/2025/HackTheBox/Laconic/Laconic.md
 
 
     #- بلاکچین:
