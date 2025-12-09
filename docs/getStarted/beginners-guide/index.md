@@ -22,7 +22,7 @@ tags:
 ###  ۲- استفاده از منابع آموزشی :globe_with_meridians: :books:
 بعد از پیدا کردن حوزه مورد علاقه باید شروع به  مطالعه منابع آموزشی مختلف (وبسایت، کتاب، بلاگ) کنید تا دانش پایه آن حوزه کسب کنید. دو  نمونه از سایت‌های خوب در این زمینه بخش یادگیری سایت [picoctf](https://primer.picoctf.org/) و [CTF101](https://ctf101.org/) است که می‌توانید استفاده کنید. سایت‌های آموزشی دیگری هم به شکل تخصصی روی یک حوزه خاص آموزش یا چالش‌هایی را ارائه می‌دهند که می‌توانید به آن‌ها مراجعه کنید. 
 
-<center>
+
 
 | PWN  | رمزنگاری| مهندسی معکوس |
 |:-------:|:-----------:|:-------:|
@@ -30,7 +30,6 @@ tags:
 |osint|جرم‌شناسی|وب|
 | [![alt-text-4](hacktoria.png "hacktoria")](https://hacktoria.com/) | [![alt-text-4](forensic_repo.png "Repo")](https://github.com/frankwxu/digital-forensics-lab?tab=readme-ov-file)  | [![alt-text-4](portswigger.png "portswigger")](https://portswigger.net/) |
 
-</center>
 
 
 
@@ -50,23 +49,23 @@ tags:
 
 **- توصیه:** در این بین  picoctf  شاید گزینه مناسب‌تری برای شروع باشد.
 
-<center>
+
 [![alt-text-2](rootme logo.png "RootMe")](https://www.root-me.org/?lang=en)
 [![alt-text-2](picoctf-logo.png "picoctf")](https://picoctf.org/)
 [![alt-text-2](THMlogo.png "TryHackMe")](https://tryhackme.com/)
-</center>
 
-<center>
+
+
 [![alt-text-1](ctflearn logo.png "CTFlearn")](https://ctflearn.com/)
 [![alt-text-1](ringzer0ctf.png "Ringzer0ctf")](https://ringzer0ctf.com/)
 [![alt-text-1](HTB-Logo.png "HackTheBox")](https://www.hackthebox.com/)
-</center>
 
-<center>
+
+
 [![alt-text-3](247ctf-logo.png "247CTF")](https://247ctf.com/) 
 [![alt-text-4](w3challs.jpg "W3Challs")](https://w3challs.com/) 
-<figcaption> برخی از سایت‌های wargame معروف</figcaption>
-</center>
+
+
 
 ### ۵- شرکت در مسابقات CTF :trophy: :video_game:
 راه دیگر  برای شروع و تقویت مهارت مسابقه دادن است. بعد از اینکه اندکی با حوزه چالش‌ها و نحوه حل آن‌ها آشنا شدید وقت خوبی است که در یک مسابقه شرکت کنید. برای این کار می‌توانید به سایت [ctftime](https://ctftime.org) سر بزنید. بهتر است که ابتدا در مسابقاتی با وزن کم (۰ تا ۲۵) شرکت کنید چون این مسابقات برای افرادی است که تازه وارد این عرصه شده‌اند. 

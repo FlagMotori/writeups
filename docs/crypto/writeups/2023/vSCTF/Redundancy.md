@@ -12,9 +12,9 @@ tags:
 
 # چالش Redundancy
 
-<center>
+<figure markdown="span">
  ![challenge description](img.png)
-</center>
+</figure>
 
 ## صورت مسئله 
 

@@ -9,9 +9,9 @@ tags:
 # چالش BF [:material-cloud-download-outline:](https://github.com/ImaginaryCTF/ImaginaryCTF-2024-Challenges-Public/blob/main/Reversing/bf/challenge/bf.txt)
 
 
-<center>
+<figure markdown="span">
  ![BF](BF.PNG)
-</center>
+</figure>
 
 
 ## آشنایی با مساله
@@ -32,7 +32,7 @@ tags:
     یک زبان برنامه‌نویسی رمزی است که دستورهای بسیار کمی دارد و با هدف طراحی یک زبان برنامه‌نویسی با کوچک‌ترین کامپایلر ممکن طراحی شده است.  
     همان‌گونه که از نام این زبان برمی‌آید، فهم دستورهای برین‌فاک عمدتاً دشوار است. در ادامه لیست دستورات این زبان به همراه توضیحات مختصری نوشته شده است.   
 
-    <center>
+    <figure markdown="span">
 
     | Description                     | Command |
     |:--------------------------------|:-------:|
@@ -45,7 +45,7 @@ tags:
     | Store input in pointer position |    ,    |
     | Output ASCII value of pointer   |    .    |
 
-    </center>
+    </figure>
 
     برای آشنایی بیشتر با این زبان خواندن 
     [این مطلب](https://fa.wikipedia.org/wiki/%D8%A8%D8%B1%DB%8C%D9%86%E2%80%8C%D9%81%D8%A7%DA%A9)

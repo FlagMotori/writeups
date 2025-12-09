@@ -17,9 +17,9 @@ tags:
 
 ???+ note "مراحل اجرای الگوریتم"
 
-    <center> 
+    <figure markdown="span"> 
     ![euclidean-algorithm](euclidean-algorithm.png)
-    </center>
+    </figure>
 
     **مرحله ۱**:  دو عدد صحیح \(a\) و \(b\) را در نظر بگیرید که \(a > b\).  
     **مرحله ۲**:  \(a\) را بر \(b\) تقسیم کنید و باقی‌مانده \(r\) را به دست آورید.  
@@ -58,9 +58,9 @@ $$\text{GCD}(a, b) = ax + by$$
 
 ???+ note "مراحل اجرای الگوریتم"
 
-    <center> 
+    <figure markdown="span">
     ![xeuclidean-algorithm](xeuclidean-algorithm.png)
-    </center>
+    </figure>
 
     **مرحله ۱**: دو عدد صحیح \(a\) و \(b\) را در نظر بگیرید که \(a > b\).
 

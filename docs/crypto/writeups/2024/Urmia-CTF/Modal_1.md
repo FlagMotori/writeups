@@ -7,9 +7,9 @@ tags:
 
 # چالش  Modal 1 
 
-<center>
+<figure markdown="span">
  ![Modal 1](Modal_1.PNG)
-</center>
+</figure>
 
 ## آشنایی با مساله
 

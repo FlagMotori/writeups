@@ -8,9 +8,9 @@ tags:
 
 # چالش GENETICS
 
-<center>
+<figure markdown="span">
  ![GENETICS](GENETICS.PNG)
-</center>
+</figure>
 
 ## آشنایی با مساله
 
@@ -32,15 +32,15 @@ CCCA CACG CAAT CAAT CCCA CACG CTGT ATAC CCTT CTCT ATAC CGTA CGTA CCTT CGCT ATAT 
 در ادامه با مطالعه بیشتر پی بردم که که هر کدام از حروف `A`, `C`, `T`, `G` نمایانگر یک عدد دوبیتی هستند(**مبنا 4**)  
 با دونستن حروف ابتدایی فلگ (`TFCCTF`) میتوانیم بسادگی تشخیص بدهیم هر حرف نمایانگر چه عددی هستش
 
-<center>
+<figure markdown="span">
 ![GENETICS-Table](GENETICS-Table.png)
-</center>
+</figure>
 
 جدول نهایی ما بصورت زیر خواهد بود:  
 
-<center>
+<figure markdown="span">
 ![GENETICS-coding](GENETICS-coding.jpg){ width=300 }
-</center>
+</figure>
 
 
 در ادامه کد حل مساله قرار گرفته است:  

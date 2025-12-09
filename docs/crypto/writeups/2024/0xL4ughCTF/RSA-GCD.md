@@ -11,9 +11,9 @@ tags:
 
 # چالش RSA-GCD
 
-<center> 
+<figure markdown="span"> 
 ![RSA-GCD](RSA-GCD.png)
-</center>
+</figure>
 
 ## صورت سوال
 یک اسکرپیت پایتون به همراه یک فایل متنی به عنوان خروجی داده شده:

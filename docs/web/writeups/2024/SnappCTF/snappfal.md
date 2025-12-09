@@ -10,21 +10,21 @@ tags:
 
 <h1 dir="ltr">Snapp fal!</h1>
 
-<center>
+<figure markdown="span">
 
 ![snappfal.png](./snappfal.png)
 
-</center>
+</figure>
 
 همینطور که میبینین این یه چالش XSS هستش که باید سعی کنیم کوکی های ادمین رو بخونیم و برای خودمون بفرستیم
 
 بعد از باز کردن آدرس وبسایت ما با این صفحه روبرو میشیم
 
-<center>
+<figure markdown="span">
 
 ![snappfal1.png](./snappfal1.png)
 
-</center>
+</figure>
 
 اگه روی دکمه *نشون بده* کلیک کنین وارد یه صفحه میشین که آدرسش به این صورت هستش:
 

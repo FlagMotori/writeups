@@ -10,9 +10,9 @@ tags:
 
 # چالش ComplexProblem
 
-<center> 
+<figure markdown="span"> 
 ![ComplexProblem](ComplexProblem.png)
-</center>
+</figure>
 
 ## صورت سوال
 خب در صورت سوال گفته:‌ از رمزنگاری RSA استفاده شده و این بار باید با اعداد مختلط سر و کله بزنیم...

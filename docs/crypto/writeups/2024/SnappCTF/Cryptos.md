@@ -9,9 +9,9 @@ tags:
 
 # چالش Cryptos 
 
-<center> 
+<figure markdown="span"> 
 ![1.jpg](1.jpg)
-</center>
+</figure>
 
  در این سوال کد زیر همراه با یک فایل حاوی متن کد شده c داده شده: 
 

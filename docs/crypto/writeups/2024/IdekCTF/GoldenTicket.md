@@ -10,9 +10,9 @@ tags:
 
 # چالش Golden Ticket
 
-<center> 
+<figure markdown="span"> 
 ![GoldenTicket](GoldenTicket.png)
-</center>
+</figure>
 
 ## صورت سوال
 آیا می توانید به چارلز کمک کنید - کسی که هیچ دانشی در مورد رمزنگاری ندارد، بلیط طلایی را دریافت کند و به کارخانه Willy Wonka سفر کند؟

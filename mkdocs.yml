@@ -113,6 +113,7 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.critic
   - pymdownx.details
+  - sane_lists
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       # emoji_generator: !!python/name:pymdownx.emoji.to_svg
@@ -129,6 +130,7 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences
+  - pymdownx.blocks.admonition
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
@@ -230,10 +232,10 @@ nav:
                     - Modular Binomials: crypto/wiki/Modular-arithmetic/modular-binomials.md
                 # - هندسه جبری:
                 #     - Elliptic Curves: crypto/wiki/elliptic-curves.md
-                #- مشبکه‌ها (Lattices):
+                - مشبکه‌ها (Lattices):
                 #    - Intro: crypto/wiki/Lattices/Intro.md
                     #- LWE: crypto/wiki/Lattices/lwe.md
-                    #- LLL-Lattice basis Reduction: crypto/wiki/Lattices/lattice-reduction.md
+                    - الگوریتم LLL: crypto/wiki/Lattices/LLL_algorithm.md
 
             - رمزنگاری نامتقارن:
                 - RSA: crypto/wiki/Asymmetric-cryptography/rsa/rsa.md
@@ -241,12 +243,18 @@ nav:
             # - رمزنگاری متقارن:
             #     - AES: crypto/wiki/aes.md
         - رایتاپ‌های ۲۰۲۵:
-            - "UMDCTF":             # 27 Mar. 2025
-                - ./crypto/writeups/2025/UMDCTF/brainrot13.md
-            - "TsukuCTF":             # 05 May. 2025
+            - "L3akCTF":            # 28 Nov. 2025
+                - ./crypto/writeups/2025/L3akCTF/Basic_LLL.md
+            - "TsukuCTF":           # 05 May. 2025
                 - ./crypto/writeups/2025/TsukuCTF/PQC0.md
                 - ./crypto/writeups/2025/TsukuCTF/PQC1.md
+            - "UMDCTF":             # 27 Mar. 2025
+                - ./crypto/writeups/2025/UMDCTF/brainrot13.md
         - رایتاپ‌های ۲۰۲۴:
+            - "TCP1PCTF":          # 28 Nov. 2025
+                - ./crypto/writeups/2024/TCP1P/51prime.md
+            - "CyberSpaceCTF":     # 28 Nov. 2025
+                - ./crypto/writeups/2024/CyberSpaceCTF/trendy_windy_trigonity.md
             - "USCCTF":             # 04 Nov. 2024
                 - ./crypto/writeups/2024/USCCTF/decipherium.md
                 - ./crypto/writeups/2024/USCCTF/Its-Not-Called-Data-Loss-Prevention.md

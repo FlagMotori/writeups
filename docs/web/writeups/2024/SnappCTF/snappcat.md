@@ -10,11 +10,11 @@ tags:
 
 <h1 dir="ltr">Snapp cat</h1>
 
-<center>
+<figure markdown="span">
 
 ![snappcat.png](./snappcat.png)
 
-</center>
+</figure>
 
 # قدم های حل چالش:
 1. ثبت نام یک کاربر رندوم

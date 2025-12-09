@@ -8,9 +8,9 @@ tags:
 
 # چالش scrainbow
 
-<center>
+<figure markdown="span">
  ![scrainbow](asset/scrainbow.PNG)
-</center>
+</figure>
 
 ## آشنایی با مساله
 
@@ -19,9 +19,9 @@ tags:
 داده شده است که وقتی وارد آدرس داده شده میشویم، صفحه زیر برای ما نمایش داده میشود:
 
 
-<center>
+<figure markdown="span">
  ![webpage](asset/webpage.PNG)
-</center>
+</figure>
 
 !!! info ""
     <div dir="ltr" markdown>
@@ -46,9 +46,9 @@ tags:
 
 متوجه میشویم برای دریافت رنگ خانه های این مربع `100*100`، یک درخواست به مسیر `data` زده میشود و یک آرایه یک بعدی به سایز `10,000` دریافت میشود .  
 
-<center>
+<figure markdown="span">
  ![NetworkTab](asset/NetworkTab.PNG)
-</center>
+</figure>
 
 کافیست روی درخواست ارسال شده راست کلیک کنید، سپس از بخش `Copy Value` گزینه `Copy as cURL (POSIX)` را انتخاب کرده و با استفاده از سایت
 [curlconverter](https://curlconverter.com)
@@ -136,12 +136,12 @@ requests.post('http://litctf.org:31780/test', json=json_data).text
     ```
 
 === "ویدئو اجرا کد"
-    <center>
+    <figure markdown="span">
     <video width="480" controls>
         <source src="../asset/scrainbow.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
-    </center>
+    </figure>
 
 
 ---

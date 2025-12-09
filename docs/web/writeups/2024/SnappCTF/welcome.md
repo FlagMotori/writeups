@@ -11,18 +11,18 @@ tags:
 
 برای حل این چالش به ما یه آدرس وب دادن
 
-<center>
+<figure markdown="span">
 
 ![welcome.png](./welcome.png)
 
-</center>
+</figure>
 
 خب بعد از باز کردن آدرس تو وبسایت با این صفحه روبرو میشویم
-<center>
+<figure markdown="span">
 
 ![welcome1.png](./welcome1.png)
 
-</center>
+</figure>
 
 برای حل این چالش ما باید دنبال بخش های مختلف فلگ بگردیم ، که بخش اولش تو صفحه اول نمایش داده شده ، برای بخش دوم کافیه که page source رو یه نگاهی بندازیم ، پس وارد آدرس زیر میشیم
 

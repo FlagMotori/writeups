@@ -12,16 +12,16 @@ tags:
 ---
 # Snappshell
 
-<center>
+<figure markdown="span">
 ![challenge](Snappshell-1.png)
-</center>
+</figure>
 
 در این چالش با یک فایل فشرده رو به رو هستیم که شامل یک فایل باینری و یک Dockerfile هست.
 در ابتدا از طریق دستور checksec با چنین تصویر ترسناکی رو به رو میشیم! :) 
 
-<center>
+<figure markdown="span">
 ![Snappshell-2.png](Snappshell-2.png)
-</center>
+</figure>
 
 بعد از اینکه فایل باینری رو با gdb و ghidra بررسی میکنیم متوجه میشیم که هیچ تابعی برای [ret2win](https://ir0nstone.gitbook.io/notes/types/stack/ret2win) کردن وجود نداره و همچنین فعال بودن [NX](https://en.wikipedia.org/wiki/NX_bit) متوجه میشیم که نیاز به شل گرفتن از برنامه هست ولی خب چطوری باید این کارو کرد؟!
 برای اینکه به این هدفمون دست پیدا کنیم نیازه تا از تکنیک [ROP](https://en.wikipedia.org/wiki/Return-oriented_programming) برای دور زدن NX استفاده کنیم.
@@ -29,9 +29,9 @@ tags:
 برای اینکه یک قدم رو به جلو حرکت کنیم اول سعی میکنیم تا Canary رو دور بزنیم.
 بعد از اینکه توابع به کار رفته توی برنامه رو دقیق تر با ghidra بررسی میکنیم چشممون به تابع printf ای میوفته (توی تابع echo برنامه، هایلاتش کردم توی تصویر زیر) که آسیب پذیری [Format String](https://www.geeksforgeeks.org/format-string-vulnerability-and-prevention-with-example/) رو داره و احتمالا میتونیم از این طریق به مقدار cookie و... که توی استک موجود هستن دست پیدا کنیم.
 
-<center>
+<figure markdown="span">
 ![Snappshell-3.png](Snappshell-3.png)
-</center>
+</figure>
 
 بعد از کلی سر و کله زدن با این آسیب پذیری (و یا خودکار کردن روندش با یک کد پایتون ساده) به ی همچین ساختاری میرسیم.
 
@@ -39,17 +39,17 @@ tags:
 
 با فرستادن یک همچین استرینگی به سمت تابع echo برنامه ، خیلی راحت مقدار cookie رو به دست میاریم.
 
-<center>
+<figure markdown="span">
 ![Snappshell-4.png](Snappshell-4.png)
-</center>
+</figure>
 
 بعد از اینکه canary رو اوکی کردیم میریم سراغ قسمت سخت ماجرا یعنی پیدا کردن gadget های مناسب و استفاده ازشون برای ساخت زنجیره ROP امون و اینکه چطوری میشه این زنجیره رو به خورد برنامه داد. 
 
 جواب ما توی تابع find_index هست. توی این تابع با یک gets رو به رو هستیم و به صورت دیفالت وقتی این تابع رو میبینیم باید یاد آسیب پذیری [BufferOverflow](https://ctf101.org/binary-exploitation/buffer-overflow/) بیوفتیم.
 
-<center>
+<figure markdown="span">
 ![Snappshell-5.png](Snappshell-5.png)
-</center>
+</figure>
 
 
 برای این قسمت که باید بدونین به چه gadget هایی نیاز دارید و دستتون بیاد حدودا که چطوری باید ROP رو اوکی کنید (و یکمم خودتون تلاش کنین) ارجاعتون میدم به لینک های زیر:  
@@ -64,9 +64,9 @@ tags:
 `. docker cp 4fd9a29bfcdc:/usr/lib/x86_64-linux-gnu/libc.so.6 `
 
 بعد از این شما libc رو دارید و تنها کافیه تا برای پیدا کردن pop و sh و ret و system  از ابزار ROPgadget و یکمم pwntools استفاده کنید.  یک نمونه رو هم میتونید توی تصویر زیر ببینید: 
-<center>
+<figure markdown="span">
 ![Snappshell-6.png](Snappshell-6.png)
-</center>
+</figure>
 
 در نهایت بعد از همه این قضایا به exploit زیر میرسیم :
 ```python

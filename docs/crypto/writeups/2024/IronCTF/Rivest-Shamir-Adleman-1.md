@@ -11,9 +11,9 @@ tags:
 
 # چالش Riv., Sha., Adl. 1
 
-<center>
+<figure markdown="span">
 ![Rivest, Shamir, Adleman 1.png](Rivest, Shamir, Adleman 1.png){ width="400" }
-</center>
+</figure>
 
 ## درک چالش
 

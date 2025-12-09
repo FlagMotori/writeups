@@ -10,9 +10,9 @@ categories:
 
 # فتح پرچم اسنپ
 
-<center> 
+<figure markdown="span"> 
 ![scoreboard](figure/snapp-ctf-2024-scoreboard.jpg)
-</center>
+</figure>
 
 
 سلام، امیدوارم حالتون خوب باشه
@@ -25,7 +25,7 @@ categories:
 در ادامه رایت‌آپ بعضی از چالش‌هایی که تیممون موفق به حلشون شده رو قرار دادیم.  امیدواریم این مطالب برای عده‌ای مفید و کمک‌کننده واقع شه✨
 
 
-<center> 
+
 === "web" 
     |     نام چالش    | دسته بندی |                          رایت‌آپ                         |
     |:---------------:|:---------:|:-------------------------------------------------------:|
@@ -78,6 +78,5 @@ categories:
     |   snapp_admin   |    pwn    |    [رایت‌آپ](../../pwn/writeups/2024/SnappCTF/Snapp_admin.md)    |
     |    Snappshell   |    pwn    |     [رایت‌آپ](../../pwn/writeups/2024/SnappCTF/Snappshell.md)    |
 
-</center>
 
 

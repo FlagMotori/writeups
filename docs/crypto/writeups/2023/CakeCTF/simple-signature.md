@@ -10,11 +10,11 @@ tags:
 # چالش Simple signature
 این چالش در ابتدا چالش ساده‌ای به نظر می‌رسید و همون‌طور که توی تصویر زیر هم می‌بینید تعداد حل بالایی داشت. اما کم دقتی و توجه نکردن به یک سری نکات ریز باعث شد نتونم این چالش  سریع حل کنم.  
 
-<center>
+<figure markdown="span">
 
 ![simple-signature.png](./simple-signature.png)
 
-</center>
+</figure>
 
 ## صورت مسئله
 

@@ -9,9 +9,9 @@ tags:
 
 # چالش Times
 
-<center> 
+<figure markdown="span"> 
 ![Times](Times.png)
-</center>
+</figure>
 
 ## صورت سوال
 میگه این فقط یک ضرب است....درسته؟

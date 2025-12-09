@@ -8,9 +8,9 @@ tags:
 # چالش Intercepted Transmissions
 ---
 
-<center>
+<figure markdown="span">
 ![challenge cover.png](./intercept_cover.png)
-</center>
+</figure>
 
 فایل تکست ضمیمه‌شده به چالش شامل یکسری صفر و یک متوالی هست. با توجه به توضیح سوال، هینتی که وجود داره اینه که این رشته احتمالا با استفاده از روش CCIR476 که یک انکدینگ قدیمی برای  انتقال داده‌ها در ارتباطات رادیویی با قابلیت تشخیص و اصلاح خطاهای یک بیتی  هست کد شده. برای آشنایی بیشتر با این روش کد کردن و چگونگی نوشتن کد انکودر و دیکودر، می‌تونین از [لینک ۱](https://en.wikipedia.org/wiki/CCIR_476) و [لینک ۲](https://blog.gcwizard.net/manual/en/ccitt-codes/08-what-is-ccir-476/) و [لینک ۳](https://github.com/AI5GW/CCIR476) استفاده کنید.
 

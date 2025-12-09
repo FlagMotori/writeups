@@ -8,9 +8,9 @@ tags:
 
 # چالش  Modal 2 
 
-<center>
+<figure markdown="span">
  ![Modal 2](Modal_2.PNG)
-</center>
+</figure>
 
 ## آشنایی با مساله
 

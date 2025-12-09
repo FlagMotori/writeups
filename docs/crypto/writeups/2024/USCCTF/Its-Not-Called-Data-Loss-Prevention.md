@@ -12,9 +12,9 @@ tags:
 # چالش It's Not Called Data Loss Prevention
 
 
-<center>
+<figure markdown="span">
 ![Its-Not-Called-Data-Loss-Prevention.png](Its-Not-Called-Data-Loss-Prevention.png){ width="400" }
-</center>
+</figure>
 
 ## شرح چالش
 
@@ -59,9 +59,9 @@ print(a)
 
 همان‌طور که در تصویر زیر با استفاده از سایت [factordb](https://factordb.com/) مشاهده می‌کنید مقدار $p-1$ شامل مقسوم‌علیه‌های مختلفی (smooth prime) است که نشان می‌دهد به شکل امن تولید نشده است.
 
-<center>
+<figure markdown="span">
 ![factors](factor p-1.png)
-</center>
+</figure>
 
 
 پس تا اینجا فهمیدیم که باید از الگوریتم Pohlig–Hellman استفاده کنیم تا به مقدار فلگ برسیم. اما در اینجا یک مشکل وجود دارد و آن این است که یکی از مقسوم‌علیه‌های $p-1$ یک  مقدار خیلی بزرگ است (232 رقم) و نمی‌توان دوباره مقدار لگاریتم گسسته را در این الگوریتم انجام داد. من تا همین مرحله پش رفته بودم و نمیدونستم دیگه باید چیکار کنم و در اینترنت هم راه‌حلی برای این مشکل پیدا نکردم. بعد از مسابقه یک شخصی با استفاده از کد زیر مسئله رو حل کرده بود. 

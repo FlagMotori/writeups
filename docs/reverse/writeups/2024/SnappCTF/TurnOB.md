@@ -8,9 +8,9 @@ tags:
 
 # چالش TurnOB
 
-<center> 
+<figure markdown="span"> 
 ![TurnOB](TurnOB.PNG)
-</center>
+</figure>
 
 ## نگاه اولیه به سوال
 

@@ -10,9 +10,9 @@ tags:
 
 ---
 
-<center>
+<figure markdown="span">
 ![challenge cover.jpg](./challenge cover.jpg)
-</center>
+</figure>
 
 ## صورت مسئله
 در این چالش یک لینک داده شده و بنظر باید با استفاده از این لینک به خواسته مسلله یعنی پرچم برسیم
@@ -21,15 +21,15 @@ tags:
 توی این چالش با اینکه گفته شده که برای پیدا کردن فلگ نباید دنبال آن در اکانت های توییتر خود گروه Wolphv باشیم ولی با یک جستجو توی اینترنت در مورد این باج‌افزار به یک [توییت](https://twitter.com/FalconFeedsio/status/1706989111414849989)  بر میخوریم که در مورد این باج افزار توییتی زده.
 
 
-<center>
+<figure markdown="span">
 ![google search.png](./google search.png)
-</center>
+</figure>
 
 بعد از باز کردن و بررسی قسمت نظرات ، پایین ترین کامنت یک کد base64 هست که احتمالا باید فلگ باشه. بعد دیکد کردن آن  فلگ بدست میاد.
 
-<center>
+<figure markdown="span">
 ![twitter comments.jpg](./twitter comments.jpg)
-</center>
+</figure>
 
 این سوال ساده‌ای بود اما نکته گمراه کننده این بود که در توضیحات چالش گفته بود که نباید به توییتر توجه کرد.
 

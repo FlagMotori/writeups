@@ -9,9 +9,9 @@ tags:
 
 # چالش Symmetric RSA
 
-<center> 
+<figure markdown="span"> 
 ![SymmetricRSA](SymmetricRSA.png)
-</center>
+</figure>
 
 ## صورت سوال
 با توجه به عنوان سوال پی میبریم که با رمزنگاری RSA سرو کار داریم.

@@ -8,9 +8,9 @@ tags:
 
 # چالش CONWAY
 
-<center>
+<figure markdown="span">
  ![CONWAY](CONWAY.PNG)
-</center>
+</figure>
 
 ## آشنایی با مساله
 

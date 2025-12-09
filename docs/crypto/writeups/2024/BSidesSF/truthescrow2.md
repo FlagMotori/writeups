@@ -11,9 +11,9 @@ tags:
 
 
 
-<center>
+<figure markdown="span">
  ![truthescrow2](truthescrow2.PNG)
-</center>
+</figure>
 
 ## آشنایی اولیه با خواسته مساله
 

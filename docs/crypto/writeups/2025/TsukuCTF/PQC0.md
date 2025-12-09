@@ -12,9 +12,13 @@ tags:
 # چالش  PQC0
 
 
-<center>
- ![Cover](PQC0.png){ width="400" }
-</center>
+<figure markdown="span">
+ 
+</figure>
+
+<figure markdown="span">
+  ![Cover](PQC0.png){ width="400" }
+</figure>
 
 ## بررسی اولیه چالش
 در ابتدا چالش کد زیر همراه را با  فایل خروجی [ouput](./output0.txt){:download}  به ما داده است: 
@@ -67,9 +71,9 @@ print(encrypted_flag.hex())
 
 در اینجا نمی‌خواهیم زیاد وارد جزئیات پروتکل  بشیم اما همان‌طور که در تصویر زیر می‌بینید بعد از عمل کپسوله کردن، ciphertext و secret shared  تولید می‌شود با استفاده از آن ciphertext و کلیدخصوصی می توان کپسوله زدایی کرد و مقدار secret shared را بدست آورد.
 
-<center>
- ![Diagram](key establishment.png){ width="400" }
-</center>
+<figure markdown="span">
+  ![Diagram](key establishment.png){ width="400" }
+</figure>
 
 
 !!! اطلاعات info  

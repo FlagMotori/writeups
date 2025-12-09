@@ -9,9 +9,9 @@ tags:
 # چالش ok-nice [:material-cloud-download-outline:](https://github.com/ImaginaryCTF/ImaginaryCTF-2024-Challenges-Public/blob/main/Misc/ok-nice/challenge/jail.py)
 
 
-<center>
+<figure markdown="span">
  ![ok-nice](ok-nice.PNG)
-</center>
+</figure>
 
 ## آشنایی با مساله
 
@@ -46,9 +46,9 @@ while True:
 این دسته از سوالات معمولا یک اسکریپت پایتونی داریم که ورودی از کاربر میگیره و در صورتیکه شرط های مساله رو نقض نکرده باشه، ورودی کاربر به `exec` یا `eval` داده میشه و اجرا میشه. و به این طریق فرد میتواند به فلگ برسد.
 
 
-<center>
+<figure markdown="span">
  ![pyjail](pyjail.jpg)
-</center>
+</figure>
 
 مساله ما بطور خلاصه سه شرط زیر را دارد:
 

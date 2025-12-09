@@ -14,9 +14,9 @@ tags:
 # چالش Abnormal Maybe Illegal [:material-cloud-download-outline:](https://github.com/MasonCompetitiveCyber/PatriotCTF2024/raw/refs/heads/main/forensics/abnormal_exfiltration/dist/abnormal_illegal.pcapng)
 
 
-<center>
+<figure markdown="span">
  ![ctf challenge description: We have recently discovered tons of traffic leaving our network. We have reason to believe they are using an abnormal method. Can you figure out what data they are exfiltrating?](Abnormal-Maybe-Illegal-files/0_chall.png)
-</center>
+</figure>
 
 
 ## آشنایی با مساله
@@ -35,16 +35,16 @@ abnormal_illegal.pcapng: pcapng capture file - version 1.0
 [protocol hierarchy statistics](https://www.wireshark.org/docs/wsug_html_chunked/ChStatHierarchy.html)
 سر زدم که ببینیم داخل این پکت کپچر چی گذشته
 
-<center>
+<figure markdown="span">
 ![wireshark screen protocol hierarchy statistics](Abnormal-Maybe-Illegal-files/1_statistics.png)
-</center>
+</figure>
 
 به نسبت چلنجای قبلی که دیدم تعداد پروتکل کمی دیده میشه. اول فیلتر کردم روی
 [http](https://en.wikipedia.org/wiki/HTTP)
 
-<center>
+<figure markdown="span">
 ![wireshark screen of packet capture with some http pdu's](Abnormal-Maybe-Illegal-files/2_http.png)
-</center>
+</figure>
 
 اینجا تعداد زیادی
 http request
@@ -136,9 +136,9 @@ tcp.flags.syn==1" -T fields -e tcp.seq_raw | grep -E "^0$" | wc -l
 داخل وایرشارک فیلتر کردم روی
 `tcp.seq_raw == 0`
 
-<center>
+<figure markdown="span">
 ![wireshark screen of tcp pdu's with weird flags set](Abnormal-Maybe-Illegal-files/3_bad_packets.png)
-</center>
+</figure>
 
 از همون اول ترکیب فلگ های ست شده برام عجیب بود
 ??? info "چرا؟"

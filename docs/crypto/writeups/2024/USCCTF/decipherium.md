@@ -9,9 +9,9 @@ tags:
 
 # چالش decipherium
 
-<center>
+<figure markdown="span">
 ![cover](decipherium.png){ width="400" }
-</center>
+</figure>
 
 ## شرح چالش
 
@@ -21,9 +21,9 @@ tags:
 TeSbILaTeSnTeNoISnTeCsCsDyICdTeIISnTeLaSbCdTeTeTeLaTeSbINoTeSbSbInICdTeBaSbSbISnIYbSbCdTeXeINoSbSbTeHoTeITeFmTeITeMdITeSbICsEr
 ```
 
-<center>
+<figure markdown="span">
 ![periodic_Table.png](periodic_Table.png)
-</center>
+</figure>
 
 ## راه‌ حل چالش
 

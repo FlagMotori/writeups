@@ -8,9 +8,9 @@ tags:
 
 # چالش  Sergio
 
-<center>
+<figure markdown="span">
  ![Sergio](Sergio.PNG)
-</center>
+</figure>
 
 ## آشنایی با مساله
 
@@ -56,9 +56,9 @@ long_to_bytes(pow(c, d, N))
 [این صفحه](https://www.dcode.fr/rsa-cipher)
 سایت dcode.fr نیز برای بدست آوردن فلگ استفاده کنیم.
 
-<center>
+<figure markdown="span">
  ![dcode_fr](dcode_fr.PNG)
-</center>
+</figure>
 
 
 ---

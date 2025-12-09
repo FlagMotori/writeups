@@ -8,9 +8,9 @@ tags:
 # چالش number mashing
 ---
 
-<center>
+<figure markdown="span">
 ![challenge cover.png](./mashing.png)
-</center>
+</figure>
 
 فایل باینری ضمیمه‌شده رو به دیکامپایلر میدیم و خروجی رو چک می‌کنیم. با حذف قسمتای غیر مهم و فقط نگه داشتن منطق اصلی برنامه، شبه کد زیر رو می‌بینیم.
 

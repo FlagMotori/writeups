@@ -17,9 +17,9 @@ tags:
 `This picture was taken on a sunny Saturday sightseeing trip earlier this year.Do you know when exactly?The flag contains information about day, month, hour (24-hour clock), and minute rounded down to five full minutes of the local time when the picture was taken.Additionally, there is the sun's altitude and azimuth at that time, both given in radians and rounded down to two decimal places. If the picture was taken on March 14, 20:17:25 local time with the sun's altitude of 1.4142 rad and azimuth of 3.1415 rad, the flag would look like this:`
 `PP{03-14_20-15_1-41_3-14}`
 
-<center>
+<figure markdown="span">
 ![cover](Rise.jpg)
-</center>
+</figure>
 
  قبل از شروع باید بگم که  فکر می کنم تیمی این سوال را حل نکرده بود و این نوشته ترجمه writeup تیم طراح سوال است که من اینجا قرار دادم. امیدوارم که قابل فهم ترجمه کرده باشم. :blush:
 
@@ -33,15 +33,15 @@ tags:
 
 زاویه خورشید (زاویه بین بردار شمالی و بردار ستاره در صفحه افقی) یا در انگلیسی [azimuth](https://en.wikipedia.org/wiki/Azimuth#:~:text=The%20azimuth%20is%20the%20angle%20between%20the%20north%20vector%20and,180%C2%B0%20to%20%2B180%C2%B0.)  خورشید را می‌توان با جهت سایه‌ها در تصویر تعیین کرد. به عنوان مثال به درختچه بزرگ در سمت راست تصویر توجه کنید. لبه سایه آن مستقیماً از کنار دیوار کوچک رد می‌شود:
 
-<center>
+<figure markdown="span">
 ![line of shadow](angle-photo.jpg)
-</center>
+</figure>
 
 هم درختچه و هم دیوار در تصویر ماهواره‌ای Google Maps از این مکان قابل مشاهده هستند. این برای به دست آوردن جهت دقیق سایه مفید است، که سپس می توان بر همین اساس اندازه گیری کرد:
 
-<center>
+<figure markdown="span">
 ![line of shadow on satellite image](angle-satellite.png)
-</center>
+</figure>
 
 این مقدار زاویه (azimuth)  کمی بیشتر از 287 درجه (5.00091 راد) را نتیجه می‌دهد. با این حال به خاطر داشته باشید که این نتیجه هنوز نیاز به تأیید دارد - اندازه‌گیری‌های انجام‌شده به این شکل واضح است که دقت محدودی دارند.
 
@@ -66,14 +66,14 @@ $$a = \arctan\left(\frac{o}{s}\right) $$
 
 بنابراین می‌توانیم تعدادی از اندازه‌‌های نسبی اشیاء موجود در تصویر و سایه‌های آن‌ها را جمع‌آوری کنیم.  برای به حداقل رساندن اعوجاج، روی اشیائی در تصویر تمرکز می‌کنیم که سایه و شی هر دو تقریباً عمود بر خط دید بیننده هستند. تعداد کمی از اشیاء مناسب برای این کار وجود دارد که برخی از اندازه‌گیری‌ها در شکل‌های زیر نشان داده شده  که با استفاده از [این سایت](https://eleif.net/photomeasure)   گرفته شده است:
 
-<center>
+<figure markdown="span">
 ![measurement 0](measure00.png)
 ![measurement 1](measure01.png)
 ![measurement 2](measure02.png)
 ![measurement 3](measure03.png)
 ![measurement 4](measure04.png)
 ![measurement 5](measure05.png)
-</center>
+</figure>
 
 
 این اندازه‌گیری‌ها در تصویر کمی متفاوت هستند، که طیف تغییر این نمونه‌ اندازه‌ها در محدوده [3.81، 4.00] قرار دارند که تفاوت زیادی نیست. با این کار می‌توانیم زاویه ارتفاع تابش خورشید نیز محاسبه کنیم.
@@ -82,37 +82,37 @@ $$a = \arctan\left(\frac{o}{s}\right) $$
 
 با فرض طول سایه 3.95 واحد (میانگین اندازه‌گیری‌های بالا) و زاویه خورشید (azimuth) 287 درجه در حالی که 0.05> واحد و 0.02> رادیان انحراف وجود داشته باشد و  با فریم‌های زمانی تنها یک دقیقه، تنها سه روز باقی می‌ماند. توجه داشته باشید که این اسکریپت پایتون منطقه زمانی عکس را نسبت گرینویچ (UTC) در نظر نگرفته است، بنابراین باید دو ساعت به هر نتیجه اضافه شود.
 
-<center>
+<figure markdown="span">
 ![table with possible times](date-table.png)
-</center>
+</figure>
 
 To verify which of those dates is correct, one can now take a look at the weather in Potsdam for the specific times. For May 25, it looks like this [4]:
 
 برای تایید اینکه کدام یک از این تاریخ ها صحیح است، اکنون می‌توانید نگاهی به آب‌وهوای شهر پوتسدام برای زمان‌های مشخص شده بیندازید که برای 25 می در [این سایت](https://www.timeanddate.com/weather/germany/potsdam/historic?month=5&year=2024)، به این صورت است:
 
-<center>
+<figure markdown="span">
 ![weather on May 25](weather-may.png)
 ![weather on May 25](weather-may-25.png)
-</center>
+</figure>
 
 
 
 دمای هوا در این روز درست به نظر می رسد، اما در چند دقیقه آینده آن یک رعد و برق در راه است که بر اساس تصویر این روز قابل قبول به نظر نمی رسد و همچنین برای [2024 June 1](https://www.timeanddate.com/weather/germany/potsdam/historic?month=6&year=2024)  ، همین مسئله مشابه وجود دارد:
 هیچ ابر بارانی یا رطوبتی روی زمین دیده نمی‌شود.
 
-<center>
+<figure markdown="span">
 ![weather on June 1](weather-june.png)
 ![weather on June 1](weather-june-1.png)
-</center>
+</figure>
 
 
 اما برای 13 [2024 July](https://www.timeanddate.com/weather/germany/potsdam/historic?month=7&year=2024) .وضعیت متفاوت به نظر می رسد:
 
 
-<center>
+<figure markdown="span">
 ![weather on July 13](weather-july.png)
 ![weather on July 13](weather-july-13.png)
-</center>
+</figure>
 
 We see sun and only light clouds for the identified time (and some time before), which fits the image. It should be taken at about 19:33 or 19:34 on July 13, 2024 with the sun's azimuth of 5.01 (rounded down) and altitude of 0.24 (rounded down). The flag is therefore `PP{07-13_19-30_0-24_5-01}`.
 

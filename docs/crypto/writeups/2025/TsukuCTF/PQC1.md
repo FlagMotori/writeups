@@ -12,9 +12,9 @@ tags:
 # چالش  PQC1
 
 
-<center>
- ![Cover](PQC1.png){ width="400" }
-</center>
+<figure markdown="span">
+  ![Cover](PQC1.png){ width="400" }
+</figure>
 
 ## بررسی اولیه چالش
 در ابتدا چالش کد زیر همراه را با  فایل خروجی [ouput](./output1.txt){:download}  به ما داده است: 
@@ -77,17 +77,19 @@ openssl pkey -in priv-ml-kem-768.pem -text
 
 که خروجی آن به شکل زیر است. 
 
-<center>
- ![priv-key data](openssl key info.png){ width="450" }
-</center>
+
+<figure markdown="span">
+  ![priv-key data](openssl key info.png){ width="450" }
+</figure>
 
 همان‌طور که مشخص است ساختار کلید ML-KEM در openssl به ترتیب دارای سه مقدار seed، کلید خصوصی (dk) و کلید عمومی (ek) است. 
 
 پس در این سوال عملا جدای از 30 بایت اولیه که اطلاعات header است، تنها به ما بخشی از seed مربوطه را داده است. همان‌طور که در الگوریتم 16  مربوط به  [FIPS 203](https://csrc.nist.gov/pubs/fips/203/final) ( دستورالعمل استفاده از  ML-KEM توسط NIST) آمده می‌توان با استفاده از مقدار seed  که شامل دو مقدار 32 بایتی $d$ و $z$ می شود مقدار کلید عمومی و خصوصی را ساخت.
 
-<center>
- ![KeyGen algorithm](kem-keyGen algorithm.png){ width="600" }
-</center>
+
+<figure markdown="span">
+  ![KeyGen algorithm](kem-keyGen algorithm.png){ width="600" }
+</figure>
 
 با درنظر گرفتن 30 بایت اول از کلید خصوصی داده شده که مربوط به header و ID الگوریتم است عملا در این چالش مقدار  $z$ به ما کامل داده نشده و تنها $d$ را می توانیم از seed استخراج کنیم. خب بدون $z$ چطوری کلید خصوصی رو بدست بیاریم؟؟! من این چالش رو تا همین جا پیش رفتم بعد از تمام شدن متوجه شدم که در اینجا عملا  $z$ تاثیری در تولید کلید خصوصی ندارد  و مقدار $z$ را می‌توان هر مقداری در نظر گرفت!! :thinking:   
 

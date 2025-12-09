@@ -10,9 +10,9 @@ tags:
 
 # چالش  Karaball 
 
-<center>
+<figure markdown="span">
  ![Karaball](Karaball.png)
-</center>
+</figure>
 
 ## آشنایی با مساله
 
@@ -228,21 +228,21 @@ kprimeinv = kprime.inverse_of_unit()
 Gprime = ZZ(kprimeinv) * Q
 ```
 
-<center>
+<figure markdown="span">
  ![step1](step1.png)
-</center>
+</figure>
 
-<center>
+<figure markdown="span">
  ![step2](step2.png)
-</center>
+</figure>
 
-<center>
+<figure markdown="span">
  ![step3](step3.png)
-</center>
+</figure>
 
-<center>
+<figure markdown="span">
  ![step4](step4.png)
-</center>
+</figure>
 
 ---
 ??? success "FLAG :triangular_flag_on_post:"

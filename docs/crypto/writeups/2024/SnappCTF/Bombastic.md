@@ -10,9 +10,9 @@ tags:
 
 # چالش Bombastic
 
-<center> 
+<figure markdown="span"> 
 ![Bombastic](Bombastic.PNG)
-</center>
+</figure>
 
 
 ## نگاه اولیه به سوال

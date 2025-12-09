@@ -9,9 +9,9 @@ tags:
 
 # چالش AreSA
 
-<center> 
+<figure markdown="span"> 
 ![AreSA](AreSA.png)
-</center>
+</figure>
 
 ## صورت سوال
 فایلی که بهمون دادن رو بررسی میکنیم و با توجه به نام متغیرها پی میبریم که از رمزگذاری RSA   استفاده شده است.

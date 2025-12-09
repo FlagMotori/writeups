@@ -7,9 +7,9 @@ tags:
 
 # چالش CCCCC
 
-<center>
+<figure markdown="span">
  ![CCCCC](CCCCC.PNG)
-</center>
+</figure>
 
 ## آشنایی با مساله
 

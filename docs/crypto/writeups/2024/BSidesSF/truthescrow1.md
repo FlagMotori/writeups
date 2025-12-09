@@ -10,9 +10,9 @@ tags:
 # چالش truthescrow-1 [:material-cloud-download-outline:](https://github.com/BSidesSF/ctf-2024-release/tree/main/truthescrow/challenge/src)
 
 
-<center>
+<figure markdown="span">
  ![truthescrow1](truthescrow1.PNG)
-</center>
+</figure>
 
 ## آشنایی اولیه با خواسته مساله
 

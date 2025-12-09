@@ -12,9 +12,9 @@ tags:
 
 #  اولین مسابقه CTF فلگ موتوری با نام Nowruz1404 
 
-<center> 
+<figure markdown="span"> 
 ![poster](figure Nowruz1404 CTF/Nowruz1404.jpg)
-</center>
+</figure>
 
 
 <!-- more -->
@@ -40,6 +40,6 @@ tags:
 
 منتظر دوره‌های بعدی باشید! 🚀🎯
 
-<center> 
+<figure markdown="span"> 
 ![scoreboard](figure Nowruz1404 CTF/scoreboard.jpg)
-</center>
+</figure>

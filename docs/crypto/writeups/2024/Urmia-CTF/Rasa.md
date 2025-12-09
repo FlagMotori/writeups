@@ -8,9 +8,9 @@ tags:
 
 # چالش  Rasa
 
-<center>
+<figure markdown="span">
  ![Rasa](Rasa.PNG)
-</center>
+</figure>
 
 ## آشنایی با مساله
 

@@ -12,9 +12,9 @@ tags:
 # چالش Left in the Dark [:material-cloud-download-outline:](https://github.com/ImaginaryCTF/ImaginaryCTF-2024-Challenges-Public/blob/main/Misc/left_in_the_dark/challenge/maze.py)
 
 
-<center>
+<figure markdown="span">
  ![Left in the Dark](Left in the Dark.PNG)
-</center>
+</figure>
 
 ## آشنایی با مساله
 
@@ -263,12 +263,12 @@ if __name__ == '__main__':
 
 
 === "ویدئو اجرا کد"
-    <center>
+    <figure markdown="span">
     <video width="320" controls>
         <source src="../Left in the Dark.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
-    </center>
+    </figure>
 
 
 

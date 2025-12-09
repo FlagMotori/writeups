@@ -10,9 +10,9 @@ tags:
 
 # چالش Blex 
 
-<center> 
+<figure markdown="span"> 
 ![1.png](1.png)
-</center>
+</figure>
 
 برای این چالش کد زیر و آدرس سرور بالا به ما داده شده:
 
@@ -85,17 +85,17 @@ seed='0'*50
 
 پس با ارسال این مقدار به سرور کاری میکنیم کوچکترین حالت ممکن برای پیمانه n تولید شود. 
 
-<center>
+<figure markdown="span">
 ![2.png](2.png)
-</center>
+</figure>
 
 باتوجه  عکس بالا بنظر  مقدار  n  قابل تجزیه (factorzation) است. اول سایت [factodb](http://factordb.com) چک کردم که فاکتور های  آن در سایت نبود پس با ابزار [yafu](https://github.com/bbuhrow/yafu)  مقدارهای  p و q   بدست آوردیم.
 
 
 
-<center>
+<figure markdown="span">
 ![3.jpg](3.jpg)
-</center>
+</figure>
 
 بعد از بدست آوردن p و q،  مقدار  c  با استفاده از کد زیر رمزگشایی می کنیم و فلگ بدست میاریم:
 
