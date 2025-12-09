@@ -12,13 +12,9 @@ tags:
 # چالش  PQC0
 
 
-<figure markdown="span">
- 
-</figure>
-
-<figure markdown="span">
-  ![Cover](PQC0.png){ width="400" }
-</figure>
+<center>
+ ![Cover](PQC0.png){ width="400" }
+</center>
 
 ## بررسی اولیه چالش
 در ابتدا چالش کد زیر همراه را با  فایل خروجی [ouput](./output0.txt){:download}  به ما داده است: 
@@ -62,7 +58,7 @@ print(encrypted_flag.hex())
 طبق اسم چالش، این سوال احتمالا مربوط رمزنگاری‌های پساکوانتمی PQC است. با بررسی کد می‌بینیم که با استفاده از openssl 3.5 ابتدا کلید خصوصی `priv-ml-kem-768`، سپس از روی آن کلیدعمومی `pub-ml-kem-768` تولید شده و با کلیدعمومی عمل کپسوله سازی برای تولید secret shared انجام شده است. در نهایت مقادیر  مقادیر ciphertext, private-key را به ما داده و با استفاده از secret shared که به عنوان کلید AES در نظر گرفته و در اختیار ما نیست پرچم رو رمز کرده. پس باید به دنبال راهی برای رسیدن به secret shared باشیم.  
 
 !!! اطلاعات info  
-    به تازگی opessl در نسخه 3.5 پروتکل‌ کپسوله‌سازی ML-KEM که بر پایه الگوریتم رمزنگاری پساکوانتمی [Kyber](https://pq-crystals.org/kyber/) است  را پیاده‌سازی کرده است. این الگوریتم در برابر کامپیوترهای کوانتمی مقاوم است.
+    به تازگی opessl در نسخه 3.5 پروتکل‌ مثل ML-KEM که بر پایه الگوریتم رمزنگاری پساکوانتمی [Kyber](https://pq-crystals.org/kyber/) است  را پیاده‌سازی کرده است.
 
 
 ## حل چالش
@@ -71,9 +67,9 @@ print(encrypted_flag.hex())
 
 در اینجا نمی‌خواهیم زیاد وارد جزئیات پروتکل  بشیم اما همان‌طور که در تصویر زیر می‌بینید بعد از عمل کپسوله کردن، ciphertext و secret shared  تولید می‌شود با استفاده از آن ciphertext و کلیدخصوصی می توان کپسوله زدایی کرد و مقدار secret shared را بدست آورد.
 
-<figure markdown="span">
-  ![Diagram](key establishment.png){ width="400" }
-</figure>
+<center>
+ ![Diagram](key establishment.png){ width="400" }
+</center>
 
 
 !!! اطلاعات info  
